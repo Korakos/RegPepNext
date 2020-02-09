@@ -1,12 +1,27 @@
-# Next.js with TypeScript example
+# React + Material-UI + Next.js website for RegPep2020
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+### Install the requisite components:
+
+### Install Node.js
+
+follow the instructions in [this link](https://treehouse.github.io/installation-guides/windows/node-windows.html)
+
+### Install Next.js
+
+once npm is properly installed and configured, install Next.js by running:
 
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs-with-typescript
-cd nextjs-with-typescript
+npm install -g next-cli
+```
+
+Create a directory for the project, enter it, then [clone the repo](https://github.com/Korakos/RegPepNext):
+
+```sh
+mkdir RegPepNext
+cd RegPepNext
+git clone https://github.com/Korakos/RegPepNext
 ```
 
 Install it and run:
@@ -16,10 +31,4 @@ npm install
 npm run dev
 ```
 
-or:
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/nextjs-with-typescript)
-
-## The idea behind the example
-
-[Next.js](https://github.com/zeit/next.js) is a framework for server-rendered React apps.
+## Good Luck!
