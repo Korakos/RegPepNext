@@ -31,4 +31,16 @@ npm install
 npm run dev
 ```
 
-## Good Luck!
+## How to view the site
+
+navigate in a browser to:
+
+[http://localhost:3000](http://localhost:3000)
+
+then test to your heart's content
+
+## How to edit things
+
+The full screens can be viewed and edited in the pages folder
+
+whilst the src folder contains most of the components used to build the site.

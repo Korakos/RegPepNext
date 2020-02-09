@@ -1,7 +1,7 @@
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import BaseView from '../src/BaseView';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
 import Link from '../src/Link';
 
 export default function Index() {
