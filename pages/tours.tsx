@@ -9,10 +9,10 @@ export default function Index() {
     <BaseView>
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Call to Action (registro)
+          TODO? tours?
         </Typography>
         <Button variant="contained" color="primary">
-          Registration
+          Book a Tour
         </Button>
       </Box>
     </BaseView>
