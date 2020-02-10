@@ -1,19 +1,89 @@
 import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import BaseView from '../src/BaseView';
+import { COLORS } from '../src/constants/color';
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    paddedView: {
+      maxWidth: '100%',
+      padding: theme.spacing(4)
+    },
+    fullSize: {
+      width: '100%'
+    },
+    centeredImage: {
+      maxWidth: '80%',
+      marginLeft: '10%',
+      marginRight: '10%'
+    },
+    coloredText: {
+      color: COLORS.primary
+    }
+  })
+);
 
 export default function Index() {
+  const classes = useStyles();
   return (
     <BaseView>
       <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          TODO? tours?
+        <Typography
+          variant="h3"
+          component="h1"
+          gutterBottom
+          className={classes.coloredText}
+        >
+          Local Attractions
         </Typography>
-        <Button variant="contained" color="primary">
-          Book a Tour
-        </Button>
+        <Box>
+          <Typography
+            variant="h4"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
+            XTASEA
+          </Typography>
+
+          <Box className={classes.fullSize}>
+            <img src="/xtasea.jpg" className={classes.centeredImage} />
+          </Box>
+          <Typography
+            variant="body1"
+            component="h1"
+            gutterBottom
+            className={classes.paddedView}
+          >
+            Offering &quot;The world&apos;s longest over-sea zip line&quot;.{' '}
+            <Link href="http://www.xtasea.mx/en/experiencia.aspx">
+              www.xtasea.mx
+            </Link>
+          </Typography>
+        </Box>
+        <Box>
+          <Typography
+            variant="h4"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
+            Potro Viajes
+          </Typography>
+          <Typography
+            variant="body1"
+            component="h1"
+            gutterBottom
+            className={classes.paddedView}
+          >
+            Offers &quot;Guided tours through the city, sport fishing, diving
+            spectacle, diving , and Historic Tours&quot;. Please ask for
+            information with the concierge
+          </Typography>
+        </Box>
       </Box>
     </BaseView>
   );

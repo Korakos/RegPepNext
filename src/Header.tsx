@@ -1,10 +1,8 @@
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 import Link from '@material-ui/core/Link';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import SearchIcon from '@material-ui/icons/Search';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -52,12 +50,12 @@ export default function Header(props: { sections: any; title: any }) {
         >
           {title}
         </Typography>
-        <IconButton>
+        {/*<IconButton>
           <SearchIcon />
         </IconButton>
         <Button variant="outlined" size="small">
           Sign up
-        </Button>
+        </Button>*/}
       </Toolbar>
       <Toolbar
         component="nav"

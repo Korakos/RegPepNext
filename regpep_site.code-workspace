@@ -1,13 +1,17 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
+	"folders": [{
+		"path": "."
+	}],
 	"settings": {
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": true
 		},
-		"editor.formatOnSave": true
+		// Enable per-language
+		"[javascript]": {
+			"editor.formatOnSave": true
+		},
+		"[jsx-tags]": {
+			"editor.formatOnSave": true
+		}
 	}
 }

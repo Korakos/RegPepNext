@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["plugin:prettier/recommended", "plugin:react/recommended"],
+  "extends": ["plugin:react/recommended", "plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
   "globals": {
     "React": "writable",
     "Atomics": "readonly",
@@ -21,6 +21,6 @@
   "plugins": ["prettier", "react", "@typescript-eslint"],
   "rules": {
     "prettier/prettier": "error",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
   }
 }

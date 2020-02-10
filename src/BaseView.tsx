@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       display: 'flex',
       flexDirection: 'column',
-      minHeight: '100vh'
+      minHeight: '100vh',
+      overflow: 'hidden'
     },
     main: {
       marginTop: theme.spacing(4),
@@ -30,7 +31,7 @@ const sections = [
   { title: 'Abstract Submission', url: 'abstract' },
   { title: 'Transportation', url: 'transportation' },
   { title: 'Venue', url: 'venue' },
-  { title: 'Optional Tours', url: 'tours' },
+  { title: 'Local Attractions', url: 'tours' },
   { title: 'Contact', url: 'contact' }
 ];
 
