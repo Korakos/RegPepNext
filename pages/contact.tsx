@@ -8,6 +8,10 @@ import LabeledInput from '../src/LabeledInput';
 
 const useStyles = makeStyles(() =>
   createStyles({
+    paddedHorizontal: {
+      paddingLeft: '5%',
+      paddingRight: '5%'
+    },
     paddedBox: {
       padding: '5%'
     }
@@ -52,13 +56,13 @@ export default function Index() {
   return (
     <BaseView>
       <Box my={4}>
-        <Box className={classes.paddedBox}>
+        <Box className={classes.paddedHorizontal}>
           <LabeledInput required email id="email" label="e-mail" onValueChange={inputChangeHandler}/>
         </Box>
-        <Box className={classes.paddedBox}>
+        <Box className={classes.paddedHorizontal}>
           <LabeledInput required id="name" label="name" onValueChange={inputChangeHandler}/>
         </Box>
-        <Box className={classes.paddedBox}>
+        <Box className={classes.paddedHorizontal}>
           <LabeledInput big multiline required id="message" label="Message" onValueChange={inputChangeHandler}/>
         </Box>
         <Box className={classes.paddedBox}>

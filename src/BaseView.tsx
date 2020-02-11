@@ -11,13 +11,18 @@ const useStyles = makeStyles((theme: Theme) =>
       display: 'flex',
       flexDirection: 'column',
       minHeight: '100vh',
-      overflow: 'hidden'
+      overflow: 'hidden',
+      backgroundColor: theme.palette.background.paper
     },
     main: {
       marginTop: theme.spacing(4),
       marginBottom: theme.spacing(2),
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      backgroundColor: theme.palette.background.default,
+      WebkitBoxShadow: '0px 0px 20px 0px rgba(0,0,0,0.75)',
+      MozBoxShadow: '0px 0px 20px 0px rgba(0,0,0,0.75)',
+      boxShadow: '0px 0px 20px 0px rgba(0,0,0,0.75)'
     }
   })
 );

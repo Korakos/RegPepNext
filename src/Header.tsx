@@ -21,7 +21,11 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     toolbarSecondary: {
       justifyContent: 'space-between',
-      overflowX: 'auto'
+      overflowX: 'auto',
+      backgroundColor: theme.palette.background.default,
+      WebkitBoxShadow: '0px 5px 10px 0px rgba(0,0,0,0.75)',
+      MozBoxShadow: '0px 5px 10px 0px rgba(0,0,0,0.75)',
+      boxShadow: '0px 5px 10px 0px rgba(0,0,0,0.75)'
     },
     toolbarLink: {
       padding: theme.spacing(1),

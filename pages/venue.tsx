@@ -17,7 +17,10 @@ const useStyles = makeStyles((theme: Theme) =>
     centeredImage: {
       maxWidth: '140%',
       position: 'relative',
-      right: '20%'
+      right: '20%',
+      WebkitBoxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)',
+      MozBoxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)',
+      boxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)'
     },
     coloredText: {
       color: COLORS.primary

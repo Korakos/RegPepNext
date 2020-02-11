@@ -49,7 +49,7 @@ const symposiaList = [
   },
   {
     key: '5',
-    title: 'Simposia',
+    title: 'Este es un Titulo',
     time: '8:00am-9:30am',
     speaker: 'Lee. E. Eiden'
   },
