@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor:
       theme.palette.type === 'dark'
         ? theme.palette.grey[800]
-        : theme.palette.grey[200]
+        : theme.palette.grey[300]
   }
 }));
 

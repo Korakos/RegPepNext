@@ -16,73 +16,76 @@ const useStyles = makeStyles((theme: Theme) =>
       width: '100%'
     },
     centeredImage: {
-      maxWidth: '80%',
-      marginLeft: '10%',
-      marginRight: '10%'
+      maxWidth: '100%'
     },
     coloredText: {
       color: COLORS.primary
+    },
+    attractionContainer: {
+      paddingBottom: theme.spacing(6)
     }
   })
 );
 
-export default function Index() {
+export default function Tours() {
   const classes = useStyles();
   return (
     <BaseView>
       <Box my={4}>
-        <Typography
-          variant="h3"
-          component="h1"
-          gutterBottom
-          className={classes.coloredText}
-        >
-          Local Attractions
-        </Typography>
-        <Box>
+        <Box className={classes.paddedView}>
           <Typography
-            variant="h4"
+            variant="h2"
             component="h1"
             gutterBottom
             className={classes.coloredText}
           >
-            XTASEA
+            Local Attractions
           </Typography>
-
-          <Box className={classes.fullSize}>
-            <img src="/xtasea.jpg" className={classes.centeredImage} />
+          <Box className={classes.attractionContainer}>
+            <Typography
+              variant="h3"
+              component="h1"
+              gutterBottom
+              className={classes.coloredText}
+            >
+              XTASEA
+            </Typography>
+            <Typography
+              variant="body1"
+              component="h1"
+              gutterBottom
+              className={classes.paddedView}
+            >
+              Offering &quot;The world&apos;s longest over-sea zip line&quot;.
+              <Link href="http://www.xtasea.mx/en/experiencia.aspx">
+                {' '}
+                www.xtasea.mx
+              </Link>
+            </Typography>
+            <Box className={classes.fullSize}>
+              <img src="/xtasea.jpg" className={classes.centeredImage} />
+            </Box>
           </Box>
-          <Typography
-            variant="body1"
-            component="h1"
-            gutterBottom
-            className={classes.paddedView}
-          >
-            Offering &quot;The world&apos;s longest over-sea zip line&quot;.{' '}
-            <Link href="http://www.xtasea.mx/en/experiencia.aspx">
-              www.xtasea.mx
-            </Link>
-          </Typography>
-        </Box>
-        <Box>
-          <Typography
-            variant="h4"
-            component="h1"
-            gutterBottom
-            className={classes.coloredText}
-          >
-            Potro Viajes
-          </Typography>
-          <Typography
-            variant="body1"
-            component="h1"
-            gutterBottom
-            className={classes.paddedView}
-          >
-            Offers &quot;Guided tours through the city, sport fishing, diving
-            spectacle, diving , and Historic Tours&quot;. Please ask for
-            information with the concierge
-          </Typography>
+          <Box>
+            <Typography
+              variant="h3"
+              component="h1"
+              gutterBottom
+              className={classes.coloredText}
+            >
+              Potro Viajes
+            </Typography>
+            <Typography
+              variant="body1"
+              component="h1"
+              gutterBottom
+              className={classes.paddedView}
+            >
+              Offers &quot;Guided tours through the city, sport fishing, diving
+              spectacle, diving , and Historic Tours&quot;. Please ask for
+              information with the concierge
+            </Typography>
+          </Box>
         </Box>
       </Box>
     </BaseView>

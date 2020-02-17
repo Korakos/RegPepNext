@@ -22,5 +22,6 @@
   "rules": {
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
+    "max-len": "error"
   }
 }

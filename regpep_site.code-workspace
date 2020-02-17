@@ -7,11 +7,10 @@
 			"source.organizeImports": true
 		},
 		// Enable per-language
-		"[javascript]": {
-			"editor.formatOnSave": true
-		},
-		"[jsx-tags]": {
-			"editor.formatOnSave": true
-		}
+
+		"editor.formatOnSave": true,
+		"editor.wordWrapColumn": 80,
+		"editor.wordWrap": "wordWrapColumn"
+
 	}
 }

@@ -1,5 +1,4 @@
 import Container from '@material-ui/core/Container';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import React from 'react';
 import Footer from './Footer';
@@ -32,10 +31,10 @@ const sections = [
   { title: 'Keynote & Plennary Speakers', url: 'keynote' },
   { title: 'Program', url: 'symposia' },
   { title: 'Scientific Advisory Commitees', url: 'commitee' },
-  { title: 'Registration & Accommodation', url: 'registration' },
+  { title: 'Registration', url: 'registration' },
   { title: 'Abstract Submission', url: 'abstract' },
-  { title: 'Transportation', url: 'transportation' },
   { title: 'Venue', url: 'venue' },
+  { title: 'Travel', url: 'travel' },
   { title: 'Local Attractions', url: 'tours' },
   { title: 'Contact', url: 'contact' }
 ];
@@ -45,7 +44,6 @@ export default function BaseView(props: { children: React.ReactNode }) {
 
   return (
     <div className={classes.root}>
-      <CssBaseline />
       <Header title="RegPep2020" sections={sections} />
       <Container component="main" className={classes.main} maxWidth="lg">
         {props.children}

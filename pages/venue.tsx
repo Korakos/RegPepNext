@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
     centeredImage: {
       maxWidth: '140%',
       position: 'relative',
-      right: '20%',
+      right: '14.3%',
       WebkitBoxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)',
       MozBoxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)',
       boxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)'
@@ -33,35 +33,37 @@ export default function Index() {
   return (
     <BaseView>
       <Box my={4}>
-        <Typography
-          variant="h2"
-          component="h1"
-          gutterBottom
-          className={classes.coloredText}
-        >
-          Venue
-        </Typography>
-        <Typography
-          variant="h3"
-          component="h1"
-          gutterBottom
-          className={classes.coloredText}
-        >
-          Hotel Princess Mundo Imperial
-        </Typography>
-        <Typography
-          variant="body2"
-          component="h1"
-          gutterBottom
-          className={classes.paddedView}
-        >
-          <Box>Av. Costera de las Palmas</Box>
-          <Box>Granjas del Marqués</Box>
-          <Box>39887</Box>
-          <Box>Acapulco de Juárez</Box>
-          <Box>Guerrero</Box>
-          <Box>Mexico</Box>
-        </Typography>
+        <Box className={classes.paddedView}>
+          <Typography
+            variant="h2"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
+            Venue
+          </Typography>
+          <Typography
+            variant="h3"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
+            Hotel Princess Mundo Imperial
+          </Typography>
+          <Typography
+            variant="body2"
+            component="h1"
+            gutterBottom
+            className={classes.paddedView}
+          >
+            <Box>Av. Costera de las Palmas</Box>
+            <Box>Granjas del Marqués</Box>
+            <Box>39887</Box>
+            <Box>Acapulco de Juárez</Box>
+            <Box>Guerrero</Box>
+            <Box>Mexico</Box>
+          </Typography>
+        </Box>
         <Box className={classes.fullSize}>
           <img src="/princess_2.jpg" className={classes.centeredImage} />
         </Box>

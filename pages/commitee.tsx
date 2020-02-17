@@ -1,11 +1,19 @@
+import {
+  Avatar,
+  Collapse,
+  ListItem,
+  ListItemAvatar,
+  ListItemText,
+  Paper
+} from '@material-ui/core';
 import Box from '@material-ui/core/Box';
+import List from '@material-ui/core/List';
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import React from 'react';
+import React, { useState } from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
-import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
-import List from '@material-ui/core/List';
-import { ListItem, ListItemText, ListItemAvatar, Avatar } from '@material-ui/core';
+import COMMITEE_MEMBERS from '../src/constants/commitee';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -26,80 +34,66 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     large: {
       width: theme.spacing(10),
-      height: theme.spacing(10),
-    },
+      height: theme.spacing(10)
+    }
   })
 );
 
-const members = [
-  {
-    key: '1', avatar: '/buijs1.jpg', name: 'Ruud M. Buijs', title: 'Chair, RegPep2020', institution: 'UNAM, Mexico'
-  },
-  {
-    key: '2.1', avatar: '/lee.png', name: 'Lee E. Eiden', title: 'ex-officio – Co-Presidents of IRPS', institution: 'NIMH, USA'
-  },
-  {
-    key: '2.2', avatar: '/limei.png', name: 'Limei Zhang', title: 'ex-officio – Co-Presidents of IRPS', institution: 'UNAM, Mexico'
-  },
-  {
-    key: '3', avatar: '', name: 'Aimin Bao', title: '', institution: 'Uni. Zhejiang, China'
-  },
-  {
-    key: '4', avatar: '', name: 'Luis de Lecea', title: '', institution: 'Uni. Stanford, USA'
-  },
-  {
-    key: '5', avatar: '/valery.jpg', name: 'Valery Grinevich', title: '', institution: 'Uni. Heidelberg, Germany'
-  },
-  {
-    key: '6', avatar: '/gundlach.png', name: 'Andrew Gundlach', title: '', institution: 'Florey Inst, Australia'
-  },
-  {
-    key: '7', avatar: '', name: 'Gareth Leng', title: '', institution: 'Uni. Edinburgh, UK'
-  },
-  {
-    key: '8', avatar: '', name: 'Gil Lewkowitz', title: '', institution: 'Weizmann Institute, Israel'
-  },
-  {
-    key: '9', avatar: '/mecawi.jpg', name: 'André S. Mecawi', title: '', institution: 'Uni. Sao Paolo, Brazil'
-  },
-  {
-    key: '10', avatar: '', name: 'Robert (Bob) Millar', title: '', institution: 'Uni. Pretoria, South Africa'
-  }
-];
-
-export default function Index() {
+export default function Commitee() {
+  const [members, setMembers] = useState(COMMITEE_MEMBERS);
   const classes = useStyles();
 
-  const inflateMember = (member: { key: any; avatar: any; name: any; title: any; institution: any; }) => {
-    let { key, avatar, name, title, institution } = member;
+  const memberDetails = (key: string) => {
+    const tempMembers = JSON.parse(JSON.stringify(members));
+    const foundMember = tempMembers.find((member: { key: string }) => {
+      return member.key === key;
+    });
+    if (foundMember) {
+      foundMember.expand = !foundMember.expand;
+    }
+    setMembers(tempMembers);
+  };
+
+  const inflateMember = (member: {
+    key: string;
+    avatar: string;
+    name: string;
+    title: string;
+    institution: string;
+    details?: string;
+    expand?: boolean;
+  }) => {
+    const { key, avatar, name, title, institution, details, expand } = member;
     return (
-      <ListItem button key={key}>
-        <ListItemAvatar>
-          <Avatar alt={name} src={avatar} className={classes.large} />
-        </ListItemAvatar>
-        <ListItemText
-          primary={name}
-          secondary={
-            <React.Fragment>
-              <Typography
-                component="h1"
-                variant="body2"
-                color="textPrimary"
-              >
-                { title }
-              </Typography>
-              <Typography
-                component="h1"
-                variant="body2"
-                color="textPrimary"
-              >
-                { institution }
-              </Typography>
-            </React.Fragment>
-          }
-          className={classes.paddedView}
-        />
-      </ListItem>
+      <Box key={key}>
+        <ListItem button onClick={() => memberDetails(key)}>
+          <ListItemAvatar>
+            <Avatar alt={name} src={avatar} className={classes.large} />
+          </ListItemAvatar>
+          <ListItemText
+            primary={name}
+            secondary={
+              <React.Fragment>
+                <Typography
+                  component="span"
+                  variant="body2"
+                  color="textPrimary"
+                >
+                  {title} <br /> {institution}
+                </Typography>
+              </React.Fragment>
+            }
+            className={classes.paddedView}
+          />
+        </ListItem>
+        <Collapse in={expand}>
+          <Paper elevation={4} className={classes.paddedView}>
+            <Typography component="h1" variant="body1" color="textPrimary">
+              {details}
+            </Typography>
+          </Paper>
+        </Collapse>
+      </Box>
     );
   };
 
@@ -110,9 +104,7 @@ export default function Index() {
           <Typography variant="h3" component="h1" gutterBottom>
             Scientific Advisory Commitee
           </Typography>
-          <List>
-            {members.map(inflateMember)}
-          </List>
+          <List>{members.map(inflateMember)}</List>
         </Box>
       </Box>
     </BaseView>

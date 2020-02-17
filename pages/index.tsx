@@ -1,10 +1,10 @@
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
-import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -35,34 +35,85 @@ export default function Index() {
     <BaseView>
       <Box my={3}>
         <Box className={classes.paddedView}>
-          <Typography variant="h2" component="h1" gutterBottom className={classes.coloredText}>
+          <Typography
+            variant="h2"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
             RegPep2020
           </Typography>
-          <Typography variant="h3" component="h1" gutterBottom className={classes.coloredText}>
+          <Typography
+            variant="h3"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
             23rd International Symposium on Regulatory Peptides
           </Typography>
-          <Typography variant="h4" component="h1" gutterBottom className={classes.coloredText}>
-          September 18-22, 2020
+          <Typography
+            variant="h4"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
+            September 18-22, 2020
           </Typography>
           <Typography variant="body1" component="h1" gutterBottom>
-          Resort and Conference Center Princess Mundo Imperial
+            Resort and Conference Center Princess Mundo Imperial
           </Typography>
         </Box>
         <Box className={classes.fullSize}>
-          <img src="/mundo-imperial-acapulco.jpg" className={classes.centeredImage} />
+          <img
+            src="/mundo-imperial-acapulco.jpg"
+            className={classes.centeredImage}
+          />
         </Box>
         <Box>
-          <Typography variant='body1' component='h1' className={classes.paddedView}>
-            <b className={classes.coloredText}>The International Symposium on Regulatory Peptides (RegPep)</b> has been held every two years in various countries all over the world, starting in Asilomar (USA, 1976).
+          <Typography
+            variant="body1"
+            component="h1"
+            className={classes.paddedView}
+          >
+            <b className={classes.coloredText}>
+              The International Symposium on Regulatory Peptides (RegPep)
+            </b>{' '}
+            has been held every two years in various countries all over the
+            world, starting in Asilomar (USA, 1976).
           </Typography>
-          <Typography variant='body1' component='h1' className={classes.paddedView}>
-          The 23rd International Symposium on Regulatory Peptides, RegPep2020, with the specific theme of Regulatory Peptides in Brain-Body Interaction, under the auspices of the International Regulatory Peptide Society (IRPS), will be held on September 18-22, 2020 at the Resort and Conference Center Princess Mundo Imperial, in the newly developed Riviera Diamante, Acapulco, Mexico.
+          <Typography
+            variant="body1"
+            component="h1"
+            className={classes.paddedView}
+          >
+            The 23rd International Symposium on Regulatory Peptides, RegPep2020,
+            with the specific theme of Regulatory Peptides in Brain-Body
+            Interaction, under the auspices of the International Regulatory
+            Peptide Society (IRPS), will be held on September 18-22, 2020 at the
+            Resort and Conference Center Princess Mundo Imperial, in the newly
+            developed Riviera Diamante, Acapulco, Mexico.
           </Typography>
-          <Typography variant='body1' component='h1' className={classes.paddedView}>
-          RegPep biennial meetings have been unique venues for basic and clinician scientists studying the physiology and pathophysiology of peptide actions, integrated from a brain-body-behavior perspective in health and disease.  In addition, each RegPep conference aims  to recognize outstanding contributions to peptide regulation in systems biology, to support diversity and under-represented groups, to promote best practices in the biomedical sciences, and to provide networking and mentoring opportunities.
+          <Typography
+            variant="body1"
+            component="h1"
+            className={classes.paddedView}
+          >
+            RegPep biennial meetings have been unique venues for basic and
+            clinician scientists studying the physiology and pathophysiology of
+            peptide actions, integrated from a brain-body-behavior perspective
+            in health and disease. In addition, each RegPep conference aims to
+            recognize outstanding contributions to peptide regulation in systems
+            biology, to support diversity and under-represented groups, to
+            promote best practices in the biomedical sciences, and to provide
+            networking and mentoring opportunities.
           </Typography>
-          <Typography variant='body1' component='h1' className={classes.paddedView}>
-          We look forward to welcoming you at RegPep2020, Acapulco Diamante, México.
+          <Typography
+            variant="body1"
+            component="h1"
+            className={classes.paddedView}
+          >
+            We look forward to welcoming you at RegPep2020, Acapulco Diamante,
+            México.
           </Typography>
         </Box>
         <Box className={classes.paddedView}>

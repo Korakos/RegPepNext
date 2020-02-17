@@ -91,7 +91,7 @@ const symposiaList = [
   }
 ];
 
-export default function Index() {
+export default function Symposia() {
   const classes = useStyles();
 
   return (

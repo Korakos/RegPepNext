@@ -3,7 +3,7 @@ import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import BaseView from '../src/BaseView';
 
-export default function Index() {
+export default function Keynote() {
   return (
     <BaseView>
       <Box my={4}>
