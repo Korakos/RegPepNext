@@ -57,7 +57,6 @@ export default function LabeledInput(props: {
 
   useEffect(() => {
     if (true) {
-      console.log(inputState);
       onValueChange(id, inputState.value, inputState.isValid);
     }
   }, [inputState, onValueChange, id]);
@@ -94,7 +93,6 @@ export default function LabeledInput(props: {
   return (
     <Box style={{ maxWidth: size }}>
       <TextField
-        id="standard-basic"
         label={props.label}
         variant={variant}
         error={error}

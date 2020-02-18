@@ -7,8 +7,9 @@ import FormGroup from '@material-ui/core/FormGroup';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from '@material-ui/core/FormLabel';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
-import React, { useCallback, useReducer } from 'react';
+import React, { createRef, useCallback, useReducer } from 'react';
 import BaseView from '../src/BaseView';
+import { COLORS } from '../src/constants/color';
 import { formReducer, FORM_INPUT_UPDATE } from '../src/functional/formReducer';
 import LabeledInput from '../src/LabeledInput';
 
@@ -23,10 +24,15 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     paddedTop: {
       paddingTop: theme.spacing(4)
+    },
+    coloredText: {
+      color: COLORS.primary
     }
   })
 );
 
+const REGISTRATION_FILES = 'REGISTRATION_FILES';
+const STUDENT_PROOF = 'STUDENT_PROOF';
 const REGISTRATION_TYPES = [
   {
     shorthand: 'regM',
@@ -125,7 +131,9 @@ export default function Registration() {
         banquet: false,
         yit: false
       },
-      registrationComment: ''
+      registrationComment: '',
+      REGISTRATION_FILES: '',
+      STUDENT_PROOF: ''
     },
     inputValidities: {
       email: false,
@@ -138,7 +146,9 @@ export default function Registration() {
       city: false,
       registrationReceipt: false,
       registrationTypes: false,
-      registrationComment: true
+      registrationComment: true,
+      REGISTRATION_FILES: false,
+      STUDENT_PROOF: false
     },
     formIsValid: false
   });
@@ -158,11 +168,36 @@ export default function Registration() {
     });
   };
 
+  const regFile = createRef<HTMLInputElement>();
+  const studentFiles = createRef<HTMLInputElement>();
+
   const handleFile = (name: string) => (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    console.log(name);
-    console.log(event);
+    let files = null;
+    if (name === REGISTRATION_FILES) {
+      try {
+        files = regFile!.current!.files;
+      } catch (e) {
+        console.log('Real null >> ', e);
+      }
+    } else if (name === STUDENT_PROOF) {
+      try {
+        files = studentFiles!.current!.files;
+      } catch (e) {
+        console.log('Real null >> ', e);
+      }
+    }
+    if (files?.length) {
+      console.log(files[0].name);
+      dispatchFormState({
+        type: FORM_INPUT_UPDATE,
+        value: files,
+        isValid: true,
+        input: name
+      });
+    }
+    console.log(event.currentTarget);
   };
 
   const inputChangeHandler = useCallback(
@@ -190,6 +225,7 @@ export default function Registration() {
   }) => {
     return (
       <FormControlLabel
+        key={option.shorthand}
         control={
           <Checkbox
             checked={formState.inputValues.registrationTypes.gilad}
@@ -201,6 +237,18 @@ export default function Registration() {
       />
     );
   };
+
+  const regFiles = formState.inputValues.REGISTRATION_FILES;
+  let regFileName = '';
+  if (regFiles.length) {
+    regFileName = regFiles[0].name;
+  }
+
+  const stdFiles = formState.inputValues.STUDENT_PROOF;
+  let stdFileName = '';
+  if (stdFiles.length) {
+    stdFileName = stdFiles[0].name;
+  }
 
   return (
     <BaseView>
@@ -311,15 +359,45 @@ export default function Registration() {
           <input
             accept="application/pdf"
             style={{ display: 'none' }}
-            id="raised-button-file"
+            id={REGISTRATION_FILES}
             type="file"
-            onChange={handleFile('registrationReceipt')}
+            ref={regFile}
+            onChange={handleFile(REGISTRATION_FILES)}
           />
-          <label htmlFor="raised-button-file">
-            <Button variant="contained" component="span" color="primary">
-              Upload Payment Receipt
-            </Button>
-          </label>
+          <Box display="flex" flexDirection="row">
+            <label htmlFor={REGISTRATION_FILES}>
+              <Button variant="contained" component="span" color="primary">
+                Upload Payment Receipt
+              </Button>
+            </label>
+            {regFileName ? (
+              <Typography variant="body1" className={classes.paddedHorizontal}>
+                {regFileName}
+              </Typography>
+            ) : null}
+          </Box>
+        </Box>
+        <Box className={classes.paddedBox}>
+          <input
+            accept="application/pdf"
+            style={{ display: 'none' }}
+            id={STUDENT_PROOF}
+            type="file"
+            ref={studentFiles}
+            onChange={handleFile(STUDENT_PROOF)}
+          />
+          <Box display="flex" flexDirection="row">
+            <label htmlFor={STUDENT_PROOF}>
+              <Button variant="contained" component="span" color="primary">
+                Upload Proof of Student Status
+              </Button>
+            </label>
+            {stdFileName ? (
+              <Typography variant="body1" className={classes.paddedHorizontal}>
+                {stdFileName}
+              </Typography>
+            ) : null}
+          </Box>
         </Box>
         <Box className={classes.paddedBox}>
           <Button

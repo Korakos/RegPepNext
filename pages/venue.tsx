@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     paddedView: {
       maxWidth: '100%',
-      padding: theme.spacing(4)
+      padding: theme.spacing(2)
     },
     fullSize: {
       width: '100%'

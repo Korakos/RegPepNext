@@ -8,18 +8,18 @@ import { COLORS } from '../src/constants/color';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     paddedHorizontal: {
-      paddingLeft: theme.spacing(4),
-      paddingRight: theme.spacing(4)
+      paddingLeft: theme.spacing(2),
+      paddingRight: theme.spacing(2)
     },
     paddedVertical: {
       paddingTop: theme.spacing(2),
       paddingBottom: theme.spacing(8)
     },
     paddedBox: {
-      padding: theme.spacing(4)
+      padding: theme.spacing(2)
     },
     noBottomPadding: {
-      padding: theme.spacing(4),
+      padding: theme.spacing(2),
       paddingBottom: 0
     },
     hotelDataBox: {
