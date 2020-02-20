@@ -1,19 +1,17 @@
 import {
   Avatar,
-  Collapse,
   ListItem,
   ListItemAvatar,
-  ListItemText,
-  Paper
+  ListItemText
 } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import List from '@material-ui/core/List';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import React, { useState } from 'react';
+import React from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
-import COMMITEE_MEMBERS from '../src/constants/commitee';
+import { COMMITEE_MEMBERS, LOC_MEMBERS } from '../src/constants/commitee';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -40,19 +38,9 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 export default function Commitee() {
-  const [members, setMembers] = useState(COMMITEE_MEMBERS);
+  const locMembers = LOC_MEMBERS;
+  const members = COMMITEE_MEMBERS;
   const classes = useStyles();
-
-  const memberDetails = (key: string) => {
-    const tempMembers = JSON.parse(JSON.stringify(members));
-    const foundMember = tempMembers.find((member: { key: string }) => {
-      return member.key === key;
-    });
-    if (foundMember) {
-      foundMember.expand = !foundMember.expand;
-    }
-    setMembers(tempMembers);
-  };
 
   const inflateMember = (member: {
     key: string;
@@ -63,10 +51,10 @@ export default function Commitee() {
     details?: string;
     expand?: boolean;
   }) => {
-    const { key, avatar, name, title, institution, details, expand } = member;
+    const { key, avatar, name, title, institution } = member;
     return (
       <Box key={key}>
-        <ListItem button onClick={() => memberDetails(key)}>
+        <ListItem>
           <ListItemAvatar>
             <Avatar alt={name} src={avatar} className={classes.large} />
           </ListItemAvatar>
@@ -86,13 +74,6 @@ export default function Commitee() {
             className={classes.paddedView}
           />
         </ListItem>
-        <Collapse in={expand}>
-          <Paper elevation={4} className={classes.paddedView}>
-            <Typography component="h1" variant="body1" color="textPrimary">
-              {details}
-            </Typography>
-          </Paper>
-        </Collapse>
       </Box>
     );
   };
@@ -101,7 +82,23 @@ export default function Commitee() {
     <BaseView>
       <Box my={4}>
         <Box className={classes.paddedView}>
-          <Typography variant="h3" component="h1" gutterBottom>
+          <Typography
+            variant="h2"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
+            Local Organizing Commitee
+          </Typography>
+          <List>{locMembers.map(inflateMember)}</List>
+        </Box>
+        <Box className={classes.paddedView}>
+          <Typography
+            variant="h2"
+            component="h1"
+            gutterBottom
+            className={classes.coloredText}
+          >
             Scientific Advisory Commitee
           </Typography>
           <List>{members.map(inflateMember)}</List>

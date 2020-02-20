@@ -1,4 +1,32 @@
-export default [
+export const LOC_MEMBERS = [
+  {
+    key: '1',
+    avatar: '/buijs1.jpg',
+    name: 'Ruud M. Buijs',
+    title: 'Chair, RegPep2020',
+    institution: 'UNAM, Mexico',
+    details: 'Ruud`s blurb'
+  },
+  {
+    key: '2.1',
+    avatar: '/lee.png',
+    name: 'Lee E. Eiden',
+    title: 'ex-officio – Co-Presidents of IRPS',
+    institution: 'NIMH, USA',
+    details:
+      'Lee E. Eiden is the Chief of the Section on Molecular Neuroscience in the National Institute of Mental Health Intramural Research Program of the National Institutes of Health, Bethesda, Maryland. He received his B.A. in Chemistry from Northwestern University in Evanston Illinois, and Ph.D. in Pharmacology from The University of Kansas, and was a Staff Fellow, PRAT Fellow, and Senior Staff Fellow in the NIMH Intramural Research Program before joining the faculty as a Principal Investigator and Chief of the Unit on Cell Biology in 1987, and Chief of the Section on Molecular Neuroscience in 1992. His work at the NIH has focused on stimulus-secretion-synthesis coupling, characterization of the vesicular and secretory proteins mediating chemically coded neurotransmission, including chromogranin A, VMAT1, VMAT2, and VAChT and signaling pathways underlying neuropeptide-mediated stress responses. More recently, the laboratory has been involved in microarray- and bioinformatics-aided gene discovery within neuropeptide-dependent stress-activated cellular signaling pathways in the central nervous system, and has characterized a novel cAMP sensor for neuroendocrine cell-specific GPCR-initiated signaling to the MAP kinase ERK. Dr. Eiden is a member of the editorial boards of Peptides, Cellular and Molecular Neurobiology, and Science Signaling.'
+  },
+  {
+    key: '2.2',
+    avatar: '/limei.png',
+    name: 'Limei Zhang',
+    title: 'ex-officio – Co-Presidents of IRPS',
+    institution: 'UNAM, Mexico',
+    details: 'Limei`s blurb'
+  }
+];
+
+export const COMMITEE_MEMBERS = [
   {
     key: '1',
     avatar: '/buijs1.jpg',
@@ -70,7 +98,7 @@ export default [
   {
     key: '8',
     avatar: '',
-    name: 'Gil Lewkowitz',
+    name: 'Gil Levkowitz',
     title: '',
     institution: 'Weizmann Institute, Israel',
     details: 'Gil`s Blurb'

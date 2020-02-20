@@ -30,7 +30,7 @@ const sections = [
   { title: 'Home', url: '/' },
   { title: 'Keynote & Plennary Speakers', url: 'keynote' },
   { title: 'Program', url: 'symposia' },
-  { title: 'Scientific Advisory Commitees', url: 'commitee' },
+  { title: 'Participating Committees', url: 'commitee' },
   { title: 'Registration', url: 'registration' },
   { title: 'Abstract Submission', url: 'abstract' },
   { title: 'Venue', url: 'venue' },
