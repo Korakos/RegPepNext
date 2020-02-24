@@ -124,13 +124,13 @@ export default function Index() {
         </Box>
         <Box className={classes.centeredView}>
           <Box className={classes.paddedView}>
-            <Typography variant="h4" className={classes.coloredText}>
+            <Typography variant="body1" className={classes.coloredText}>
               Ruud Buijs
             </Typography>
             <Typography variant="body1">Chair of RegPep2020</Typography>
           </Box>
           <Box className={classes.paddedView}>
-            <Typography variant="h4" className={classes.coloredText}>
+            <Typography variant="body1" className={classes.coloredText}>
               Lee Eiden and Limei Zhang
             </Typography>
             <Typography variant="body1">Co-Presidents of IRPS</Typography>

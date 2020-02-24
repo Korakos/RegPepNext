@@ -97,7 +97,7 @@ export const COMMITEE_MEMBERS = [
   },
   {
     key: '8',
-    avatar: '',
+    avatar: 'Gil_Levkowitz.jpg',
     name: 'Gil Levkowitz',
     title: '',
     institution: 'Weizmann Institute, Israel',

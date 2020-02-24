@@ -51,19 +51,20 @@ const useStyles = makeStyles((theme: Theme) =>
 const HOTEL_MASTER_LIST = [
   {
     groupName: 'Mundo Imperial Hotels',
-    bookingLink:
-      'https://reservations.travelclick.com/102415?groupID=2745053#/guestsandrooms',
     key: 'a',
     description: 'Top class hotels with available transportation to the venue',
     hotelList: [
       {
         key: '1',
         name: 'Princess Mundo Imperial',
-        descripcion: `Located on scenic Revolcadero Beach, this hotel features an
+        descripcion: `The official hotel of RegPep2020. Located on scenic Revolcadero Beach, this hotel features an
       on-site golf course and rooms with a private balcony or patio and 
       floor-to-ceiling windows. Aeropuerto Internacional de Acapulco is a 
       17-minute drive away.`,
-        picture: '/princess_hotel.jpg'
+        picture: '/princess_hotel.jpg',
+        link:
+          'https://reservations.travelclick.com/102415?groupID=2745053#/guestsandrooms',
+        bigLink: true
       },
       {
         key: '2',
@@ -73,7 +74,9 @@ const HOTEL_MASTER_LIST = [
       district, this luxury resort offers guests lavish amenities and activities
       such as spa services, world-class dining and state-of-the-art 
       entertainment.`,
-        picture: '/palacio_main.jpg'
+        picture: '/palacio_main.jpg',
+        link:
+          'https://www.booking.com/hotel/mx/the-resort-at-mundo-imperial.en-gb.html'
       },
       {
         key: '3',
@@ -83,14 +86,16 @@ const HOTEL_MASTER_LIST = [
       on Acapulco’s Revolcadero Beach. It is a completely smoke-free, and 
       offers a fitness centre, spa, tennis court and a large outdoor pool 
       with a waterfall.`,
-        picture: '/Pierre-9.jpg'
+        picture: '/Pierre-9.jpg',
+        link:
+          'https://www.booking.com/hotel/mx/pierre-mundo-imperial.en-gb.html'
       }
     ]
   },
   {
     groupName: 'Low Cost Hotels',
-    key: 'a',
-    description: 'recommended by the LOC, 10 - 15 min walking distance',
+    key: 'b',
+    description: 'Recommended by the LOC, 10 - 15 min walking distance.',
     hotelList: [
       {
         key: '1',
@@ -118,6 +123,7 @@ const renderHotel = (hotelInfo: {
   descripcion: React.ReactNode;
   picture: string | undefined;
   link?: string | undefined;
+  bigLink?: boolean;
 }) => {
   const classes = useStyles();
   return (
@@ -139,12 +145,23 @@ const renderHotel = (hotelInfo: {
             {hotelInfo.descripcion}
           </Typography>
           {hotelInfo.link ? (
-            <Typography variant="body1" component="h1" gutterBottom>
-              <br />
-              <Link href={hotelInfo.link}>
-                <b>Book a room</b>
-              </Link>
-            </Typography>
+            hotelInfo.bigLink ? (
+              <Button
+                variant="contained"
+                color="primary"
+                size="large"
+                href={hotelInfo.link}
+              >
+                Book a room
+              </Button>
+            ) : (
+              <Typography variant="body1" component="h1" gutterBottom>
+                <br />
+                <Link href={hotelInfo.link}>
+                  <b>Book a room</b>
+                </Link>
+              </Typography>
+            )
           ) : (
             ''
           )}
