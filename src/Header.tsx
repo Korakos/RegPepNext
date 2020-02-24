@@ -71,16 +71,20 @@ export default function Header(props: { sections: any; title: any }) {
         className={classes.toolbarSecondary}
       >
         {sections.map(
-          (section: { title: string | undefined; url: string | undefined }) => (
+          (section: {
+            title: string | undefined;
+            url: string | undefined;
+            highlightedView: string | undefined;
+          }) => (
             <Link
-              color="inherit"
+              color={section.highlightedView ? 'primary' : 'inherit'}
               noWrap
               key={section.title}
               variant="body2"
               href={section.url}
               className={classes.toolbarLink}
             >
-              {section.title}
+              {section.highlightedView ? <b>{section.title}</b> : section.title}
             </Link>
           )
         )}

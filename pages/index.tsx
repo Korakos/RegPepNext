@@ -12,6 +12,12 @@ const useStyles = makeStyles((theme: Theme) =>
       maxWidth: '100%',
       padding: theme.spacing(2)
     },
+    centeredView: {
+      maxWidth: '100%',
+      padding: theme.spacing(2),
+      alignItems: 'center',
+      justifyContent: 'center'
+    },
     fullSize: {
       width: '100%'
     },
@@ -115,6 +121,20 @@ export default function Index() {
             We look forward to welcoming you at RegPep2020, Acapulco Diamante,
             México.
           </Typography>
+        </Box>
+        <Box className={classes.centeredView}>
+          <Box className={classes.paddedView}>
+            <Typography variant="h4" className={classes.coloredText}>
+              Ruud Buijs
+            </Typography>
+            <Typography variant="body1">Chair of RegPep2020</Typography>
+          </Box>
+          <Box className={classes.paddedView}>
+            <Typography variant="h4" className={classes.coloredText}>
+              Lee Eiden and Limei Zhang
+            </Typography>
+            <Typography variant="body1">Co-Presidents of IRPS</Typography>
+          </Box>
         </Box>
         <Box className={classes.paddedView}>
           <Button variant="contained" color="primary" href="registration">

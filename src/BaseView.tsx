@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const sections = [
   { title: 'Home', url: '/' },
+  { title: 'Register Now', url: 'registerNow', highlightedView: true },
   { title: 'Keynote & Plennary Speakers', url: 'keynote' },
   { title: 'Program', url: 'symposia' },
   { title: 'Participating Committees', url: 'commitee' },
