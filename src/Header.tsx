@@ -80,7 +80,7 @@ export default function Header(props: { sections: any; title: any }) {
               color={section.highlightedView ? 'primary' : 'inherit'}
               noWrap
               key={section.title}
-              variant="body2"
+              variant="h6"
               href={section.url}
               className={classes.toolbarLink}
             >

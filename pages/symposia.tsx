@@ -114,10 +114,10 @@ export default function Symposia() {
               >
                 {event.eTitle}
               </Typography>
-              <Typography variant="body1" component="h2">
+              <Typography variant="h5" component="h2" color="secondary">
                 {event.talkTitle}
               </Typography>
-              <Typography variant="h4" component="h1">
+              <Typography variant="h5" component="h1">
                 {(event.firstName ? event.firstName : '') +
                   ' ' +
                   (event.lastName ? event.lastName : '')}
