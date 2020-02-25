@@ -33,7 +33,7 @@ export default function RegisterNow() {
             Register Now!
           </Typography>
           <Typography
-            variant="body1"
+            variant="h5"
             component="h1"
             gutterBottom
             className={classes.paddedView}
@@ -44,7 +44,7 @@ export default function RegisterNow() {
             peptides in systems biology.
           </Typography>
           <Typography
-            variant="body1"
+            variant="h5"
             component="h1"
             gutterBottom
             className={classes.paddedView}

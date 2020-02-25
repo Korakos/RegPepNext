@@ -1,5 +1,6 @@
 import {
   Button,
+  Collapse,
   GridList,
   GridListTile,
   TextField,
@@ -9,6 +10,8 @@ import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React, { useState } from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
@@ -62,6 +65,7 @@ export default function Symposia() {
   const [showDay3, setShowDay3] = useState(true);
   const [showDay4, setShowDay4] = useState(true);
   const [showDay5, setShowDay5] = useState(true);
+  const [openFilter, setOpenFilter] = useState(false);
   const [tempFilter, setTempFilter] = useState('');
   const [searchFilter, setSearchFilter] = useState('');
 
@@ -165,6 +169,22 @@ export default function Symposia() {
     setShowDay5(!showDay5);
   };
 
+  const enableAll = () => {
+    setShowDay1(true);
+    setShowDay2(true);
+    setShowDay3(true);
+    setShowDay4(true);
+    setShowDay5(true);
+  };
+
+  const disableAll = () => {
+    setShowDay1(false);
+    setShowDay2(false);
+    setShowDay3(false);
+    setShowDay4(false);
+    setShowDay5(false);
+  };
+
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setTempFilter(event.target.value.toLowerCase());
   };
@@ -224,55 +244,81 @@ export default function Symposia() {
   return (
     <BaseView>
       <Box my={4}>
-        <Box flexDirection="row">
-          <Button
-            variant={showDay1 ? 'contained' : 'outlined'}
-            onClick={toggleDay1}
-            color="primary"
-            className={classes.marginHorizontal}
-          >
-            Day 1
-          </Button>
-          <Button
-            variant={showDay2 ? 'contained' : 'outlined'}
-            onClick={toggleDay2}
-            color="primary"
-            className={classes.marginHorizontal}
-          >
-            Day 2
-          </Button>
-          <Button
-            variant={showDay3 ? 'contained' : 'outlined'}
-            onClick={toggleDay3}
-            color="primary"
-            className={classes.marginHorizontal}
-          >
-            Day 3
-          </Button>
-          <Button
-            variant={showDay4 ? 'contained' : 'outlined'}
-            onClick={toggleDay4}
-            color="primary"
-            className={classes.marginHorizontal}
-          >
-            Day 4
-          </Button>
-          <Button
-            variant={showDay5 ? 'contained' : 'outlined'}
-            onClick={toggleDay5}
-            color="primary"
-            className={classes.marginHorizontal}
-          >
-            Day 5
-          </Button>
-        </Box>
-        <Box className={classes.paddedView}>
-          <TextField
-            label="search"
-            onChange={handleSearchChange}
-            onBlur={handleBlurChange}
-          />
-        </Box>
+        <Button
+          color="primary"
+          endIcon={openFilter ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+          onClick={() => {
+            setOpenFilter(!openFilter);
+          }}
+        >
+          Filter Program
+        </Button>
+        <Collapse in={openFilter}>
+          <Box flexDirection="row">
+            <Button
+              variant={showDay1 ? 'contained' : 'outlined'}
+              onClick={toggleDay1}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Day 1
+            </Button>
+            <Button
+              variant={showDay2 ? 'contained' : 'outlined'}
+              onClick={toggleDay2}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Day 2
+            </Button>
+            <Button
+              variant={showDay3 ? 'contained' : 'outlined'}
+              onClick={toggleDay3}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Day 3
+            </Button>
+            <Button
+              variant={showDay4 ? 'contained' : 'outlined'}
+              onClick={toggleDay4}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Day 4
+            </Button>
+            <Button
+              variant={showDay5 ? 'contained' : 'outlined'}
+              onClick={toggleDay5}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Day 5
+            </Button>
+            <Button
+              onClick={enableAll}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Enable All
+            </Button>
+            <Button
+              onClick={disableAll}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Disable All
+            </Button>
+          </Box>
+          <Box className={classes.paddedView}>
+            <TextField
+              label="search"
+              onChange={handleSearchChange}
+              onBlur={handleBlurChange}
+            />
+          </Box>
+        </Collapse>
+
         <Typography
           variant="h2"
           component="h1"

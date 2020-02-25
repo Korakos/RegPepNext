@@ -61,6 +61,7 @@ export default function Header(props: { sections: any; title: any }) {
           variant="outlined"
           size="medium"
           className={classes.toolbarButton}
+          href="login"
         >
           Login
         </Button>

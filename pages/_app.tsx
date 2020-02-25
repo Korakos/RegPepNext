@@ -3,6 +3,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import App from 'next/app';
 import Head from 'next/head';
 import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import theme from '../src/theme';
 
 export default class MyApp extends App {

@@ -5,24 +5,47 @@ export const LOC_MEMBERS = [
     name: 'Ruud M. Buijs',
     title: 'Chair, RegPep2020',
     institution: 'UNAM, Mexico',
-    details: 'Ruud`s blurb'
+    details: ''
   },
   {
     key: '2.1',
     avatar: '/lee.png',
     name: 'Lee E. Eiden',
     title: 'ex-officio – Co-Presidents of IRPS',
-    institution: 'NIMH, USA',
-    details:
-      'Lee E. Eiden is the Chief of the Section on Molecular Neuroscience in the National Institute of Mental Health Intramural Research Program of the National Institutes of Health, Bethesda, Maryland. He received his B.A. in Chemistry from Northwestern University in Evanston Illinois, and Ph.D. in Pharmacology from The University of Kansas, and was a Staff Fellow, PRAT Fellow, and Senior Staff Fellow in the NIMH Intramural Research Program before joining the faculty as a Principal Investigator and Chief of the Unit on Cell Biology in 1987, and Chief of the Section on Molecular Neuroscience in 1992. His work at the NIH has focused on stimulus-secretion-synthesis coupling, characterization of the vesicular and secretory proteins mediating chemically coded neurotransmission, including chromogranin A, VMAT1, VMAT2, and VAChT and signaling pathways underlying neuropeptide-mediated stress responses. More recently, the laboratory has been involved in microarray- and bioinformatics-aided gene discovery within neuropeptide-dependent stress-activated cellular signaling pathways in the central nervous system, and has characterized a novel cAMP sensor for neuroendocrine cell-specific GPCR-initiated signaling to the MAP kinase ERK. Dr. Eiden is a member of the editorial boards of Peptides, Cellular and Molecular Neurobiology, and Science Signaling.'
+    institution: '',
+    details: ''
   },
   {
     key: '2.2',
     avatar: '/limei.png',
     name: 'Limei Zhang',
-    title: 'ex-officio – Co-Presidents of IRPS',
-    institution: 'UNAM, Mexico',
+    title: 'Responsible LOC, ex-officio – Co-President of IRPS',
+    institution: '',
     details: 'Limei`s blurb'
+  },
+  {
+    key: '3',
+    avatar: '',
+    name: 'Vito S. Hernandez',
+    title: 'Financial Officer, ex-officio - Treasurer of IRPS',
+    institution: '',
+    details: ''
+  },
+  {
+    key: '4',
+    avatar: '',
+    name: 'Andres Molina T.A.',
+    title: 'Logistics Officer & Webmaster',
+    institution: '',
+    details: ''
+  },
+  {
+    key: '5',
+    avatar: '',
+    name: 'Omar Rangel',
+    title: 'IT Officer',
+    institution: '',
+    details: ''
   }
 ];
 

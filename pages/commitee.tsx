@@ -99,7 +99,7 @@ export default function Commitee() {
             gutterBottom
             className={classes.coloredText}
           >
-            Scientific Advisory Commitee
+            Scientific Program Commitee
           </Typography>
           <List>{members.map(inflateMember)}</List>
         </Box>

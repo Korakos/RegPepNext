@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
 
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme: Theme) =>
       width: '100%'
     },
     centeredImage: {
-      maxWidth: '130%',
+      width: '130%',
       position: 'relative',
       right: '15%',
       WebkitBoxShadow: '0px 5px 15px 0px rgba(0,0,0,0.75)',
@@ -69,11 +70,28 @@ export default function Index() {
             Resort and Conference Center Princess Mundo Imperial
           </Typography>
         </Box>
-        <Box className={classes.fullSize}>
-          <img
-            src="/mundo-imperial-acapulco.jpg"
-            className={classes.centeredImage}
-          />
+        <Box className={classes.centeredImage}>
+          <Carousel showThumbs={false} showStatus={false}>
+            <div className={classes.fullSize}>
+              <img
+                className={classes.fullSize}
+                src="/mundo-imperial-acapulco.jpg"
+              />
+              <p className="legend">RegPep2020 Venue</p>
+            </div>
+            <div className={classes.fullSize}>
+              <img className={classes.fullSize} src="/plennary_carousel.jpg" />
+              <p className="legend">Plennary Keynotes</p>
+            </div>
+            <div className={classes.fullSize}>
+              <img className={classes.fullSize} src="/plennary_symposium.jpg" />
+              <p className="legend">Plennary Symposium</p>
+            </div>
+            <div className={classes.fullSize}>
+              <img className={classes.fullSize} src="/numbers.jpg" />
+              <p className="legend">RegPep2020 by the numbers</p>
+            </div>
+          </Carousel>
         </Box>
         <Box>
           <Typography

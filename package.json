@@ -17,11 +17,14 @@
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
     "clsx": "latest",
+    "js-cookie": "^2.2.1",
     "next": "latest",
+    "next-cookies": "^2.0.3",
     "nodemailer": "^6.4.2",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-responsive-carousel": "^3.1.51"
   },
   "devDependencies": {
     "@types/next": "latest",

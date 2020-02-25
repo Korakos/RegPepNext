@@ -29,13 +29,13 @@ const useStyles = makeStyles((theme: Theme) =>
 const sections = [
   { title: 'Home', url: '/' },
   { title: 'Register Now', url: 'registerNow', highlightedView: true },
-  { title: 'Keynote & Plennary Speakers', url: 'keynote' },
+  { title: 'Plennary Keynote Speakers', url: 'keynote' },
   { title: 'Program', url: 'symposia' },
   { title: 'Participating Committees', url: 'commitee' },
   { title: 'Registration', url: 'registration' },
   { title: 'Abstract Submission', url: 'abstract' },
   { title: 'Venue', url: 'venue' },
-  { title: 'Travel', url: 'travel' },
+  { title: 'Accomodation', url: 'travel' },
   { title: 'Local Attractions', url: 'tours' },
   { title: 'Contact', url: 'contact' }
 ];

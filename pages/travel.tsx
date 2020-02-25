@@ -228,29 +228,6 @@ export default function Travel() {
     <BaseView>
       <Box my={4}>
         <Box>
-          <Box className={classes.paddedBox}>
-            <Typography
-              variant="h2"
-              component="h1"
-              gutterBottom
-              className={classes.coloredText}
-            >
-              Travel
-            </Typography>
-            <Typography
-              variant="h3"
-              component="h1"
-              gutterBottom
-              className={classes.coloredText}
-            >
-              How to get there
-            </Typography>
-            <Typography variant="body1" component="h1" gutterBottom>
-              Fly in to Acapulco international airport... gg easy TODO
-            </Typography>
-          </Box>
-        </Box>
-        <Box>
           <Box className={classes.noBottomPadding}>
             <Typography
               variant="h2"

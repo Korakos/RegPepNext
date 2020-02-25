@@ -15,6 +15,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
           <link
+            rel="stylesheet"
+            href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"
+          />
+          <link
             rel="shortcut icon"
             type="image/x-icon"
             href="/irps_logo_sm.ico"
