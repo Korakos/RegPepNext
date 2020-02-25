@@ -71,7 +71,13 @@ export default function Index() {
           </Typography>
         </Box>
         <Box className={classes.centeredImage}>
-          <Carousel showThumbs={false} showStatus={false}>
+          <Carousel
+            showThumbs={false}
+            showStatus={false}
+            showArrows={true}
+            autoPlay={true}
+            infiniteLoop={true}
+          >
             <div className={classes.fullSize}>
               <img
                 className={classes.fullSize}

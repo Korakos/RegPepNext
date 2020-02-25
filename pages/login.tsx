@@ -1,3 +1,4 @@
+import { Collapse } from '@material-ui/core';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
@@ -33,6 +34,7 @@ export default function LoginView() {
   const [loginMode, setLoginMode] = useState(true);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('');
   const classes = useStyles();
 
   const handleAuthentication = async () => {
@@ -52,7 +54,7 @@ export default function LoginView() {
     } else {
       const gql = `
       mutation CreateAccount($password: String!, $username: String!){
-        createAccount(password: $password, username: $username){
+        createAccount(password: $password, username: $username, email: $email){
           user {
             username
           }
@@ -60,9 +62,14 @@ export default function LoginView() {
       }`;
       const variables = `{
         "password": "${password}",
-        "username": "${username}"
+        "username": "${username}",
+        "email": "${email}"
       }`;
-      const data = await handleGQLRequest(gql, variables, 'error logging in');
+      const data = await handleGQLRequest(
+        gql,
+        variables,
+        'error creating account'
+      );
       console.log(data);
     }
   };
@@ -91,6 +98,21 @@ export default function LoginView() {
               setUsername(event.target.value)
             }
           />
+          <Collapse in={!loginMode}>
+            <TextField
+              variant="outlined"
+              margin="normal"
+              required
+              fullWidth
+              name="email"
+              label="E-mail"
+              id="email"
+              autoComplete="email"
+              onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                setEmail(event.target.value)
+              }
+            />
+          </Collapse>
           <TextField
             variant="outlined"
             margin="normal"
@@ -110,7 +132,6 @@ export default function LoginView() {
             label="Remember me"
           />*/}
           <Button
-            type="submit"
             fullWidth
             variant="contained"
             color="primary"

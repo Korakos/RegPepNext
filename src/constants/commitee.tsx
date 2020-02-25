@@ -25,7 +25,7 @@ export const LOC_MEMBERS = [
   },
   {
     key: '3',
-    avatar: '',
+    avatar: 'vito.png',
     name: 'Vito S. Hernandez',
     title: 'Financial Officer, ex-officio - Treasurer of IRPS',
     institution: '',
@@ -33,7 +33,7 @@ export const LOC_MEMBERS = [
   },
   {
     key: '4',
-    avatar: '',
+    avatar: 'andres.jpg',
     name: 'Andres Molina T.A.',
     title: 'Logistics Officer & Webmaster',
     institution: '',
