@@ -42,7 +42,7 @@ export const LOC_MEMBERS = [
   },
   {
     key: '5',
-    avatar: '',
+    avatar: 'omar.jpg',
     name: 'Omar Rangel',
     title: 'IT Officer',
     institution: '',
