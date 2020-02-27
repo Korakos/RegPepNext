@@ -38,10 +38,11 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.paddedView}
           >
-            Featuring 6 plenary lectures, 1 plenary symposium on “Current Topics
-            of Regultory peptides”, 20 parallel symposia, the RegPep2020 aims to
-            bring together experts and students in all fields of regulatory
-            peptides in systems biology.
+            Featuring 6 plenary lectures, Plennary Session on &quot;Current
+            Topics in Regulatory Peptides&quot;, 20 parallel sessions, dialogue
+            sessions with journal editors-in-chief and eminent pioneers in
+            peptide research, RegPep2020 aims to bring together experts and
+            students in all fields of regulatory peptide systems biology.
           </Typography>
           <Typography
             variant="h5"
@@ -51,25 +52,39 @@ export default function RegisterNow() {
           >
             RegPep2020 is now accepting registration and abstract submission.
           </Typography>
-          <Typography
-            variant="h4"
-            component="h1"
-            gutterBottom
-            color="secondary"
-            className={classes.paddedView}
-          >
-            Abstract submission for contributed talks selection and travel
-            awards: March 30, 2020
-          </Typography>
-          <Typography
-            variant="h4"
-            component="h1"
-            gutterBottom
-            color="secondary"
-            className={classes.paddedView}
-          >
-            Early bird registration: March 30, 2020
-          </Typography>
+          <Box className={classes.paddedView}>
+            <Typography
+              variant="h4"
+              component="h1"
+              gutterBottom
+              color="secondary"
+            >
+              Abstract submission for contributed talks selection and travel
+              awards*: March 30, 2020
+            </Typography>
+            <Typography variant="body1" component="h1" gutterBottom>
+              * Travel awards include free accommodations and competition for
+              special prizes conferred by Distinguished Members, and recognizing
+              research excellence.
+            </Typography>
+          </Box>
+          <Box className={classes.paddedView}>
+            <Typography
+              variant="h4"
+              component="h1"
+              gutterBottom
+              color="secondary"
+            >
+              Early bird registration**: March 30, 2020
+            </Typography>
+            <Typography variant="body1" component="h1" gutterBottom>
+              ** Registration fee include: Abstract submission; Welcome
+              reception; Name badge; Printed program and abstract book of
+              RegPep2020; Participation in all scientific sessions; Access code
+              for video streaming of all conference sessions during the meeting
+              and for three weeks following RegPep2020; Three lunches.
+            </Typography>
+          </Box>
           <Button variant="contained" color="primary">
             Register Now
           </Button>

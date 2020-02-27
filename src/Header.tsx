@@ -1,3 +1,4 @@
+import { Paper } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
@@ -29,7 +30,8 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     toolbarLink: {
       padding: theme.spacing(1),
-      flexShrink: 0
+      flexShrink: 1,
+      backgroundColor: 'white'
     }
   })
 );
@@ -75,19 +77,28 @@ export default function Header(props: { sections: any; title: any }) {
           (section: {
             title: string | undefined;
             url: string | undefined;
-            highlightedView: string | undefined;
-          }) => (
-            <Link
-              color={section.highlightedView ? 'primary' : 'inherit'}
-              noWrap
-              key={section.title}
-              variant="h6"
-              href={section.url}
-              className={classes.toolbarLink}
-            >
-              {section.highlightedView ? <b>{section.title}</b> : section.title}
-            </Link>
-          )
+            highlightedView: boolean | undefined;
+            selected: boolean | undefined;
+            disabled: boolean | undefined;
+          }) => {
+            if (section.disabled) return;
+            return (
+              <Paper
+                key={section.title}
+                elevation={section.selected ? 5 : 0}
+                className={classes.toolbarLink}
+              >
+                <Link
+                  color={section.highlightedView ? 'primary' : 'inherit'}
+                  noWrap
+                  variant="body1"
+                  href={section.url}
+                >
+                  <b>{section.title}</b>
+                </Link>
+              </Paper>
+            );
+          }
         )}
       </Toolbar>
     </React.Fragment>

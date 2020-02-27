@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function Index() {
+export default function Index(): React.ReactElement {
   const classes = useStyles();
   return (
     <BaseView>

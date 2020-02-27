@@ -27,20 +27,28 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const sections = [
-  { title: 'Home', url: '/' },
+  { title: 'Home', url: '/', selected: false },
+  { title: 'Registration', url: 'registration', disabled: true },
+  { title: 'Abstract Submission', url: 'abstract', disabled: true },
   { title: 'Register Now', url: 'registerNow', highlightedView: true },
   { title: 'Plennary Keynote Speakers', url: 'keynote' },
   { title: 'Program', url: 'symposia' },
   { title: 'Participating Committees', url: 'commitee' },
-  { title: 'Registration', url: 'registration' },
-  { title: 'Abstract Submission', url: 'abstract' },
   { title: 'Venue', url: 'venue' },
   { title: 'Accomodation', url: 'travel' },
   { title: 'Local Attractions', url: 'tours' },
   { title: 'Contact', url: 'contact' }
 ];
 
-export default function BaseView(props: { children: React.ReactNode }) {
+export default function BaseView(props: {
+  active?: string;
+  children: React.ReactNode;
+}): React.ReactElement {
+  if (props.active) {
+    sections.filter(
+      section => section.title === props.active
+    )[0].selected = true;
+  }
   const classes = useStyles();
 
   return (

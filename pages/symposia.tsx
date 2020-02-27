@@ -65,7 +65,7 @@ export default function Symposia() {
   const [showDay3, setShowDay3] = useState(true);
   const [showDay4, setShowDay4] = useState(true);
   const [showDay5, setShowDay5] = useState(true);
-  const [openFilter, setOpenFilter] = useState(false);
+  const [openFilter, setOpenFilter] = useState(true);
   const [tempFilter, setTempFilter] = useState('');
   const [searchFilter, setSearchFilter] = useState('');
 
