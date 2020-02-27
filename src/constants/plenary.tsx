@@ -7,7 +7,7 @@ export default [
     name: 'Raúl Martín del Campo',
     avatar: '/delCampo.png',
     description:
-      'Psychologist with a specialization in addition and drug dependence and related crisis situations, Dr. Martín del Campo was the Director General National Programmes against Addictions OMEXTAD, National Commission against Addictions (2012-2013); Director, Instituto Mexiquense contra las Adicciones (IMCA), State of Mexico (2007-2011); Head of Indicator Monitoring Department, National Commission against Addictions of Mexico (2003-2007) and is a elected member of the International Narcotics Control Board (since 2016), of the United Nations.',
+      'A psychologist with a specialization in addiction and drug dependence and related crisis situations, Dr. Martín del Campo was the Director General National Programmes against Addictions OMEXTAD, National Commission against Addictions (2012-2013); Director, Instituto Mexiquense contra las Adicciones (IMCA), State of Mexico (2007-2011); Head of Indicator Monitoring Department, National Commission against Addictions of Mexico (2003-2007) and is an elected member of the International Narcotics Control Board (since 2016), of the United Nations.',
     institution:
       'The International Narcotics Control Board-INCB, United Nations'
   },
@@ -15,7 +15,7 @@ export default [
     key: '2',
     event: 'Plenary Lecture I',
     title: 'Neural circuits linking stress, anxiety and motivation',
-    name: 'Camen Sandi',
+    name: 'Carmen Sandi',
     avatar: '/sandi.jpg',
     description: `Professor Sandi directs the Laboratory of Behavioral Genetics at EPFL's Brain Mind Institute. Her research focuses on three main areas: The neurobiological mechanisms involved in the formation of social hierarchies and their modulation by stress and anxiety. The mechanisms through which early-life stress promotes the risk of psychopathologies, with a main focus on the emergence of pathological aggression. The mechanisms linking altered neuroplasticity during development and pathological aggression. Professor Sandi was the director of the Brain and Mind Institute for 7 years and is the current President of the European Federation of Neuroscience Societies.`,
     institution:
@@ -50,7 +50,7 @@ export default [
       'How does a single neuropeptide elicit pleiotropic behavioral and metabolic effects? Oxytocin as an example',
     name: 'Valery Grinevich',
     avatar: '/valery.jpg',
-    description: `Dr. Grinevich is currenly the Chair of the  Department of Neuropeptide Research for Psychiatry, Central Institute of Mental Health (CIMH-ZI), Medical Faculty Mannheim, Heidelberg University. His research is focused on the exploration of the functional connectivity of hypothalamic neurons and manipulate  axonal neuropeptide release within the rodent forebrain by viral, optogenetic,  pharmacogenetic, electrophysiological, behavioral and fMRI means. Besides, his group evaluates the role of select genes in hypothalamic neurons controlling stress response, metabolism and reproduction.`,
+    description: `Dr. Grinevich is currenly the Chair of the  Department of Neuropeptide Research for Psychiatry, Central Institute of Mental Health (CIMH-ZI), Medical Faculty Mannheim, Heidelberg University. His research is focused on the exploration of the functional connectivity of hypothalamic neurons and manipulation of  axonal neuropeptide release within the rodent forebrain by viral, optogenetic,  pharmacogenetic, electrophysiological, behavioral and fMRI means. Besides, his group evaluates the role of select genes in hypothalamic neurons controlling stress response, metabolism and reproduction.`,
     institution: 'University of Heidelberg, Germany'
   },
   {
@@ -59,7 +59,7 @@ export default [
     title: 'A gut sense for calories',
     name: 'Diego Bohorquez',
     avatar: '/diego.png',
-    description: `Dr. Diego Bohorquez is a principal investigator of the Duke University, School of Medicine. His research focuses on the connections between two seemingly isolated systems: the gut and the brain.`,
+    description: `Dr. Diego Bohorquez is a principal investigator of the Duke University, School of Medicine. His research focuses on the connections between two seemingly isolated systems: the gut and the brain. Dr. Bohorquez’ work has opened up, using modern neuroanatomical techniques in vivo, the neuronal connections between these two major organs that allow their precise communication in feeding, satiety, and monitoring and regulation of nutrient onboarding in mammals.`,
     institution: 'Duke University, USA, sponsored by JNE/BSN'
   }
 ];

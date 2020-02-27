@@ -1,5 +1,4 @@
 import { Paper } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
 import Link from '@material-ui/core/Link';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -43,9 +42,9 @@ export default function Header(props: { sections: any; title: any }) {
   return (
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
-        <Button size="medium" className={classes.toolbarButton}>
+        {/*<Button size="medium" className={classes.toolbarButton}>
           Newsletter
-        </Button>
+        </Button>*/}
         <Typography
           component="h2"
           variant="h5"
@@ -58,7 +57,7 @@ export default function Header(props: { sections: any; title: any }) {
         </Typography>
         {/*<IconButton>
           <SearchIcon />
-        </IconButton>*/}
+        </IconButton>
         <Button
           variant="outlined"
           size="medium"
@@ -66,7 +65,7 @@ export default function Header(props: { sections: any; title: any }) {
           href="login"
         >
           Login
-        </Button>
+        </Button>*/}
       </Toolbar>
       <Toolbar
         component="nav"

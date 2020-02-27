@@ -31,11 +31,11 @@ const sections = [
   { title: 'Registration', url: 'registration', disabled: true },
   { title: 'Abstract Submission', url: 'abstract', disabled: true },
   { title: 'Register Now', url: 'registerNow', highlightedView: true },
-  { title: 'Plennary Keynote Speakers', url: 'keynote' },
+  { title: 'Plenary Keynote Speakers', url: 'keynote' },
   { title: 'Program', url: 'symposia' },
   { title: 'Participating Committees', url: 'commitee' },
   { title: 'Venue', url: 'venue' },
-  { title: 'Accomodation', url: 'travel' },
+  { title: 'Accommodations', url: 'travel' },
   { title: 'Local Attractions', url: 'tours' },
   { title: 'Contact', url: 'contact' }
 ];

@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import React, { useState } from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
-import PLENNARY_SPEAKERS from '../src/constants/plennary';
+import PLENNARY_SPEAKERS from '../src/constants/plenary';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -94,11 +94,11 @@ export default function Keynote() {
             }
             secondary={
               <React.Fragment>
-                <Typography component="span" variant="body1">
+                <Typography component="span" variant="h5">
                   {title}
                   <br />
                 </Typography>
-                <Typography component="span" variant="body2">
+                <Typography component="span" variant="body1">
                   {institution}
                 </Typography>
               </React.Fragment>
@@ -127,7 +127,7 @@ export default function Keynote() {
             gutterBottom
             className={classes.coloredText}
           >
-            Keynote & Plennary Speakers
+            Keynote & Plenary Speakers
           </Typography>
           <List>{speakers.map(inflateSpeaker)}</List>
         </Box>

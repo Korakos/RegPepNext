@@ -1,3 +1,4 @@
+import { Link } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
@@ -86,12 +87,12 @@ export default function Index(): React.ReactElement {
               <p className="legend">RegPep2020 Venue</p>
             </div>
             <div className={classes.fullSize}>
-              <img className={classes.fullSize} src="/plennary_carousel.jpg" />
-              <p className="legend">Plennary Keynotes</p>
+              <img className={classes.fullSize} src="/plenary_carousel.jpg" />
+              <p className="legend">Plenary Keynotes</p>
             </div>
             <div className={classes.fullSize}>
-              <img className={classes.fullSize} src="/plennary_symposium.jpg" />
-              <p className="legend">Plennary Symposium</p>
+              <img className={classes.fullSize} src="/plenary_symposium.jpg" />
+              <p className="legend">Plenary Symposium</p>
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/numbers.jpg" />
@@ -108,6 +109,10 @@ export default function Index(): React.ReactElement {
             <b className={classes.coloredText}>
               The International Symposium on Regulatory Peptides (RegPep)
             </b>{' '}
+            under the auspice of the{' '}
+            <Link href="http://regpep.org">
+              International Regulatory Society
+            </Link>{' '}
             has been held every two years in various countries all over the
             world, starting in Asilomar (USA, 1976).
           </Typography>
@@ -128,14 +133,14 @@ export default function Index(): React.ReactElement {
             component="h1"
             className={classes.paddedView}
           >
-            RegPep biennial meetings have been unique venues for basic and
-            clinician scientists studying the physiology and pathophysiology of
-            peptide actions, integrated from a brain-body-behavior perspective
-            in health and disease. In addition, each RegPep conference aims to
-            recognize outstanding contributions to peptide regulation in systems
-            biology, to support diversity and under-represented groups, to
-            promote best practices in the biomedical sciences, and to provide
-            networking and mentoring opportunities.
+            RegPep biennial meetings are unique venues for basic and clinician
+            scientists studying the physiology and pathophysiology of peptide
+            actions, integrated from a brain-body-behavior perspective in health
+            and disease. In addition, each RegPep conference aims to recognize
+            outstanding contributions to peptide regulation in systems biology,
+            to support diversity and under-represented groups, to promote best
+            practices in the biomedical sciences, and to provide networking and
+            mentoring opportunities.
           </Typography>
           <Typography
             variant="body1"
@@ -161,7 +166,11 @@ export default function Index(): React.ReactElement {
           </Box>
         </Box>
         <Box className={classes.paddedView}>
-          <Button variant="contained" color="primary" href="registration">
+          <Button
+            variant="contained"
+            color="primary"
+            href="http://www.regpep.org/international-regulatory-peptide-society/regpep-2020/"
+          >
             Registration
           </Button>
         </Box>

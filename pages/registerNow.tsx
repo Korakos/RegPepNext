@@ -38,10 +38,10 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.paddedView}
           >
-            Featuring 6 plenary lectures, Plennary Session on &quot;Current
+            Featuring 6 keynote lectures, Plenary session on &quot;Current
             Topics in Regulatory Peptides&quot;, 20 parallel sessions, dialogue
-            sessions with journal editors-in-chief and eminent pioneers in
-            peptide research, RegPep2020 aims to bring together experts and
+            sessions with journal editors-in-chief/editors and eminent pioneers
+            in peptide research, RegPep2020 aims to bring together experts and
             students in all fields of regulatory peptide systems biology.
           </Typography>
           <Typography
@@ -78,14 +78,18 @@ export default function RegisterNow() {
               Early bird registration**: March 30, 2020
             </Typography>
             <Typography variant="body1" component="h1" gutterBottom>
-              ** Registration fee include: Abstract submission; Welcome
-              reception; Name badge; Printed program and abstract book of
-              RegPep2020; Participation in all scientific sessions; Access code
+              ** Registration fee include: abstract submission; welcome
+              reception; name badge; printed program and abstract book of
+              RegPep2020; participation in all scientific sessions; access code
               for video streaming of all conference sessions during the meeting
-              and for three weeks following RegPep2020; Three lunches.
+              and for three weeks following RegPep2020; three lunches.
             </Typography>
           </Box>
-          <Button variant="contained" color="primary">
+          <Button
+            variant="contained"
+            color="primary"
+            href="http://www.regpep.org/international-regulatory-peptide-society/regpep-2020/"
+          >
             Register Now
           </Button>
         </Box>
