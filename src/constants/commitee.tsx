@@ -1,22 +1,6 @@
 /* eslint-disable max-len */
 export const LOC_MEMBERS = [
   {
-    key: '1',
-    avatar: '/buijs1.jpg',
-    name: 'Ruud M. Buijs',
-    title: 'Chair, RegPep2020',
-    institution: 'UNAM, Mexico',
-    details: ''
-  },
-  {
-    key: '2.1',
-    avatar: '/lee.png',
-    name: 'Lee E. Eiden',
-    title: 'ex-officio – Co-Presidents of IRPS',
-    institution: '',
-    details: ''
-  },
-  {
     key: '2.2',
     avatar: '/limei.png',
     name: 'Limei Zhang',
@@ -45,6 +29,22 @@ export const LOC_MEMBERS = [
     avatar: 'omar.jpg',
     name: 'Omar Rangel',
     title: 'IT Officer',
+    institution: '',
+    details: ''
+  },
+  {
+    key: '1',
+    avatar: '/buijs1.jpg',
+    name: 'Ruud M. Buijs',
+    title: 'Chair, RegPep2020',
+    institution: 'UNAM, Mexico',
+    details: ''
+  },
+  {
+    key: '2.1',
+    avatar: '/lee.png',
+    name: 'Lee E. Eiden',
+    title: 'ex-officio – Co-Presidents of IRPS',
     institution: '',
     details: ''
   }
