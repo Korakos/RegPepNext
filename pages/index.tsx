@@ -88,7 +88,7 @@ export default function Index(): React.ReactElement {
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/plenary_carousel.jpg" />
-              <p className="legend">Plenary Keynotes</p>
+              <p className="legend">Keynote Speakers</p>
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/plenary_symposium.jpg" />

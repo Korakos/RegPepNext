@@ -17,6 +17,11 @@ const theme = createMuiTheme({
       default: '#fff',
       paper: '#f5f5f5'
     }
+  },
+  typography: {
+    body1: {
+      fontSize: '1.25rem'
+    }
   }
 });
 
