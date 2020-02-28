@@ -7,10 +7,12 @@ export default [
     Location: 'Princesa V',
     eCategory: 'Extended Council meeting',
     eID: undefined,
+    width: 4.0,
     eTitle:
-      'IRPS council, executive body and RegPep2020 Program Committee meeting',
+      'IRPS Council, Executive Body and RegPep2020 Program Committee meeting',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -18,18 +20,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 1,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary Symposium',
     eID: 'PS',
+    width: 4.0,
     eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Gareth',
     lastName: 'Leng',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'Gareth.Leng@ed.ac.uk ',
@@ -37,18 +42,22 @@ export default [
     Country: 'UK',
     Institute: 'Centre for dicovery Brain Sciences,The University of Edinburgh',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      '        \nResearch Theme: Signalling, Homeostasis and Energy Balance   ',
+    Title: 'Prof'
   },
   {
     index: 2,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Plenary Symposium',
+    eID: 'PS',
+    width: 4.0,
+    eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Javier',
     lastName: 'Stern',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Real-time two-photon imaging of the rat hypothalamus in vivo',
     Email: 'jstern@gru.edu',
@@ -56,18 +65,22 @@ export default [
     Country: 'USA',
     Institute: 'Georgia State University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Director of Center for Neuroinflammation and Cardiometabolic Diseases',
+    Title: 'Prof'
   },
   {
     index: 3,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Plenary Symposium',
+    eID: 'PS',
+    width: 4.0,
+    eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Patrick',
     lastName: 'Sexton',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Mechanisms of signalling in G protein-coupled receptors.',
     Email: 'patrick.Sexton@monash.edu',
@@ -75,18 +88,21 @@ export default [
     Country: 'Australia',
     Institute: 'Monash University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Drug Discovery Biology',
+    Title: 'Prof'
   },
   {
     index: 4,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Plenary Symposium',
+    eID: 'PS',
+    width: 4.0,
+    eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Andries',
     lastName: 'Kalsbeek',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Circadian Homeostasis, driven by peptides of the central clock',
     Email: 'a.kalsbeek@nin.knaw.nl',
@@ -94,18 +110,21 @@ export default [
     Country: 'Netherlands',
     Institute: 'The Netherlands Institute for Neuroscience',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Department fo Endocrinology and Metabolism',
+    Title: 'Prof'
   },
   {
     index: 5,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Location: 'Atlantes Amptheater',
+    eCategory: 'Plenary Symposium',
+    eID: 'PS',
+    width: 4.0,
+    eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Peng',
     lastName: 'Li',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'The peptidergic control circuit for sighing',
     Email: 'penglium@umich.edu ',
@@ -113,18 +132,21 @@ export default [
     Country: 'USA',
     Institute: 'The University of Michigan',
     professionalRole: 'Assistant Professor',
-    Observation: undefined
+    Observation: 'Department of Molecular and Integrative Physiology',
+    Title: 'Dr'
   },
   {
     index: 6,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Plenary Symposium',
+    eID: 'PS',
+    width: 4.0,
+    eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Luis',
     lastName: 'De Lecea',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Optogenetic control of neuromodulatory circuits in brain states',
@@ -133,47 +155,55 @@ export default [
     Country: 'USA',
     Institute: 'Stanford University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Psych/Major Laboratories and Clinical & Translational Neurosciences Incubator',
+    Title: 'Prof'
   },
   {
     index: 7,
     Day: '9.18',
     Time: '14:00 - 17:00',
-    Location: 'Atlantes Anfitreater',
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Plenary Symposium',
+    eID: 'PS',
+    width: 4.0,
+    eTitle: 'Current topics in regulatory peptide research',
     firstName: 'Marisela',
     lastName: 'Morales',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Fast and slow co-transmission in the modulatory system',
     Email: 'mmorales@intra.nida.nih.gov',
-    state: 'Baltimore',
+    state: 'Beltimore',
     Country: 'USA',
     Institute: 'NIDA-IRP, NIH',
-    professionalRole: 'Brand chief',
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Integrative Neuroscience Research Branch & Neuronal Networks Section',
+    Title: 'Dr'
   },
   {
     index: 8,
     Day: '9.18',
     Time: '17:00 - 19:00',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Opening Ceremony',
     eID: undefined,
+    width: 4.0,
     eTitle: 'Lay Lecture',
     firstName: 'Ra\u00fal',
     lastName: 'Mart\u00edn del Campo',
+    'Unnamed: 10': 'M',
     Role: 'speaker',
     talkTitle:
       'Opioids from an international policy point of view: from their \tavailability to the prevention of their abuse',
     Email: 'aulmc.incb@gmail.com ',
     state: 'Mexico',
     Country: 'Mexico',
-    Institute:
-      'The International Narcotics Control Board-INCB, United Nations and National Comission against Addiction',
+    Institute: 'The International Narcotics Control Board-INCB, United Nations',
     professionalRole: 'Director General',
-    Observation: undefined
+    Observation: undefined,
+    Title: 'Dr'
   },
   {
     index: 9,
@@ -182,9 +212,11 @@ export default [
     Location: 'Ocean hall/Pool area',
     eCategory: 'Welcome Reception',
     eID: undefined,
+    width: 4.0,
     eTitle: undefined,
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -192,18 +224,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 11,
     Day: '9.19',
     Time: '8:30 - 9:30',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary',
     eID: 'PL2',
+    width: 4.0,
     eTitle: 'Plenary lecture 1',
     firstName: 'Carmen',
     lastName: 'Sandi',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Neural circuits linking stress, anxiety and motivation',
     Email: 'carmen.sandi@epfl.ch',
@@ -211,19 +246,22 @@ export default [
     Country: 'Switzerland',
     Institute:
       'Brain and Mind Institute Swiss Federal Institute of Technology Lausanne (EPFL) and Federation of European Neuroscience Societies',
-    professionalRole: 'Director and Presidente',
-    Observation: undefined
+    professionalRole: 'Professor/Co-Director/ FENS President',
+    Observation: 'Life Sciences Engineering/Behavioral Genetics Laboratory',
+    Title: 'Prof'
   },
   {
     index: 12,
     Day: '9.19',
     Time: '9:45 - 10:45',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Datablitz presentation',
     eID: undefined,
+    width: 4.0,
     eTitle: 'Selected poster presentaters - travel awardees',
     firstName: 'Ruud',
     lastName: 'Buijs',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: 'Chair of RegPep2020',
     Email: 'ruudbuijs@gmail.com',
@@ -231,7 +269,8 @@ export default [
     Country: 'Mexico',
     Institute: 'Instituto de Investigaciones Biom\u00e9dicas, UNAM',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Departamento de Biolog\u00eda Celular y Fisiolog\u00eda',
+    Title: 'Prof'
   },
   {
     index: 13,
@@ -240,9 +279,11 @@ export default [
     Location: 'Princesa Rooms',
     eCategory: 'Concurent Symposia (CS)',
     eID: 'CS1',
+    width: 4.0,
     eTitle: 'Block 1',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -250,7 +291,8 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 14,
@@ -259,9 +301,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 1',
     eID: '1-A',
+    width: 4.0,
     eTitle: 'Oxytocin in energy balance ',
     firstName: 'Pawel',
     lastName: 'Olszewski',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'pawel@waikato.ac.nz',
@@ -269,7 +313,8 @@ export default [
     Country: 'New Zealand',
     Institute: 'Waikato University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Science & Engineering (Physiology)',
+    Title: 'Prof'
   },
   {
     index: 15,
@@ -277,10 +322,12 @@ export default [
     Time: '11:00 - 13:00',
     Location: 'Princesa I',
     eCategory: 'CS block 1',
-    eID: undefined,
-    eTitle: ' ',
+    eID: '1-A',
+    width: 4.0,
+    eTitle: 'Oxytocin in energy balance ',
     firstName: 'James',
-    lastName: 'Blevings',
+    lastName: 'Blevins',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'jeblevin@uw.edu',
@@ -288,7 +335,8 @@ export default [
     Country: 'USA',
     Institute: 'University of Washington',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Division of Metabolism, Endocrinology and Nutrition',
+    Title: 'Prof'
   },
   {
     index: 16,
@@ -297,9 +345,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 1',
     eID: '1-A-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Oxytocin in energy balance ',
     firstName: 'Pawel',
     lastName: 'Olszewski',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Oxytocin as a pharmacological tool to regulate meal size',
     Email: 'pawel@waikato.ac.nz',
@@ -307,7 +357,8 @@ export default [
     Country: 'New Zealand',
     Institute: 'Waikato University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Science & Engineering (Physiology)',
+    Title: 'Prof'
   },
   {
     index: 17,
@@ -316,9 +367,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 1',
     eID: '1-A-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Oxytocin in energy balance ',
     firstName: 'Margarita',
     lastName: 'Curras-Collazo',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Dysregulation of hypothalamic gene expression and the oxytocin system by diabetogenic soybean oil diets in mice',
@@ -327,7 +380,8 @@ export default [
     Country: 'USA',
     Institute: 'UC Riverside',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Science Department',
+    Title: 'Prof'
   },
   {
     index: 18,
@@ -336,9 +390,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 1',
     eID: '1-A-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Oxytocin in energy balance ',
     firstName: 'Emily',
     lastName: 'Noble',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Central oxytocin in social and reward-based feeding',
     Email: 'Emily.Noble@uga.edu',
@@ -346,7 +402,8 @@ export default [
     Country: 'USA',
     Institute: 'University of Georgia',
     professionalRole: 'Assistent Professor',
-    Observation: undefined
+    Observation: 'Food & Nutrition department',
+    Title: 'Dr'
   },
   {
     index: 19,
@@ -355,9 +412,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 1',
     eID: '1-A-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Oxytocin in energy balance ',
     firstName: 'James',
-    lastName: 'Blevings',
+    lastName: 'Blevins',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Use of oxytocin as a therapeutic strategy to treat obesity in diet-induced obese rodents and nonhuman primates',
@@ -366,7 +425,8 @@ export default [
     Country: 'USA',
     Institute: 'University of Washington',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Division of Metabolism, Endocrinology and Nutrition',
+    Title: 'Prof'
   },
   {
     index: 20,
@@ -375,10 +435,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 1',
     eID: '1-B',
+    width: 4.0,
     eTitle:
       'The effect of exogenous neuropeptides on central signaling and behavior',
     firstName: 'Mary',
     lastName: 'Lee',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'leemary@mail.nih.gov',
@@ -386,7 +448,8 @@ export default [
     Country: 'USA',
     Institute: 'NIAAA',
     professionalRole: 'Researcher',
-    Observation: undefined
+    Observation: 'Molecular Biology and Bichemestry',
+    Title: 'Dr'
   },
   {
     index: 21,
@@ -395,9 +458,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 1',
     eID: '1-B-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The effect of exogenous neuropeptides on central signaling and behavior',
     firstName: 'Mary',
     lastName: 'Lee',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Evidence of central signaling after systemic administration of oxytocin',
@@ -406,7 +472,8 @@ export default [
     Country: 'USA',
     Institute: 'NIAAA',
     professionalRole: 'Researcher',
-    Observation: undefined
+    Observation: 'Molecular Biology and Bichemestry',
+    Title: 'Dr'
   },
   {
     index: 22,
@@ -415,18 +482,22 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 1',
     eID: '1-B-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The effect of exogenous neuropeptides on central signaling and behavior',
     firstName: 'Nina',
-    lastName: 'Mash',
+    lastName: 'Marsh',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'The role of oxytocin in modulating empathic altruism within and between social groups',
-    Email: 'ninamarsh@me.com',
+    Email: 'n.marsh@gmx.de',
     state: 'Bad Zwischenahn',
     Country: 'Germany',
     Institute: 'Car von Ossietzky University Oldenburg ',
     professionalRole: 'Young investigator',
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 23,
@@ -435,9 +506,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 1',
     eID: '1-B-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The effect of exogenous neuropeptides on central signaling and behavior',
     firstName: 'Rene',
     lastName: 'Hurlemann ',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'A novel therapeutic target for anxiety and posttraumatic stress disorders',
@@ -446,7 +520,9 @@ export default [
     Country: 'Germany',
     Institute: 'Car von Ossietzky University Oldenburg ',
     professionalRole: 'Professor',
-    Observation: 'Chairing the RegPep2022'
+    Observation:
+      'Stv. Direktor, Klinik & Poliklinik f\u00far Psichiatrie & Psychoterpire, Universit\u00e4tklinik Boon',
+    Title: 'Prof.'
   },
   {
     index: 24,
@@ -455,9 +531,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 1',
     eID: '1-B-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The effect of exogenous neuropeptides on central signaling and behavior',
     firstName: 'Andreas',
     lastName: 'Schatzlein',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Molecular envelope technology (MET) for the delivery of therapeutic peptides to the brain',
@@ -466,7 +545,8 @@ export default [
     Country: 'UK',
     Institute: 'School of Pharmarcy, UCL',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'UCL School of Pharmacy, Pharma & Bio Chemestry',
+    Title: 'Prof.'
   },
   {
     index: 25,
@@ -475,10 +555,12 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 1',
     eID: '1-C',
+    width: 4.0,
     eTitle:
       'Neuroanatomy of brain peptidergic circuits: contribution to cognition and behavior',
     firstName: 'Limei',
     lastName: 'Zhang',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'limei@unam.mx',
@@ -486,7 +568,8 @@ export default [
     Country: 'Mexico',
     Institute: 'School of Medicine, UNAM',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Departamento de Fisiolog\u00eda, Facultad de Medicina, UNAM',
+    Title: 'Prof'
   },
   {
     index: 26,
@@ -495,9 +578,12 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 1',
     eID: '1-C-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Neuroanatomy of brain peptidergic circuits: contribution to cognition and behavior',
     firstName: 'Lee E.',
     lastName: 'Eiden',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'VGLUT-VGAT co-expression in PACAP/PAC1 signaling delineates multisensory-cognitive-locomotor controlling circuits',
@@ -506,7 +592,9 @@ export default [
     Country: 'USA',
     Institute: 'SMN, NIMH, NIH',
     professionalRole: 'Section Chief',
-    Observation: undefined
+    Observation:
+      'Department of Health and Human Services. Section on Molecular Neuroscience',
+    Title: 'Prof'
   },
   {
     index: 27,
@@ -515,9 +603,12 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 1',
     eID: '1-C-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Neuroanatomy of brain peptidergic circuits: contribution to cognition and behavior',
     firstName: 'Limei',
     lastName: 'Zhang',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Hindbrain to extended amygdala HiFi circuits modulate medial and lateral preoptic hypothalamus for defensive locomotion',
@@ -526,7 +617,8 @@ export default [
     Country: 'Mexico',
     Institute: 'School of Medicine, UNAM',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Departamento de Fisiolog\u00eda, Facultad de Medicina, UNAM',
+    Title: 'Prof'
   },
   {
     index: 28,
@@ -535,9 +627,12 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 1',
     eID: '1-C-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Neuroanatomy of brain peptidergic circuits: contribution to cognition and behavior',
     firstName: 'Nicholas ',
     lastName: 'Betley',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Peptidergic signaling in a hypothalamic to hindbrain circuit prioritizes hunger over pain',
@@ -546,7 +641,8 @@ export default [
     Country: 'USA',
     Institute: 'Department of Biology, UPenn',
     professionalRole: 'Assistent Professor',
-    Observation: undefined
+    Observation: 'Department Of Biology ',
+    Title: 'Dr'
   },
   {
     index: 29,
@@ -555,9 +651,12 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 1',
     eID: '1-C-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Neuroanatomy of brain peptidergic circuits: contribution to cognition and behavior',
     firstName: 'Peter ',
     lastName: 'Duncan',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Corticotroph plasticity in stress: at the brain-endocrine  interface',
@@ -565,8 +664,9 @@ export default [
     state: 'Edinburgh',
     Country: 'UK',
     Institute: 'Centre for dicovery Brain Sciences,The University of Edinburgh',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Young investigator/postdocral',
+    Observation: undefined,
+    Title: 'Dr'
   },
   {
     index: 30,
@@ -575,9 +675,12 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 1',
     eID: '1-C-5',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Neuroanatomy of brain peptidergic circuits: contribution to cognition and behavior',
     firstName: 'Rosie',
     lastName: 'Brown',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Prolactin action in the medial preoptic area is necessary for postpartum maternal nursing behavior',
@@ -586,7 +689,8 @@ export default [
     Country: 'UK',
     Institute: 'University of Otago',
     professionalRole: 'Young investigator',
-    Observation: undefined
+    Observation: undefined,
+    Title: 'Dr'
   },
   {
     index: 31,
@@ -595,9 +699,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 1',
     eID: '1-D',
+    width: 4.0,
     eTitle: 'Chromogranins and vascular, immune, and metabolic regulation',
     firstName: 'Sushil',
     lastName: 'Mahata',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'smahata@ucsd.edu ',
@@ -605,7 +711,8 @@ export default [
     Country: 'USA',
     Institute: 'UCSU',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Division of Nephrology/Hypertension',
+    Title: 'Prof'
   },
   {
     index: 32,
@@ -614,9 +721,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 1',
     eID: '1-D-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Chromogranins and vascular, immune, and metabolic regulation',
     firstName: 'Sushil',
     lastName: 'Mahata',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Regulation of immunometabolism by catestatin',
     Email: 'smahata@ucsd.edu ',
@@ -624,7 +733,8 @@ export default [
     Country: 'USA',
     Institute: 'UCSU',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Division of Nephrology/Hypertension',
+    Title: 'Prof'
   },
   {
     index: 33,
@@ -633,9 +743,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 1',
     eID: '1-D-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Chromogranins and vascular, immune, and metabolic regulation',
     firstName: 'Ricardo',
     lastName: 'Borges',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Chromogranins as the main actor in the accumulation of amines in secretory vesicles',
@@ -643,8 +755,9 @@ export default [
     state: 'Tenerife',
     Country: 'Spain',
     Institute: 'University of La Laguna.',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Department of Physical Medicineand Pharmacology',
+    Title: 'Prof'
   },
   {
     index: 34,
@@ -653,17 +766,20 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 1',
     eID: '1-D-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Chromogranins and vascular, immune, and metabolic regulation',
     firstName: 'Bhavani Shankar',
     lastName: 'Sahu',
-    Role: 'SPeaker',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
     talkTitle: 'Regulation of immunometabolism by catestatin.',
     Email: 'bhavanisahubioips@gmail.com',
     state: 'New Delhi',
     Country: 'India',
     Institute: 'National Brain Research Centre',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Scientist',
+    Observation: undefined,
+    Title: 'Dr'
   },
   {
     index: 35,
@@ -672,9 +788,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 1',
     eID: '1-D-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Chromogranins and vascular, immune, and metabolic regulation',
     firstName: 'Geert van den',
     lastName: 'Boogaart',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Chromogranin A and its cleavage product Catestatin control gut immune homeostasis and microbial composition',
@@ -683,8 +801,10 @@ export default [
     Country: 'Netherlands',
     Institute:
       'Groningen Biomolecular Sciences and Biotechnology Institute (GBB)',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation:
+      'Faculty of Science & Engeeniering, Molecular Immunology & Microbiology',
+    Title: 'Prof'
   },
   {
     index: 37,
@@ -693,9 +813,11 @@ export default [
     Location: 'Princesa Foyer',
     eCategory: 'Lunch and Poster presentation ',
     eID: 'L-PP-1',
+    width: 4.0,
     eTitle: 'Lunch and Poster presentation (1st of 3 sessions)',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -703,7 +825,8 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 38,
@@ -712,9 +835,11 @@ export default [
     Location: 'Princesa Rooms',
     eCategory: 'Concurent Symposia (CS)',
     eID: 'CS2',
+    width: 4.0,
     eTitle: 'Block 2',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -722,7 +847,8 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 39,
@@ -731,9 +857,11 @@ export default [
     Location: 'Princesa Rooms',
     eCategory: 'CS block 2',
     eID: '2-A',
+    width: 4.0,
     eTitle: 'Peptides at the intersection of emotion and eating',
     firstName: 'Ki',
     lastName: 'Goosens',
+    'Unnamed: 10': 'F',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'ki.goosens@mssm.edu>',
@@ -741,7 +869,8 @@ export default [
     Country: 'USA',
     Institute: 'Icahn School of Medicine at Mount Sinai',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Psychiatry\nNeuroscience',
+    Title: 'Prof'
   },
   {
     index: 40,
@@ -750,17 +879,20 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 2',
     eID: '2-A',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides at the intersection of emotion and eating',
     firstName: 'Alfonso',
     lastName: 'Abizaid',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'alfonso.abizaidbucio@carleton.ca',
     state: 'Ottawa',
     Country: 'Canada',
     Institute: 'Carleton University',
-    professionalRole: 'professor',
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Department of Neuroscience',
+    Title: 'Prof'
   },
   {
     index: 41,
@@ -769,9 +901,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 2',
     eID: '2-A-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides at the intersection of emotion and eating',
     firstName: 'Scott',
     lastName: 'Kanoski',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'The role of melanin-concentrating hormone on appetitive processes',
@@ -779,8 +913,9 @@ export default [
     state: 'California',
     Country: 'USA',
     Institute: 'USC',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Associate Professor',
+    Observation: 'Department of Biological Science',
+    Title: 'Prof'
   },
   {
     index: 42,
@@ -789,9 +924,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 2',
     eID: '2-A-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides at the intersection of emotion and eating',
     firstName: 'Michelle',
     lastName: 'Chee',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Conditional deletion of melanin-concentrating hormone receptor 1 from GABAergic neurons increases locomotor activity',
@@ -799,8 +936,9 @@ export default [
     state: undefined,
     Country: undefined,
     Institute: undefined,
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Postdoc',
+    Observation: undefined,
+    Title: 'Dr'
   },
   {
     index: 43,
@@ -809,9 +947,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 2',
     eID: '2-A-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides at the intersection of emotion and eating',
     firstName: 'Thomas',
     lastName: 'Kash',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Nociceptin in binge eating and reward: Central Amygdala Prepronociceptin-Expressing Neurons Mediate Palatable Food Consumption and Reward',
@@ -819,8 +959,9 @@ export default [
     state: 'North Carolina',
     Country: 'USA',
     Institute: 'University of North Carolina',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'School of Medicine \nPharmacology',
+    Title: 'Prof'
   },
   {
     index: 44,
@@ -829,17 +970,20 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 2',
     eID: '2-A-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides at the intersection of emotion and eating',
     firstName: 'Carrie',
     lastName: 'Ferrario',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'The role of insulin in reward',
     Email: 'ferrario@umich.edu',
     state: 'Ann Arbor',
     Country: 'USA',
-    Institute: 'Dept. Pharmacology, University of Michigan',
+    Institute: ' University of Michigan',
     professionalRole: 'Associate Professor',
-    Observation: undefined
+    Observation: 'Department of Pharmacology',
+    Title: 'Prof'
   },
   {
     index: 45,
@@ -848,18 +992,22 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 2',
     eID: '2-B',
+    width: 4.0,
     eTitle:
       'Limbic neuropeptide modulators of emotion: implications for fear, anxiety, and appetitive behaviors',
     firstName: 'Joanna',
     lastName: 'Dabrowska',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: undefined,
     Email: ' joanna.dabrowska@rosalindfranklin.edu',
     state: 'Chicago',
     Country: 'USA',
     Institute: 'Rosalind Franklin University of Medicine and Science,',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Associate Professor',
+    Observation:
+      'Center of Neurobiology of Stress Resilience  and Psychiatry Disorders',
+    Title: 'Prof'
   },
   {
     index: 46,
@@ -868,9 +1016,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 2',
     eID: '2-B-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Limbic neuropeptide modulators of emotion: implications for fear, anxiety, and appetitive behaviors',
     firstName: 'Joanna',
     lastName: 'Dabrowska',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Oxytocin receptor transmission facilitates fear memory to predictable threats by inhibiting output neurons of the bed nucleus of the stria terminalis (BNST).',
@@ -878,8 +1029,10 @@ export default [
     state: 'Chicago',
     Country: 'USA',
     Institute: 'Rosalind Franklin University of Medicine and Science,',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Associate Professor',
+    Observation:
+      'Center of Neurobiology of Stress Resilience  and Psychiatry Disorders',
+    Title: 'Prof'
   },
   {
     index: 47,
@@ -888,9 +1041,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 2',
     eID: '2-B-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Limbic neuropeptide modulators of emotion: implications for fear, anxiety, and appetitive behaviors',
     firstName: 'Paul J',
     lastName: 'Marvar',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'A role for angiotensin II in emotional flexibility and fear-based disorders',
@@ -898,8 +1054,9 @@ export default [
     state: 'Washington DC',
     Country: 'USA',
     Institute: 'George Washington University,',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation: 'Department of Pharmacology and Physiology',
+    Title: 'Dr'
   },
   {
     index: 48,
@@ -908,9 +1065,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 2',
     eID: '2-B-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Limbic neuropeptide modulators of emotion: implications for fear, anxiety, and appetitive behaviors',
     firstName: 'Raul Andero',
     lastName: 'Gali',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'A drug targeting the peptide Neurokinin B receptor with sex-opposite effects in memory',
@@ -918,8 +1078,9 @@ export default [
     state: 'Barcelona',
     Country: 'Spain',
     Institute: 'Autonomous University of Barcelona',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Researcher',
+    Observation: 'Department of Psychiatry and Behavioral Science',
+    Title: 'Dr'
   },
   {
     index: 49,
@@ -928,17 +1089,21 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 2',
     eID: '2-B-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Limbic neuropeptide modulators of emotion: implications for fear, anxiety, and appetitive behaviors',
     firstName: 'Zoe Anatasia',
     lastName: 'McElligott',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Neurotensin in reward processes',
     Email: 'zoemce@email.unc.edu ',
     state: 'Chapel Hill',
     Country: 'USA',
     Institute: 'University of North Carolina',
-    professionalRole: 'PI',
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation: 'Department of Psychiatry Bowles  Center for alcohol Studies',
+    Title: 'Dr'
   },
   {
     index: 50,
@@ -947,9 +1112,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 2',
     eID: '2-C',
+    width: 4.0,
     eTitle: 'Human neuropeptides in health and disease',
     firstName: 'Aimin',
     lastName: 'Bao',
+    'Unnamed: 10': undefined,
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'baoaimin@zju.edu.cn',
@@ -957,26 +1124,30 @@ export default [
     Country: 'China',
     Institute: 'Zhejiang University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'School of Medicine \n',
+    Title: 'Prof'
   },
   {
     index: 51,
-    Day: '9.19',
+    Day: 'nan',
     Time: undefined,
     Location: 'Princesa III',
     eCategory: 'CS block 2',
     eID: '2-C',
+    width: 4.0,
     eTitle: 'Human neuropeptides in health and disease',
     firstName: 'Dick',
     lastName: 'Swaab',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'd.f.swaab@nin.knaw.nl',
     state: 'Amsterdam',
     Country: 'Netherlands',
     Institute: 'Netherlands Institute for Neuroscience ',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Swaab Research Group for Neuropsychiatric Disorders',
+    Title: 'Prof'
   },
   {
     index: 52,
@@ -985,9 +1156,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 2',
     eID: '2-C-1',
-    eTitle: undefined,
-    firstName: 'Ai-Min',
+    width: 4.0,
+    eTitle: 'Human neuropeptides in health and disease',
+    firstName: 'Aimin',
     lastName: 'Bao',
+    'Unnamed: 10': undefined,
     Role: 'Speaker',
     talkTitle:
       'Sex differences in hypothalamic neuropeptide systems and depression',
@@ -995,8 +1168,9 @@ export default [
     state: 'Hangzhou',
     Country: 'China',
     Institute: 'Zhejiang University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'School of Medicine \n',
+    Title: undefined
   },
   {
     index: 53,
@@ -1005,17 +1179,20 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 2',
     eID: '2-C-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Human neuropeptides in health and disease',
     firstName: 'Chun-Xia',
     lastName: 'Yi',
+    'Unnamed: 10': undefined,
     Role: 'Speaker',
     talkTitle: 'Hypothalamic neuron-glial interaction in metabolic disorders',
     Email: 'c.yi@amc.uva.nl',
     state: 'Amsterdam',
     Country: 'Netherlands',
     Institute: 'Academisch Medisch Centrum Universiteit van Amsterdam ',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Research group leader',
+    Observation: 'Department of Endocrinology and Metabolism',
+    Title: 'Dr'
   },
   {
     index: 54,
@@ -1024,9 +1201,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 2',
     eID: '2-C-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Human neuropeptides in health and disease',
     firstName: 'Erik ',
     lastName: 'Hrabovszky',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'The Kisspeptin system in reproduction and emotions',
     Email: 'hrabovszky.erik@koki.mta.hu',
@@ -1034,8 +1213,9 @@ export default [
     Country: 'Hungary',
     Institute:
       'Institute of Experimental Medicine, Hungarian Academy of Sciences',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Laboratory of Endocrine Neurobiology',
+    Title: 'Prof'
   },
   {
     index: 55,
@@ -1044,17 +1224,20 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 2',
     eID: '2-C-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Human neuropeptides in health and disease',
     firstName: 'Jing',
     lastName: 'Lu',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Changes of the hypocretin/orexin in schizophrenia',
     Email: 'lujing2016@zju.edu.cn',
     state: 'Hangzhou',
     Country: 'china',
     Institute: 'Zhejiang University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: undefined,
+    Title: 'Prof'
   },
   {
     index: 56,
@@ -1063,18 +1246,21 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 2',
     eID: '2-D',
+    width: 4.0,
     eTitle:
       'Integration of homeostasis by the hypothalamo-neurohypophyseal system',
     firstName: 'Andre',
     lastName: 'Mecawi',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'mecawi.as@gmail.com',
     state: 'Sao Paulo',
     Country: 'Brazil',
     Institute: 'Universidade Federal de S\u00e3o Paulo',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation: 'Departamento de Biof\u00edsica',
+    Title: 'Prof'
   },
   {
     index: 57,
@@ -1083,17 +1269,21 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 2',
     eID: '2-D-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Integration of homeostasis by the hypothalamo-neurohypophyseal system',
     firstName: 'David',
     lastName: 'Murphy',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Regulation of the supraoptic nucleus by gut peptides',
     Email: 'Murphy@bristol.ac.uk ',
     state: 'Bristol',
     Country: 'UK',
     Institute: 'University of Bristol',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Molecular Neuroendocrinology Reaserch Group',
+    Title: 'Prof'
   },
   {
     index: 58,
@@ -1102,9 +1292,12 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 2',
     eID: '2-D-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Integration of homeostasis by the hypothalamo-neurohypophyseal system',
     firstName: 'Yoichi',
     lastName: 'Ueta',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Transgenic approaches to reveal physiological role of central vasopressin system',
@@ -1112,8 +1305,9 @@ export default [
     state: 'Kitakyushu',
     Country: 'Japan',
     Institute: 'University of Occupational and Environmental Health',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Researcher',
+    Observation: 'School of Medicine Department of Physiology',
+    Title: 'Dr'
   },
   {
     index: 59,
@@ -1122,9 +1316,12 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 2',
     eID: '2-D-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Integration of homeostasis by the hypothalamo-neurohypophyseal system',
     firstName: 'Andre',
     lastName: 'Mecawi',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Estrogen control of hypothalamo-neurohypophyseal gene expression and hormonal secretion',
@@ -1132,8 +1329,9 @@ export default [
     state: 'Sao Paulo',
     Country: 'Brazil',
     Institute: 'Universidade Federal de S\u00e3o Paulo',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation: 'Departamento de Biof\u00edsica',
+    Title: 'Prof'
   },
   {
     index: 60,
@@ -1142,9 +1340,12 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 2',
     eID: '2-D-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Integration of homeostasis by the hypothalamo-neurohypophyseal system',
     firstName: 'Danilo',
     lastName: 'Lustrino',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Anabolic and Anti-catabolic Effects of Oxytocin on Skeletal Muscle Protein Metabolism',
@@ -1152,27 +1353,31 @@ export default [
     state: 'Sergipe',
     Country: 'Brazil',
     Institute: 'Federal University of Sergipe',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation: 'Departamento de Fisiolog\u00eca',
+    Title: 'Dr'
   },
   {
     index: 61,
     Day: '9.19',
     Time: '17:30 - 18:30',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary',
     eID: 'PL2',
+    width: 4.0,
     eTitle: 'Plenary lecture 2',
     firstName: 'Dick',
     lastName: 'Swaab',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Sexual differentiation of the human brain',
     Email: 'd.f.swaab@nin.knaw.nl',
     state: 'Amsterdam',
     Country: 'Netherlands',
     Institute: 'Netherlands Institute for Neuroscience ',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Swaab Research Group for Neuropsychiatric Disorders',
+    Title: 'Prof'
   },
   {
     index: 62,
@@ -1181,10 +1386,12 @@ export default [
     Location: 'TBC',
     eCategory: 'Social event',
     eID: 'SO-1',
+    width: 4.0,
     eTitle:
       'IRPS Council, Program Committee and Distinguished Members Reception (invitations)',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -1192,18 +1399,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 64,
     Day: '9.20',
     Time: '8:30 - 9:30',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary',
     eID: 'PL3',
+    width: 4.0,
     eTitle: 'Plenary lecture 3',
     firstName: 'Baldomero (Toto)',
     lastName: 'Olivera',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Conus venom peptides: from prey-capture mechanisms to biomedical potential',
@@ -1211,8 +1421,9 @@ export default [
     state: 'Salt Lake City',
     Country: 'USA',
     Institute: 'The University of Utah',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Department of Biology',
+    Title: 'Prof'
   },
   {
     index: 65,
@@ -1221,9 +1432,11 @@ export default [
     Location: 'Princesa Rooms',
     eCategory: 'Concurent Symposia (CS)',
     eID: 'CS3',
+    width: 4.0,
     eTitle: 'Block 3',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -1231,7 +1444,8 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 66,
@@ -1240,9 +1454,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 3',
     eID: '3-A',
+    width: 4.0,
     eTitle: 'Body-brain interactions in obesity and diabetes',
     firstName: 'Susanne',
     lastName: 'La Fleur',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 's.e.lafleur@amsterdamumc.nl',
@@ -1250,7 +1466,8 @@ export default [
     Country: 'Netherlands',
     Institute: 'University of Amsterdam',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Department of Endocrinology and Metabolism',
+    Title: 'Prof'
   },
   {
     index: 67,
@@ -1259,17 +1476,20 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 3',
     eID: '3-A-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Body-brain interactions in obesity and diabetes',
     firstName: 'Susanne',
     lastName: 'La Fleur',
-    Role: 'Chair',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
     talkTitle: 'Neuropeptide Y and the motivation to eat',
     Email: 's.e.lafleur@amsterdamumc.nl',
     state: 'Amsterdam',
     Country: 'Netherlands',
     Institute: 'University of Amsterdam',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: 'Department of Endocrinology and Metabolism',
+    Title: 'Prof'
   },
   {
     index: 68,
@@ -1278,9 +1498,11 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 3',
     eID: '3-A-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Body-brain interactions in obesity and diabetes',
     firstName: 'Michael',
     lastName: 'Krashes',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'High fat food biases hypothalamic and mesolimbic expression of consummatory drives',
@@ -1288,8 +1510,10 @@ export default [
     state: 'Bethesda',
     Country: 'USA',
     Institute: 'NIH/NIDDK,',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Senior investigator',
+    Observation:
+      'Section on Motivational Processes Underlying Appetite, Diabetes, Endocrinology, and Obesity Branch',
+    Title: 'Dr'
   },
   {
     index: 69,
@@ -1298,17 +1522,20 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 3',
     eID: '3-A-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Body-brain interactions in obesity and diabetes',
     firstName: 'Alfonso',
     lastName: 'Abizaid',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Ghrelin in appetitive processing and metabolism',
     Email: 'alfonso.abizaidbucio@carleton.ca',
     state: 'Ottawa',
     Country: 'Canada',
     Institute: 'Carleton University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Associate professor',
+    Observation: 'Department of Neuroscience',
+    Title: 'Prof'
   },
   {
     index: 70,
@@ -1317,17 +1544,20 @@ export default [
     Location: 'Princesa I',
     eCategory: 'CS block 3',
     eID: '3-A-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Body-brain interactions in obesity and diabetes',
     firstName: 'Luis',
     lastName: 'Paiva',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
-    talkTitle: 'Oxytocin and insulin signalling',
-    Email: 'lpaivam@exseed.ed.ac.uk',
-    state: 'Santiago de Chile',
+    talkTitle: ' Insulin signalling on oxytocin neurones',
+    Email: 'apaivam@gmail.com',
+    state: 'Valdivia',
     Country: 'Chile',
-    Institute: 'Universidad de Chile',
+    Institute: 'Universidad Austral de Chile',
     professionalRole: 'Young investigator',
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 71,
@@ -1336,18 +1566,22 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 3',
     eID: '3-B',
+    width: 4.0,
     eTitle:
       'Ascending peptidergic transmission and modulation of memory, emotion and reward',
     firstName: 'Andrew',
     lastName: 'Gundlach',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'andrew.gundlach@florey.edu.au ',
     state: 'Melbourn',
     Country: 'Australia',
     Institute: 'Florey Institute',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation:
+      'The Florey Institute of Neuroscience and Mental Health, The University of Melbourne, Parkville, Victoria, Australia',
+    Title: 'Prof'
   },
   {
     index: 72,
@@ -1356,9 +1590,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 3',
     eID: '3-B-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Ascending peptidergic transmission and modulation of memory, emotion and reward',
     firstName: 'Stephanie',
     lastName: 'Caligiuri',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Medial habenular TCF7L2 and HHIP modulating the breakpoints in nicotine taking behavior and risk for diabetes',
@@ -1366,8 +1603,10 @@ export default [
     state: 'New York',
     Country: 'USA',
     Institute: 'Icahn School of Medicine at Mount Sinai',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Young investigator/Postdoc',
+    Observation:
+      'Laboratory of Neurobiological Mechanisms of Drug Addiction, Obesity and Schizophrenia',
+    Title: 'Dr'
   },
   {
     index: 73,
@@ -1376,17 +1615,21 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 3',
     eID: '3-B-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Ascending peptidergic transmission and modulation of memory, emotion and reward',
     firstName: 'Amber',
     lastName: 'Alhadeff',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Gut signaling effects on hypothalamic and reward circuitry',
     Email: 'amberla@sas.upenn.edu',
     state: 'Philadelphia',
     Country: 'USA',
     Institute: 'University of Pennsylvania',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Young investigator/ Postdoc',
+    Observation: 'Department Of Biology ',
+    Title: 'Dr'
   },
   {
     index: 74,
@@ -1395,9 +1638,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 3',
     eID: '3-B-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Ascending peptidergic transmission and modulation of memory, emotion and reward',
     firstName: 'Andrew',
     lastName: 'Gundlach',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Influence of relaxin-3/GABA neurons in the nucleus incertus on memory, emotion and reward',
@@ -1405,8 +1651,10 @@ export default [
     state: 'Melbourn',
     Country: 'Australia',
     Institute: 'Florey Institute',
-    professionalRole: 'PI',
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation:
+      'The Florey Institute of Neuroscience and Mental Health, The University of Melbourne, Parkville, Victoria, Australia',
+    Title: 'Prof'
   },
   {
     index: 75,
@@ -1415,9 +1663,12 @@ export default [
     Location: 'Princesa II',
     eCategory: 'CS block 3',
     eID: '3-B-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Ascending peptidergic transmission and modulation of memory, emotion and reward',
     firstName: 'Rohit',
     lastName: 'Menon',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Neuropeptide regulation of social fear within the lateral septum',
@@ -1425,8 +1676,9 @@ export default [
     state: 'Regensburg',
     Country: 'Germany',
     Institute: 'University of Regensburg',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Young investigator/Postdoc',
+    Observation: 'Fakult\u00e4t f\u00fcr Biologie und Vorklinische Medizin',
+    Title: 'Dr'
   },
   {
     index: 76,
@@ -1435,9 +1687,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-C',
+    width: 4.0,
     eTitle: 'Neuropeptide actions on the stress response',
     firstName: 'Inga',
     lastName: 'Neumann',
+    'Unnamed: 10': 'F',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'inga.neumann@ur.de',
@@ -1445,7 +1699,8 @@ export default [
     Country: 'Germany',
     Institute: 'University of Regensburg',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Fakult\u00e4t f\u00fcr Biologie und Vorklinische Medizin',
+    Title: 'Prof'
   },
   {
     index: 77,
@@ -1454,9 +1709,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-C',
+    width: 4.0,
     eTitle: 'Neuropeptide actions on the stress response',
     firstName: 'Gil',
     lastName: 'Levkowitz',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'Gil.Levkowitz@weizmann.ac.il',
@@ -1464,7 +1721,8 @@ export default [
     Country: 'Israel',
     Institute: 'Weizmann Institute',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation: 'Department of Molecular Cell Biology',
+    Title: 'Dr'
   },
   {
     index: 78,
@@ -1473,9 +1731,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-C-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Neuropeptide actions on the stress response',
     firstName: 'Gil',
     lastName: 'Levkowitz',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Peptidergic modulation of stress response in zebrafish',
     Email: 'Gil.Levkowitz@weizmann.ac.il',
@@ -1483,7 +1743,8 @@ export default [
     Country: 'Israel',
     Institute: 'Weizmann Institute',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation: 'Department of Molecular Cell Biology\n',
+    Title: 'Dr'
   },
   {
     index: 79,
@@ -1492,9 +1753,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-C-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Neuropeptide actions on the stress response',
     firstName: 'Inga',
     lastName: 'Neumann',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Interactions of oxytocin and the HPA axis',
     Email: 'inga.neumann@ur.de',
@@ -1502,7 +1765,8 @@ export default [
     Country: 'Germany',
     Institute: 'University of Regensburg',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Fakult\u00e4t f\u00fcr Biologie und Vorklinische Medizin',
+    Title: 'Prof '
   },
   {
     index: 80,
@@ -1511,9 +1775,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-C-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Neuropeptide actions on the stress response',
     firstName: 'Jaideep',
     lastName: 'Bains',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Hypothalamic CRH neurons in innate defensive strategies',
     Email: 'jsbains@ucalgary.ca',
@@ -1521,7 +1787,9 @@ export default [
     Country: 'Canada',
     Institute: 'Hotchkiss Brain Institute',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Hotchkiss Brain Institute and Department of Physiology and Pharmacology',
+    Title: 'Prof '
   },
   {
     index: 81,
@@ -1530,17 +1798,21 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-C-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Neuropeptide actions on the stress response',
     firstName: 'Karl',
     lastName: 'Iremonger',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Neural signatures of stress in the CRH system',
     Email: 'karl.iremonger@otago.ac.nz',
     state: 'Dunnedin ',
     Country: 'New Zealand',
     Institute: 'Otago University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'School of Biomedical Sciences, Centre for Neuroendocrinology and Department of Physiology',
+    Title: 'Dr'
   },
   {
     index: 82,
@@ -1549,9 +1821,11 @@ export default [
     Location: 'Princesa III',
     eCategory: 'CS block 3',
     eID: '3-D',
+    width: 4.0,
     eTitle: 'Peptide transmission, stress and the extended amygdala ',
     firstName: 'Lee',
     lastName: 'Eiden',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'eidenl@nih.gov',
@@ -1559,7 +1833,9 @@ export default [
     Country: 'USA',
     Institute: 'NIMH, NIH',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation:
+      'Department of Health and Human Services. Section on Molecular Neuroscience',
+    Title: 'Dr'
   },
   {
     index: 83,
@@ -1568,9 +1844,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 3',
     eID: '3-D-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptide transmission, stress and the extended amygdala ',
     firstName: 'Will',
     lastName: 'Giardino',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Extended amygdala neuropeptide circuits driving arousal, affect, and addiction',
@@ -1578,8 +1856,10 @@ export default [
     state: 'Stanford',
     Country: 'USA',
     Institute: 'Stanford University',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Young investigator/Postdoc',
+    Observation:
+      'Psych/Major Laboratories and Clinical & Translational Neurosciences Incubator',
+    Title: 'Dr'
   },
   {
     index: 84,
@@ -1588,9 +1868,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 3',
     eID: '3-D-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptide transmission, stress and the extended amygdala ',
     firstName: 'Valentina',
     lastName: 'Sabino',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Neuropeptides and Anxiety: Actions of CRH and PACAP in Central Amygdala',
@@ -1598,8 +1880,10 @@ export default [
     state: 'Massachusets',
     Country: 'USA',
     Institute: 'Boston University School of Medicine',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Associate professor',
+    Observation:
+      'Departments of Pharmacology and Experimental Therapeutics and Psychiatry, Laboratory of Addictive Disorders',
+    Title: 'Prof'
   },
   {
     index: 85,
@@ -1608,9 +1892,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 3',
     eID: '3-D-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptide transmission, stress and the extended amygdala ',
     firstName: 'Sunny Z.',
     lastName: 'Jiang',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Behavioral significance of conditional ablation of PACAPergic projections from brain stem to amygdala',
@@ -1618,8 +1904,10 @@ export default [
     state: 'Bethesda',
     Country: 'USA',
     Institute: 'National Institutes of Health',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Research Fellow',
+    Observation:
+      'Department of Health and Human Services. Section on Molecular Neuroscience',
+    Title: 'Dr'
   },
   {
     index: 86,
@@ -1628,9 +1916,11 @@ export default [
     Location: 'Princesa IV',
     eCategory: 'CS block 3',
     eID: '3-D-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptide transmission, stress and the extended amygdala ',
     firstName: 'Sung',
     lastName: 'Han',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Neuropeptides encode parabrachial nucleus inputs to telecephalic structures that determine behavioral responses to pain and other sensory stimuli',
@@ -1639,19 +1929,22 @@ export default [
     Country: 'USA',
     Institute:
       ' Salk Institute\u2019s Clayton Laboratories for Peptide Biology',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation: 'Department of Pharmacology, University of Washington',
+    Title: 'Dr'
   },
   {
     index: 88,
-    Day: '9.202',
+    Day: '9.20',
     Time: '12:00 - 13:30',
     Location: 'Princesa Foyer',
     eCategory: 'Lunch and Poster presentation ',
     eID: 'L-PP-2',
+    width: 4.0,
     eTitle: 'Lunch and Poster presentation (2nd of 3 sessions)',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -1659,37 +1952,43 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 89,
-    Day: '9.202',
+    Day: '9.20',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
     eID: 'SE-1',
+    width: 4.0,
     eTitle: 'Editors-in-Chief /Editors Luncheon',
     firstName: 'Julian',
     lastName: 'Mercer',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: 'Journal of Neuroendocrinology ',
     Email: 'j.mercer@abdn.ac.uk',
     state: 'Aberdeen ',
     Country: 'UK',
     Institute: 'The University of Aberdeen',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation: ' Rowett Institute, Foresterhill',
+    Title: 'Prof'
   },
   {
     index: 90,
-    Day: '9.202',
+    Day: '9.20',
     Time: '14:30 -',
     Location: undefined,
     eCategory: 'Social event',
     eID: 'SO-2',
+    width: 4.0,
     eTitle: 'Social afternoon',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -1697,57 +1996,256 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 91,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Lee',
+    lastName: 'Eiden',
+    'Unnamed: 10': 'M',
+    Role: 'Co-Chair',
+    talkTitle: undefined,
+    Email: 'eiden.lee1@gmail.com',
+    state: 'Bethesda',
+    Country: 'USA',
+    Institute: 'NIMH-IRP, NIH',
+    professionalRole: 'PI',
+    Observation: undefined,
+    Title: undefined
   },
   {
     index: 92,
-    Day: '9.202',
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Patrick',
+    lastName: 'Sexton',
+    'Unnamed: 10': 'M',
+    Role: 'Co-Chair',
+    talkTitle: undefined,
+    Email: 'patrick.sexton@monash.edu',
+    state: 'Melbounr',
+    Country: 'Australia',
+    Institute: 'Monash University',
+    professionalRole: 'Professor',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 93,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Wenqin',
+    lastName: 'Xu',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
+    talkTitle:
+      'GLP-1 receptor signaling to ERK through NCS-Rapgef2: a Neuroendocrine-specific MAPK pathway in endocrine pancreas',
+    Email: 'xuwenqin@mail.nih.gov',
+    state: 'Bethesda',
+    Country: 'USA',
+    Institute: 'NIMH-IRP, NIH',
+    professionalRole: 'Researcher',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 94,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Debbie L.',
+    lastName: 'Hay',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
+    talkTitle:
+      'Class B receptor recognition and RAMPs: Physiological and pharmacological implications',
+    Email: 'dl.hay@auckland.ac.nz',
+    state: 'Auckland and Dunedin',
+    Country: 'New Zealand',
+    Institute: 'Univ. Auckland & Univ. Otago',
+    professionalRole: 'Professor',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 95,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Corrine',
+    lastName: 'Bousquet',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
+    talkTitle:
+      'Somatostatin and somatostatin analog signaling to stromal cells in pancreatic cancer',
+    Email: undefined,
+    state: 'Toulouse',
+    Country: 'France',
+    Institute: 'INSERM U531',
+    professionalRole: 'Researcher',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 96,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'H\u00e9l\u00e8ne ',
+    lastName: 'Castel',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
+    talkTitle:
+      'Biased signaling at the urotensin II receptor and its physiological consequences',
+    Email: 'helene.castel@univ-rouen.fr ',
+    state: 'Rouen',
+    Country: 'France',
+    Institute: 'University of Rouen',
+    professionalRole: 'Researcher',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 97,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Denise',
+    lastName: 'Wootten',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
+    talkTitle:
+      'Peptide engagement at class B receptors: a manifold of binding sites and signaling possibilities',
+    Email: undefined,
+    state: 'Melbourne',
+    Country: 'Australia',
+    Institute: 'Monash Institute of Pharmaceutical Sciences',
+    professionalRole: 'Researcher',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 98,
+    Day: '9.20',
+    Time: '17:00 - 19:30',
+    Location: 'Atlantes amphitheater',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 1.0,
+    eTitle:
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+    firstName: 'Ki',
+    lastName: 'Goosens',
+    'Unnamed: 10': 'F',
+    Role: 'Speaker',
+    talkTitle:
+      'Ghrelin signaling in the brain and its effects in central stress circuits',
+    Email: 'ki.goosens@mssm.edu ',
+    state: 'New York',
+    Country: 'USA',
+    Institute: 'Icahn School of Medicine',
+    professionalRole: 'Researcher',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 99,
+    Day: '9.20',
     Time: '20:00 - 23:00',
     Location: 'Pierre Bar, Pierre Mundo Imperial',
     eCategory: 'Social event',
     eID: 'SO-3',
+    width: 4.0,
     eTitle:
       'Young Investigator/Graduate Students Reception: Let\u2019s dance, RegPep!',
-    firstName: 'Vito S.',
-    lastName: 'Hern\u00e1ndez',
+    firstName: 'Vito S. Hern\u00e1ndez, Mario A. Zetter',
+    lastName: 'and Elba Campos L.',
+    'Unnamed: 10': undefined,
     Role: 'Host',
     talkTitle: undefined,
     Email: 'no.vito.no@gmail.com',
     state: 'Mexico',
     Country: 'Mexico',
     Institute: 'UNAM',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'lecturer/research associate',
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 93,
+    index: 100,
     Day: 'nan',
     Time: undefined,
     Location: undefined,
     eCategory: undefined,
     eID: undefined,
+    width: 4.0,
     eTitle: undefined,
     firstName: 'Mario A.',
     lastName: 'Zetter',
+    'Unnamed: 10': undefined,
     Role: 'Host',
     talkTitle: undefined,
     Email: 'zetter.salmon@gmail.com',
     state: 'Mexico',
     Country: 'Mexico',
     Institute: 'UNAM',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Postdoc',
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 95,
+    index: 102,
     Day: '9.21',
     Time: '8:30 - 9:30',
-    Location: 'Atlantes Anfitreater',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary',
     eID: 'PL4',
+    width: 4.0,
     eTitle: 'Plenary lecture 4',
     firstName: 'Valery',
     lastName: 'Grinevich',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'How does a single neuropeptide elicit pleiotropic behavioral and metabolic effects? Oxytocin as an example',
@@ -1755,19 +2253,23 @@ export default [
     state: 'Mannheim',
     Country: 'Germany',
     Institute: 'Central Institute for Mental Health, University of Heidelberg',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Schaller Research Group on Neuropeptides at German Cancer Research Center (DKFZ) and Cell Network Cluster of Excellence at theUniversity of Heidelberg\nMax Planck Institute for Medical Research',
+    Title: 'Dr'
   },
   {
-    index: 96,
+    index: 103,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa Rooms',
     eCategory: 'Concurent Symposia (CS)',
     eID: 'CS4',
+    width: 4.0,
     eTitle: 'Block 4',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -1775,19 +2277,22 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 97,
+    index: 104,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
     eCategory: 'CS block 4',
     eID: '4-A',
+    width: 4.0,
     eTitle:
       'From perception to social behavior: vasopressinergic regulation in health and disease ',
     firstName: 'Dora',
     lastName: 'Zelena',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'zelena.dora@koki.mta.hu ',
@@ -1795,18 +2300,23 @@ export default [
     Country: 'Hungary',
     Institute: 'Institute of Experimental Medicine, Hungary Academy of Science',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation:
+      'Hungarian Academyof Sciences, Institute of Experimental Medicine\nCentre for Neuroscience, Szent\u00e1gothai Research Centre, Institute of Physiology,Medical School',
+    Title: 'Dr'
   },
   {
-    index: 98,
+    index: 105,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
     eCategory: 'CS block 4',
     eID: '4-A-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'From perception to social behavior: vasopressinergic regulation in health and disease ',
     firstName: 'Mike',
     lastName: 'Ludwig',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Vasopressin in olfactory and visual processing',
     Email: 'mike.ludwig@ed.ac.uk',
@@ -1814,18 +2324,22 @@ export default [
     Country: 'UK',
     Institute: 'Centre for Discovery Brain Sciences, University of Edinburgh',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Centre for Integrative Physiology, University of Edinburgh',
+    Title: undefined
   },
   {
-    index: 99,
+    index: 106,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
     eCategory: 'CS block 4',
     eID: '4-A-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'From perception to social behavior: vasopressinergic regulation in health and disease ',
     firstName: 'Matthew',
     lastName: 'Paul',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Social development and vasopressin',
     Email: 'mjpaul@buffalo.edu',
@@ -1833,18 +2347,22 @@ export default [
     Country: 'USA',
     Institute: 'University of Buffalo',
     professionalRole: 'Associate Professor',
-    Observation: undefined
+    Observation: 'Department of Psychology\r\nCollege of Arts and Sciences',
+    Title: undefined
   },
   {
-    index: 100,
+    index: 107,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
     eCategory: 'CS block 4',
     eID: '4-A-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'From perception to social behavior: vasopressinergic regulation in health and disease ',
     firstName: 'Alexa',
     lastName: 'Veenema',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Sex differences in the juvenile and adult vasopressin system in the regulation of social behavior',
@@ -1853,56 +2371,67 @@ export default [
     Country: 'Michigan',
     Institute: 'Michigan State University,',
     professionalRole: 'Associate Professor',
-    Observation: undefined
+    Observation: 'East Lansing Campus\n 212 Giltner Hall',
+    Title: undefined
   },
   {
-    index: 101,
+    index: 108,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
     eCategory: 'CS block 4',
     eID: '4-A-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'From perception to social behavior: vasopressinergic regulation in health and disease ',
     firstName: 'Dora',
     lastName: 'Zelena',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: 'Vasopressin and sociability in autism and schizophrenia',
     Email: 'zelena.dora@koki.mta.hu ',
     state: 'Budapest',
     Country: 'Hungary',
-    Institute: 'Institute of Experimental Medicine, Hungary Academy of Science',
+    Institute: 'Hungarian Academy of Sciences',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation:
+      'Department of Behavioural Neurobiology, Budapest, Sz\u00e9chenyi Istv\u00e1n t\u00e9r 9, 1051 Hungary',
+    Title: 'Dr.'
   },
   {
-    index: 102,
+    index: 109,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
     eCategory: 'CS block 4',
     eID: '4-B',
+    width: 4.0,
     eTitle: 'Peptides and behavior',
     firstName: 'Arpad',
     lastName: 'Dobolyi',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: ' ',
     Email: 'dobolyi.arpad@ttk.elte.hu',
     state: 'Budapest',
     Country: 'Hungary',
-    Institute: 'Semmelweis University',
+    Institute: 'Eotvos Lorand University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Eotvos Lorand University',
+    Title: 'Prof.'
   },
   {
-    index: 103,
+    index: 110,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
     eCategory: 'CS block 4',
     eID: '4-B-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides and behavior',
     firstName: 'Ioana',
     lastName: 'Carcea',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Oxytocin neurons enable social transmission of maternal behaviour',
@@ -1910,38 +2439,46 @@ export default [
     state: 'New Jersey',
     Country: 'USA',
     Institute: 'Rutgers University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation:
+      'Department of Pharmacology, Physiology & Neuroscience, Medical Science Building (MSB)\n185 South Orange Avenue Room H584\nNewark, NJ 07101',
+    Title: 'Dr.'
   },
   {
-    index: 104,
+    index: 111,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
     eCategory: 'CS block 4',
     eID: '4-B-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides and behavior',
     firstName: 'Ingrid A',
     lastName: 'Fetter',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'The evolution of sociality in ants.',
-    Email: ' ifetter@rockefeller.edu ',
-    state: 'Cuernavaca',
+    Email: ' ifetter@iibiomedicas.unam.mx',
+    state: 'Mexico',
     Country: 'Mexico',
-    Institute: 'IBT',
-    professionalRole: undefined,
-    Observation: undefined
+    Institute: 'Instituto de Investigaciones Biomedicas',
+    professionalRole: 'Researcher',
+    Observation:
+      'Departamento de Biolog\u00eda Celular, Instituto de Investigaciones Biom\u00e9dicas, Circuito, Mario de La Cueva s/n, C.U., Coyoac\u00e1n, 04510 Ciudad de M\u00e9xico, CDMX',
+    Title: 'Dr.'
   },
   {
-    index: 105,
+    index: 112,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
     eCategory: 'CS block 4',
     eID: '4-B-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides and behavior',
     firstName: 'Arpad',
     lastName: 'Dobolyi',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Thalamic integration of social stimuli regulating parental  behavior and the oxytocin system',
@@ -1949,19 +2486,23 @@ export default [
     state: 'Budapest',
     Country: 'Hungary',
     Institute: 'Semmelweis University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Department of Anatomy, Histology and Embryology, Faculty of Medicine,  1094 Budapest,  T\u0171zolt\u00f3 u. 58.',
+    Title: 'Dr.'
   },
   {
-    index: 106,
+    index: 113,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
     eCategory: 'CS block 4',
     eID: '4-B-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptides and behavior',
     firstName: 'Zuoxin',
     lastName: 'Wang',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Interactions between oxytocin with the HPA axis in social behavior in a monogamous rodent species',
@@ -1969,57 +2510,67 @@ export default [
     state: 'Florida',
     Country: 'USA',
     Institute: 'Florida State University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Professor',
+    Observation:
+      'DEPARTMENT OF PSYCHOLOGY, 1107 W. CALL STREET, TALLAHASSEE, FL 32306-4301',
+    Title: 'Prof.'
   },
   {
-    index: 107,
+    index: 114,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
     eCategory: 'CS block 4',
     eID: '4-C',
+    width: 4.0,
     eTitle: 'Peptidergic regulation of nociception and pain',
     firstName: 'Alexandre',
     lastName: 'Charlet',
-    Role: 'Co-Chair',
+    'Unnamed: 10': 'M',
+    Role: 'Chair',
     talkTitle: undefined,
     Email: 'acharlet@unistra.fr ',
     state: 'Strasbourg',
     Country: 'France',
     Institute: 'University of Strasbourg',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation: '4 Rue Blaise Pascal, 67081 Strasbourg, France',
+    Title: 'Dr.'
   },
   {
-    index: 108,
+    index: 115,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
     eCategory: 'CS block 4',
     eID: '4-C-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptidergic regulation of nociception and pain',
     firstName: 'Alexandre',
     lastName: 'Charlet',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Oxytocin-induced astrocytes activation in the central amygdala',
     Email: 'acharlet@unistra.fr ',
     state: 'Strasbourg',
     Country: 'France',
     Institute: 'University of Strasbourg',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation: '4 Rue Blaise Pascal, 67081 Strasbourg, France',
+    Title: 'Dr.'
   },
   {
-    index: 109,
+    index: 116,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
     eCategory: 'CS block 4',
     eID: '4-C-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptidergic regulation of nociception and pain',
     firstName: 'Marc ',
     lastName: 'Landry',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Relaxin-mediated basolateral amygdala modulation induces analgesia',
@@ -2027,38 +2578,46 @@ export default [
     state: 'Bordeaux',
     Country: 'France',
     Institute: 'University of Bordeaux, France',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'IINS - UMR 5297 - CNRS - Universit\u00e9 de Bordeaux - Centre Broca Nouvelle-Aquitaine - 146 rue L\u00e9o-Saignat - CS 61292 CASE 130 - 33076 Bordeaux cedex -France',
+    Title: 'Dr.'
   },
   {
-    index: 110,
+    index: 117,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
     eCategory: 'CS block 4',
     eID: '4-C-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptidergic regulation of nociception and pain',
     firstName: 'Magali',
     lastName: 'Chartier',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'New neurotensin analog as relevant analgesic molecules',
     Email: 'Magali.Chartier@USherbrooke.ca',
     state: 'Sherbrooke',
     Country: 'Canada',
     Institute: 'University of Sherbrooke, Canada.',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PhD Candidate',
+    Observation:
+      "2500 Boulevard de l'Universit\u00e9, Sherbrooke, QC J1K 2R1, Canad\u00e1",
+    Title: 'PhD Candidate'
   },
   {
-    index: 111,
+    index: 118,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
     eCategory: 'CS block 4',
     eID: '4-C-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Peptidergic regulation of nociception and pain',
     firstName: 'Reza',
     lastName: 'Sharif-Naeni',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Parvalbumin calcium buffer peptide contribute to spinal integration of nociception.',
@@ -2066,19 +2625,23 @@ export default [
     state: 'Quebec',
     Country: 'Canada',
     Institute: 'McGill University',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'Associate Professor',
+    Observation:
+      'Department of Physiology & Cell Information Systems Group\nMcGill University\nLife Sciences Complex (Bellini),\nRoom 171\n3649 Promenade Sir William Osler\nMontr\u00e9al, Qu\u00e9bec H3G 0B1',
+    Title: 'Dr.'
   },
   {
-    index: 112,
+    index: 119,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D',
+    width: 4.0,
     eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Luis Miguel',
     lastName: 'Garc\u00eda-Segura',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'lmgs@cajal.csic.es ',
@@ -2086,18 +2649,22 @@ export default [
     Country: 'Spain',
     Institute: 'Cajal Institute',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Neurobiolog\u00eda Funcional y de Sistemas, C-01, Av. Doctor Arce, 37. 28002 Madrid, Espa\u00f1a',
+    Title: 'Prof.'
   },
   {
-    index: 113,
+    index: 120,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Geert',
     lastName: 'de Vries',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'devries@gsu.edu',
@@ -2105,18 +2672,22 @@ export default [
     Country: 'USA',
     Institute: 'Georgia State University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Biology department, Neuroscience Institute\nGeorgia State University\n880 Petit Science Center\n100 Piedmont ave. SE\nAtlanta, GA 30303',
+    Title: 'Prof.'
   },
   {
-    index: 114,
+    index: 121,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Simone',
     lastName: 'Meddle',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'Peptides and behavior in birds ',
     Email: 'simone.meddle@roslin.ed.ac.uk ',
@@ -2124,18 +2695,22 @@ export default [
     Country: 'UK',
     Institute: 'University of Edinburgh',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Behavioral Neuroendocrinology, The Roslin Institute\nEaster Bush Campus\nMidlothian\nCity\nPost code\nEH25 9RG',
+    Title: 'Prof.'
   },
   {
-    index: 115,
+    index: 122,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Robert',
     lastName: 'Millar',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Novel analogs of Kisspeptin and Neurokinin B in the interrogation of the HPG axis and as therapeutics',
@@ -2144,18 +2719,22 @@ export default [
     Country: 'South Africa',
     Institute: 'University of Pretoria',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'The Centre for Neuroendocrinology: Brain/Body Dialogues, University of Pretoria\ncnr Lynnwood Road and Roper Street\nHatfield, Pretoria\nSouth Africa',
+    Title: 'Prof.'
   },
   {
-    index: 116,
+    index: 123,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Geert',
     lastName: 'de Vries',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Gonadal hormones and timing of functional brain development',
     Email: 'devries@gsu.edu',
@@ -2163,18 +2742,22 @@ export default [
     Country: 'USA',
     Institute: 'Georgia State University',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Biology department, Neuroscience Institute\nGeorgia State University\n880 Petit Science Center\n100 Piedmont ave. SE\nAtlanta, GA 30303',
+    Title: 'Prof.'
   },
   {
-    index: 117,
+    index: 124,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Stephanie',
     lastName: 'Padilla',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Kisspeptins and their involvement in reproduction and temperature regulation.',
@@ -2182,19 +2765,23 @@ export default [
     state: 'Massachussetts',
     Country: 'USA',
     Institute: 'University of Massachusetts',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Assistant Professor',
+    Observation:
+      'Institute for Applied Life Sciences\nN227 Life Sciences Laboratories\n240 Thatcher Road\nAmherst, MA 01003',
+    Title: 'Dr.'
   },
   {
-    index: 119,
+    index: 126,
     Day: '9.21',
     Time: '12:00 - 13:30',
     Location: 'Princesa Foyer',
     eCategory: 'Lunch and Poster presentation ',
     eID: 'L-PP-3',
+    width: 4.0,
     eTitle: 'Lunch and Poster presentation (3rd of 3 sessions)',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -2202,18 +2789,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 120,
+    index: 127,
     Day: '9.21',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
     eID: 'SE-2',
+    width: 4.0,
     eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Robert ',
     lastName: 'Millar',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'bob.millar@up.ac.za ',
@@ -2221,18 +2811,22 @@ export default [
     Country: 'South Africa',
     Institute: 'University of Pretoria',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'The Centre for Neuroendocrinology: Brain/Body Dialogues, University of Pretoria\ncnr Lynnwood Road and Roper Street\nHatfield, Pretoria\nSouth Africa',
+    Title: 'Prof.'
   },
   {
-    index: 121,
+    index: 128,
     Day: '9.21',
-    Time: undefined,
-    Location: undefined,
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Time: '13:30 - 14:30',
+    Location: 'Pincesa VI-VII',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Gareth',
     lastName: 'Leng',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'Gareth.Leng@ed.ac.uk ',
@@ -2240,18 +2834,21 @@ export default [
     Country: 'UK',
     Institute: 'Centre for dicovery Brain Sciences,The University of Edinburgh',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: 'Hugh Robson Building\n15 George Square\nEdinburgh EH8 9XD',
+    Title: 'Prof.'
   },
   {
-    index: 122,
+    index: 129,
     Day: '9.21',
-    Time: undefined,
-    Location: undefined,
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Time: '13:30 - 14:30',
+    Location: 'Pincesa VI-VII',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Luis Miguel',
     lastName: 'Garc\u00eda-Segura',
+    'Unnamed: 10': 'M',
     Role: 'Panel member',
     talkTitle: undefined,
     Email: 'lmgs@cajal.csic.es ',
@@ -2259,56 +2856,67 @@ export default [
     Country: 'Spain',
     Institute: 'Cajal Institute',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Neurobiolog\u00eda Funcional y de Sistemas, C-01, Av. Doctor Arce, 37. 28002 Madrid, Espa\u00f1a',
+    Title: 'Prof.'
   },
   {
-    index: 123,
+    index: 130,
     Day: '9.21',
-    Time: undefined,
-    Location: undefined,
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Time: '13:30 - 14:30',
+    Location: 'Pincesa VI-VII',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Dick',
     lastName: 'Swaab',
+    'Unnamed: 10': 'M',
     Role: 'Panel member',
     talkTitle: undefined,
     Email: 'd.f.swaab@nin.knaw.nl',
     state: 'Amsterdam',
     Country: 'Netherlands',
     Institute: 'Netherlands Institute for Neuroscience ',
-    professionalRole: undefined,
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation: 'Meibergdreef 47\n1105 BA Amsterdam',
+    Title: 'Dr. '
   },
   {
-    index: 124,
+    index: 131,
     Day: '9.21',
-    Time: undefined,
-    Location: undefined,
-    eCategory: undefined,
-    eID: undefined,
-    eTitle: undefined,
+    Time: '13:30 - 14:30',
+    Location: 'Pincesa VI-VII',
+    eCategory: 'Special event',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Ruud',
     lastName: 'Buijs',
+    'Unnamed: 10': 'M',
     Role: 'Panel member',
     talkTitle: undefined,
     Email: 'ruudbuijs@gmail.com',
     state: 'Mexico',
     Country: 'Mexico',
     Institute: 'Instituto de Investigaciones Biom\u00e9dicas, UNAM',
-    professionalRole: 'Professor',
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Departamento de Biolog\u00eda Celular y Fisiolog\u00eda, Edificio B  2\u00b0 Piso Laboratorio B-215. Instituto de Investigaciones Biom\u00e9dicas, Circuito, Mario de La Cueva s/n, C.U., Coyoac\u00e1n, 04510 Ciudad de M\u00e9xico, CDMX',
+    Title: 'Dr. '
   },
   {
-    index: 125,
+    index: 132,
     Day: '9.21',
     Time: '15:00 - 18:00',
-    Location: 'Atlantes Amphithrer',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Special event',
     eID: 'SE-3',
+    width: 4.0,
     eTitle: 'IRPS General Asembly',
     firstName: 'Lee E.',
     lastName: 'Eiden',
+    'Unnamed: 10': 'M',
     Role: 'Co-President',
     talkTitle: 'IRPS Distinguished Members Recognition Ceremony',
     Email: 'eidenl@nih.gov',
@@ -2316,18 +2924,22 @@ export default [
     Country: 'USA',
     Institute: 'NIMH-IRP, NIH',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation:
+      'Section of Molecular Neuroscience, Building 49, Room 5A38, MSC 4405\nBETHESDA, MD 20814, USA',
+    Title: 'Dr. '
   },
   {
-    index: 126,
+    index: 133,
     Day: '9.21',
     Time: undefined,
     Location: undefined,
     eCategory: undefined,
     eID: undefined,
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'IRPS General Asembly',
     firstName: 'Limei',
     lastName: 'Zhang',
+    'Unnamed: 10': 'F',
     Role: 'Co-President',
     talkTitle:
       'Executive Report; Councillors, Officers and President-Elect Elections; General Discussion.',
@@ -2336,18 +2948,22 @@ export default [
     Country: 'Mexico',
     Institute: 'Med School, UNAM',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Departamento de Fisiolog\u00eda, Facultad de Medicina, Ciudad Universitaria. Edificio A, Quinto Piso, Laboratorio 511.',
+    Title: 'Prof.'
   },
   {
-    index: 127,
+    index: 134,
     Day: '9.21',
     Time: '19:00 - 22:00',
     Location: 'Sal\u00f3n Diamonte',
     eCategory: 'Social event',
     eID: 'SO-3',
+    width: 4.0,
     eTitle: 'Conference banquest',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -2355,18 +2971,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 129,
+    index: 136,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa Rooms',
     eCategory: 'Concurent Symposia (CS)',
     eID: 'CS5',
+    width: 4.0,
     eTitle: 'Block 5',
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -2374,37 +2993,44 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 130,
+    index: 137,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
     eCategory: 'CS block 5',
     eID: '5-A',
+    width: 4.0,
     eTitle: 'The circadian system ',
     firstName: 'Ruud',
     lastName: 'Buijs',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'ruudbuijs@gmail.com',
     state: 'Mexico',
     Country: 'Mexico',
     Institute: 'Instituto de Investigaciones Biom\u00e9dicas, UNAM',
-    professionalRole: 'Professor',
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Departamento de Biolog\u00eda Celular y Fisiolog\u00eda, Edificio B  2\u00b0 Piso Laboratorio B-215. Instituto de Investigaciones Biom\u00e9dicas, Circuito, Mario de La Cueva s/n, C.U., Coyoac\u00e1n, 04510 Ciudad de M\u00e9xico, CDMX',
+    Title: 'Dr.'
   },
   {
-    index: 131,
+    index: 138,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
     eCategory: 'CS block 5',
     eID: '5-A-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'The circadian system ',
     firstName: 'Ruud',
     lastName: 'Buijs',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'The suprachiasmatic nucleus; a responsive clock regulating homeostasis by daily changing the set points of physiological parameters',
@@ -2412,19 +3038,23 @@ export default [
     state: 'Mexico',
     Country: 'Mexico',
     Institute: 'Instituto de Investigaciones Biom\u00e9dicas, UNAM',
-    professionalRole: 'Professor',
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Departamento de Biolog\u00eda Celular y Fisiolog\u00eda, Edificio B  2\u00b0 Piso Laboratorio B-215. Instituto de Investigaciones Biom\u00e9dicas, Circuito, Mario de La Cueva s/n, C.U., Coyoac\u00e1n, 04510 Ciudad de M\u00e9xico, CDMX',
+    Title: 'Dr.'
   },
   {
-    index: 132,
+    index: 139,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
     eCategory: 'CS block 5',
     eID: '5-A-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'The circadian system ',
     firstName: 'Jeff',
     lastName: 'Jones',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'The importance of VIP signaling for the control of corticosterone secretion (15 min)',
@@ -2432,38 +3062,23 @@ export default [
     state: 'St. Louis',
     Country: 'USA',
     Institute: 'Washington University at St. Louis',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Young investigator/Postdoc',
+    Observation:
+      'Department of Biology, WASHINGTON UNIVERSITY\nCB 1137\nONE BROOKINGS DRIVE\nST. LOUIS, MO 63130-4899',
+    Title: 'Dr.'
   },
   {
-    index: 133,
-    Day: '9.22',
-    Time: '8:00 - 10:00',
-    Location: 'Princesa I',
-    eCategory: 'CS block 5',
-    eID: '5-A-3',
-    eTitle: undefined,
-    firstName: 'Eva',
-    lastName: 'Soto',
-    Role: 'Speaker',
-    talkTitle: undefined,
-    Email: 'evasoto28@hotmail.com ',
-    state: 'Mexico',
-    Country: 'Mexico',
-    Institute: 'Med School, UNAM',
-    professionalRole: 'Young investigator',
-    Observation: undefined
-  },
-  {
-    index: 134,
+    index: 140,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
     eCategory: 'CS block 5',
     eID: '5-A-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'The circadian system ',
     firstName: 'Alec ',
     lastName: 'Davidson',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'In vivo single cell calcium changes of vasopressin cells of the SCN',
@@ -2472,57 +3087,70 @@ export default [
     Country: 'USA',
     Institute: 'Morehouse School of Medicine',
     professionalRole: 'PI',
-    Observation: undefined
+    Observation:
+      'Neurobiology Faculty, 720 Westview Drive\nAtlanta, GA 30310\n404-752-1500',
+    Title: 'Dr.'
   },
   {
-    index: 135,
+    index: 141,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
     eCategory: 'CS block 5',
     eID: '5-A-5',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle: 'The circadian system ',
     firstName: 'Carolina',
     lastName: 'Escobar',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle: 'The importance of circadian rhythms for metabolic health',
     Email: 'escocarolina@gmail.com',
     state: 'Mexico',
     Country: 'Mexico',
-    Institute: 'Med School, UNAM',
+    Institute: 'Faculty of Medicine, UNAM',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Departamento de Anatom\u00eda, Edificio B, 4\u00b0 Piso, Facultad de Medicina, Circuito Interior Ciudad Universitaria, Av. Universidad 3000.',
+    Title: 'Prof.'
   },
   {
-    index: 136,
+    index: 142,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
     eCategory: 'CS block 5',
     eID: '5-B',
+    width: 4.0,
     eTitle:
       'Peptide roles in the neuroimmune system and therapeutic implications',
     firstName: 'Teresa',
     lastName: 'Morales',
+    'Unnamed: 10': 'F',
     Role: 'Chair',
     talkTitle: undefined,
     Email: 'tere5morales@gmail.com',
     state: 'Queretaro',
     Country: 'Mexico',
     Institute: 'Institute of Neurobiology, UNAM',
-    professionalRole: 'Professor',
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Departamento de Neurobiolog\u00eda Celular y Molecular, Laboratorio D-05, Instituto de Neurobiolog\u00eda - UNAM, Boulevard Juriquilla 3001, Juriquilla, Quer\u00e9taro, M\u00e9xico, C.P. 76230, Quer\u00e9taro, M\u00e9xico ',
+    Title: 'Dr.'
   },
   {
-    index: 137,
+    index: 143,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
     eCategory: 'CS block 5',
     eID: '5-B-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Peptide roles in the neuroimmune system and therapeutic implications',
     firstName: 'Quentin',
     lastName: 'Pittman',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Toward a better understanding of the central consequences of intestinal inflammation: CRH neurons in the amygdala during colitis',
@@ -2531,18 +3159,23 @@ export default [
     Country: 'Canada',
     Institute: 'University of Calgary',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Department of Physiology and Biophysics, University of Calgary\nHealth Sciences\nLab# 2144, 2146\n3330 Hospital Drive NW\nCalgary, Alberta\nT2N 4N1\nCanada',
+    Title: 'Prof.'
   },
   {
-    index: 138,
+    index: 144,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
     eCategory: 'CS block 5',
     eID: '5-B-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Peptide roles in the neuroimmune system and therapeutic implications',
     firstName: 'Teresa ',
     lastName: 'Morales',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Protective actions of prolactin in neurotoxin-hippocampal injury',
@@ -2550,19 +3183,24 @@ export default [
     state: 'Queretaro',
     Country: 'Mexico',
     Institute: 'Institute of Neurobiology, UNAM',
-    professionalRole: 'Professor',
-    Observation: undefined
+    professionalRole: 'PI',
+    Observation:
+      'Departamento de Neurobiolog\u00eda Celular y Molecular, Laboratorio D-05, Instituto de Neurobiolog\u00eda - UNAM, Boulevard Juriquilla 3001, Juriquilla, Quer\u00e9taro, M\u00e9xico, C.P. 76230, Quer\u00e9taro, M\u00e9xico ',
+    Title: 'Dr.'
   },
   {
-    index: 139,
+    index: 145,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
     eCategory: 'CS block 5',
     eID: '5-B-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Peptide roles in the neuroimmune system and therapeutic implications',
     firstName: 'Abimael',
     lastName: 'Gonz\u00e1lez-Hern\u00e1ndez',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'The interaction between oxytocin and microglia in spinal pain processing (20 min)',
@@ -2570,59 +3208,74 @@ export default [
     state: 'Queretaro',
     Country: 'Mexico',
     Institute: 'Institute of Neurobiology, UNAM',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    professionalRole: 'Research associate',
+    Observation:
+      'Departamento de Neurobiolog\u00eda del Desarrollo y Neurofisiolog\u00eda, Laboratorio B-16, Instituto de Neurobiolog\u00eda - UNAM, Boulevard Juriquilla 3001, Juriquilla, Quer\u00e9taro, M\u00e9xico, C.P. 76230, Quer\u00e9taro, M\u00e9xico ',
+    Title: 'Dr.'
   },
   {
-    index: 140,
+    index: 146,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
     eCategory: 'CS block 5',
     eID: '5-B-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'Peptide roles in the neuroimmune system and therapeutic implications',
     firstName: 'Mario A. ',
     lastName: 'Zetter',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
-      'Early life stress and neuropeptides: microglial as a possible bridge in shaping neurodevelopment (20 min)',
+      'Early life stress and neuropeptides: microglial as a possible bridge in shaping neurodevelopment - - synaptic pruning as a example (15 min)',
     Email: 'zetter.salmon@gmail.com',
     state: 'Mexico',
     Country: 'Mexico',
-    Institute: 'Med School, UNAM',
-    professionalRole: 'Young investigator',
-    Observation: undefined
+    Institute: 'Faculty of Medicine, UNAM',
+    professionalRole: 'Young investigator/Postdoc',
+    Observation:
+      'Departamento de Fisiolog\u00eda, Facultad de Medicina, Ciudad Universitaria. Edificio A, Quinto Piso, Laboratorio 511.',
+    Title: 'Dr.'
   },
   {
-    index: 141,
+    index: 147,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
     eCategory: 'CS block 5',
     eID: '5-B-5',
-    eTitle: undefined,
-    firstName: 'Andr\u00e9s',
-    lastName: 'Quintar-Stephano',
+    width: 4.0,
+    eTitle:
+      'Peptide roles in the neuroimmune system and therapeutic implications',
+    firstName: 'Eva Carolina',
+    lastName: 'Soto',
+    'Unnamed: 10': 'F',
     Role: 'Speaker',
-    talkTitle: 'Arginine vasopressin as an immunomodulatory hormone',
-    Email: 'aquinta@correo.uaa.mx',
-    state: 'Aguas Calientes',
+    talkTitle:
+      'Liver- brain axis underlies circadian anti-inflammatory reflex (15 min)',
+    Email: 'eva.soto.tinoco@gmail.com',
+    state: 'Mexico',
     Country: 'Mexico',
-    Institute: 'Universidad of Aguas Calientes',
-    professionalRole: 'Professor',
-    Observation: undefined
+    Institute: 'Instituto de Investigaciones Biom\u00e9dicas, UNAM',
+    professionalRole: 'Young investigator/PhD candidate',
+    Observation:
+      'Departamento de Biolog\u00eda Celular y Fisiolog\u00eda, Edificio B  2\u00b0 Piso Laboratorio B-215. Instituto de Investigaciones Biom\u00e9dicas, Circuito, Mario de La Cueva s/n, C.U., Coyoac\u00e1n, 04510 Ciudad de M\u00e9xico, CDMX',
+    Title: 'Ms'
   },
   {
-    index: 142,
+    index: 148,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
     eCategory: 'CS block 5',
     eID: '5-C',
+    width: 4.0,
     eTitle:
       'The cardiovascular brain: The role of the renin angiotensin system and circumventricular organs',
     firstName: 'Thomas',
     lastName: 'Cunningham',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'Tom.Cunningham@unthsc.edu',
@@ -2630,18 +3283,23 @@ export default [
     Country: 'USA',
     Institute: 'UNT Health Science Center',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Department of Physiology and Anatomy, UNT Health Science Center, 3500 Camp Bowie Blvd.\nFort Worth, Texas 76107',
+    Title: 'Prof.'
   },
   {
-    index: 143,
+    index: 149,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
     eCategory: 'CS block 5',
     eID: '5-C',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The cardiovascular brain: The role of the renin angiotensin system and circumventricular organs',
     firstName: 'Alastair',
     lastName: 'Ferguson',
+    'Unnamed: 10': 'M',
     Role: 'Co-Chair',
     talkTitle: undefined,
     Email: 'avf@queensu.ca',
@@ -2649,18 +3307,23 @@ export default [
     Country: 'Canada',
     Institute: "Med School, Queen's University",
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Department of Biomedical and Molecular Sciences, Botterell Hall, Room 563, 18 Stuart Street, Kingston ON K7L 3N6, Canada',
+    Title: 'Prof.'
   },
   {
-    index: 144,
+    index: 150,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
     eCategory: 'CS block 5',
     eID: '5-C-1',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The cardiovascular brain: The role of the renin angiotensin system and circumventricular organs',
     firstName: 'Curt',
     lastName: 'Sigmund',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Renin angiotensin system finally in the brain?',
     Email: 'csigmund@mcw.edu',
@@ -2668,18 +3331,22 @@ export default [
     Country: 'USA',
     Institute: 'Cardiovascular Center, Medical College of Wisconsin',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation: undefined,
+    Title: 'Prof.'
   },
   {
-    index: 145,
+    index: 151,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
     eCategory: 'CS block 5',
     eID: '5-C-2',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The cardiovascular brain: The role of the renin angiotensin system and circumventricular organs',
     firstName: 'Thomas',
     lastName: 'Cunningham',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'The brain angiotensin system in neural circuits for hydromineral balance and cardiovascular /metabolic regulation',
@@ -2688,37 +3355,48 @@ export default [
     Country: 'USA',
     Institute: 'UNT Health Science Center',
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Department of Physiology and Anatomy, UNT Health Science Center, 3500 Camp Bowie Blvd.\nFort Worth, Texas 76107',
+    Title: 'Prof.'
   },
   {
-    index: 146,
+    index: 152,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
     eCategory: 'CS block 5',
     eID: '5-C-3',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The cardiovascular brain: The role of the renin angiotensin system and circumventricular organs',
     firstName: 'Mario',
     lastName: 'Perello',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Ghrelin signaling from circulation into the brain.',
     Email: 'marioperello@yahoo.com',
     state: 'Buenos Aires',
     Country: 'Argentina',
-    Institute: 'Instituto Multidisciplinario de Biolog\u00eda Celular',
-    professionalRole: 'Investigador independiente?',
-    Observation: undefined
+    Institute:
+      'Instituto Multidisciplinario de Biolog\u00eda Celular, Universidad Nacional de la Plata',
+    professionalRole: 'PI',
+    Observation:
+      'Laboratorio de Neurofisiolog\u00eda, Calle 526 y Camino Gral. Belgrano\nB1906APO, La Plata, Buenos Aires, Argentina',
+    Title: 'Dr.'
   },
   {
-    index: 147,
+    index: 153,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
     eCategory: 'CS block 5',
     eID: '5-C-4',
-    eTitle: undefined,
+    width: 4.0,
+    eTitle:
+      'The cardiovascular brain: The role of the renin angiotensin system and circumventricular organs',
     firstName: 'Alastair',
     lastName: 'Ferguson',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle:
       'Circumventricular Organs as Sensors and Integrators of Circulating Signals Controlling Ingestive Behaviours',
@@ -2727,39 +3405,142 @@ export default [
     Country: 'Canada',
     Institute: "Med School, Queen's University",
     professionalRole: 'Professor',
-    Observation: undefined
+    Observation:
+      'Department of Biomedical and Molecular Sciences, Botterell Hall, Room 563, 18 Stuart Street, Kingston ON K7L 3N6, Canada',
+    Title: 'Prof.'
   },
   {
-    index: 148,
+    index: 154,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa IV',
-    eCategory: 'Special event',
-    eID: 'SE-4',
+    eCategory: 'CS block 5',
+    eID: '5-D',
+    width: 4.0,
     eTitle:
-      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
-    firstName: 'Lee E.',
-    lastName: 'Eiden',
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
+    firstName: 'Robert (Bob)',
+    lastName: 'Millar',
+    'Unnamed: 10': 'M',
     Role: 'Chair',
-    talkTitle:
-      'Workshop speakes and titles to be announced (an IUPHAR sponsored event)',
-    Email: 'eidenl@nih.gov',
-    state: 'Bethesda',
-    Country: 'USA',
-    Institute: 'NIMH-IRP, NIH',
-    professionalRole: 'PI',
-    Observation: undefined
+    talkTitle: undefined,
+    Email: 'robertpetermillar@gmail.com',
+    state: 'Pretoria',
+    Country: 'South Africa',
+    Institute: 'UCT Faculty of Health Sciences',
+    professionalRole: 'Professor',
+    Observation:
+      'Receptor Biology Group, Institute of Infectious Disease and Molecular Medicine\r\nDivision of Chemical & Systems Biology, UCT Faculty of Health Sciences\r\nObservatory 7925\r\n',
+    Title: 'Dr.'
   },
   {
-    index: 149,
+    index: 155,
+    Day: '9.22',
+    Time: '8:00 - 10:01',
+    Location: 'Princesa IV',
+    eCategory: 'CS block 4',
+    eID: '5-D-1',
+    width: 4.0,
+    eTitle:
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
+    firstName: 'Robert (Bob)',
+    lastName: 'Millar',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
+    talkTitle: 'Rescue of HPG axis function with mutant human GPCRs',
+    Email: 'robertpetermillar@gmail.com',
+    state: 'Pretoria',
+    Country: 'South Africa',
+    Institute: 'UCT Faculty of Health Sciences',
+    professionalRole: 'Professor',
+    Observation:
+      'Receptor Biology Group, Institute of Infectious Disease and Molecular Medicine\r\nDivision of Chemical & Systems Biology, UCT Faculty of Health Sciences\r\nObservatory 7925\r\n',
+    Title: undefined
+  },
+  {
+    index: 156,
+    Day: '9.22',
+    Time: '8:00 - 10:02',
+    Location: 'Princesa IV',
+    eCategory: 'CS block 5',
+    eID: '5-D-2',
+    width: 4.0,
+    eTitle:
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
+    firstName: 'Victor M',
+    lastName: 'Navarro',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
+    talkTitle: 'Upstream neuropeptides in HPG axis pulse generation',
+    Email: 'vnavarro@bwh.harvard.edu',
+    state: 'Boston',
+    Country: 'USA',
+    Institute: 'Harvard Medical School',
+    professionalRole: undefined,
+    Observation:
+      'Department of Endocrinology, Diabetes and Hypertension\r\nBrigham and Women\u2019s Hospital\r\nHarvard Medical School\r\nBoston, MA USA\r',
+    Title: undefined
+  },
+  {
+    index: 157,
+    Day: '9.22',
+    Time: '8:00 - 10:03',
+    Location: 'Princesa IV',
+    eCategory: 'CS block 5',
+    eID: '5-D-3',
+    width: 4.0,
+    eTitle:
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
+    firstName: 'Ulrich',
+    lastName: 'Boehm',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
+    talkTitle: 'Animal models for neuropeptide function within the HPG axis',
+    Email: 'Ulrich.boehm@uks.de',
+    state: 'Homburg',
+    Country: 'Germany',
+    Institute: 'University of Saarlandes',
+    professionalRole: 'Professor',
+    Observation:
+      'Prof., Universit\u00e4t des Saarlandes\r\nExperimentelle und klinische Pharmakologie und Toxikologie,\r\nKirrberger Str., Geb. 61.4\r\n66421 Homburg\r',
+    Title: undefined
+  },
+  {
+    index: 158,
+    Day: '9.22',
+    Time: '8:00 - 10:04',
+    Location: 'Princesa IV',
+    eCategory: 'CS block 5',
+    eID: '5-D-4',
+    width: 4.0,
+    eTitle:
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
+    firstName: 'Waljit',
+    lastName: 'Dhillo',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
+    talkTitle: 'Clinical applications of novel HPG axis neuropeptides',
+    Email: 'w.dhillo@imperial.ac.uk',
+    state: 'London',
+    Country: 'UK',
+    Institute: 'Imperial College',
+    professionalRole: 'Professor',
+    Observation:
+      'Professor of Endocrinology and Metabolism\r\nFaculty of Medicine, Department of Metabolism, Digestion and Reproduction\r\nImperial College London,\r\nLondon, UK\r\nEmail available from laboratory website (one-way)\r\n+44(0)2075943487\r',
+    Title: undefined
+  },
+  {
+    index: 159,
     Day: '9.22',
     Time: '10:00 - 11:00',
     Location: 'Check-out if applicable',
     eCategory: undefined,
     eID: undefined,
+    width: 4.0,
     eTitle: undefined,
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -2767,18 +3548,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 150,
+    index: 160,
     Day: '9.22',
     Time: '11:00 - 11:30',
-    Location: 'Atlantes Amphithrer',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary',
     eID: 'PL-5',
+    width: 4.0,
     eTitle: 'Neuroscience Special Lecture',
     firstName: 'Xiaoke',
     lastName: 'Chen',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'Thalamic control of opioid-associated memory',
     Email: 'xkchen@stanford.edu ',
@@ -2786,18 +3570,22 @@ export default [
     Country: 'USA',
     Institute: 'Stanford University ',
     professionalRole: 'Associate Professor',
-    Observation: undefined
+    Observation:
+      'Biology Department, 385 Serra Mall, Herrin labs 122E\n\nStanford, CA 94305-5020, USA',
+    Title: 'Dr.'
   },
   {
-    index: 151,
+    index: 161,
     Day: '9.22',
     Time: '11:30 - 12:15',
-    Location: 'Atlantes Amphithrer',
+    Location: 'Atlantes amphitheater',
     eCategory: 'Plenary',
     eID: 'PL-6',
+    width: 4.0,
     eTitle: 'Victor Mutt Lecture awardee',
     firstName: 'Diego ',
-    lastName: 'Bohorguez',
+    lastName: 'Bohorquez',
+    'Unnamed: 10': 'M',
     Role: 'Speaker',
     talkTitle: 'A gut sense for calories',
     Email: 'diego.bohorquez@duke.edu ',
@@ -2805,18 +3593,22 @@ export default [
     Country: 'USA',
     Institute: 'Duke University',
     professionalRole: 'Assitant Professor',
-    Observation: undefined
+    Observation:
+      'Gastroenterology Division, 221A MSRB\n203 Research Drive\nDurham, NC 27710, USA',
+    Title: 'Dr.'
   },
   {
-    index: 152,
+    index: 162,
     Day: '9.22',
     Time: '12:15 - 12-30',
-    Location: 'Atlantes Amphithrer',
+    Location: 'Atlantes amphitheater',
     eCategory: 'RegPep2020 closure ceremony',
     eID: undefined,
+    width: 4.0,
     eTitle: undefined,
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -2824,18 +3616,21 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
   },
   {
-    index: 153,
+    index: 163,
     Day: '9.22',
     Time: '12:30 - 13:00',
     Location: 'TBC',
     eCategory: 'Group photo',
     eID: undefined,
+    width: 4.0,
     eTitle: undefined,
     firstName: undefined,
     lastName: undefined,
+    'Unnamed: 10': undefined,
     Role: undefined,
     talkTitle: undefined,
     Email: undefined,
@@ -2843,6 +3638,29 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 164,
+    Day: '9.23',
+    Time: undefined,
+    Location: 'Social events',
+    eCategory: undefined,
+    eID: undefined,
+    width: undefined,
+    eTitle: undefined,
+    firstName: undefined,
+    lastName: undefined,
+    'Unnamed: 10': undefined,
+    Role: undefined,
+    talkTitle: undefined,
+    Email: undefined,
+    state: undefined,
+    Country: undefined,
+    Institute: undefined,
+    professionalRole: undefined,
+    Observation: undefined,
+    Title: undefined
   }
 ];
