@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export default [
   {
     index: 0,
@@ -39,7 +40,7 @@ export default [
     Email: 'Gareth.Leng@ed.ac.uk ',
     state: 'Edinburgh',
     Country: 'UK',
-    Institute: 'Centre for Dicovery Brain Sciences,The University of Edinburgh',
+    Institute: 'Centre for dicovery Brain Sciences,The University of Edinburgh',
     professionalRole: 'Professor',
     Observation:
       '        \nResearch Theme: Signalling, Homeostasis and Energy Balance   ',
@@ -257,7 +258,7 @@ export default [
     eCategory: 'Datablitz presentation',
     eID: undefined,
     width: 4.0,
-    eTitle: 'Selected poster presenters - travel awardees',
+    eTitle: 'Selected poster presentaters - travel awardees',
     firstName: 'Ruud',
     lastName: 'Buijs',
     'Unnamed: 10': 'M',
@@ -445,7 +446,7 @@ export default [
     Email: 'leemary@mail.nih.gov',
     state: 'Bethesda',
     Country: 'USA',
-    Institute: 'NIAAA, NIH',
+    Institute: 'NIAAA',
     professionalRole: 'Researcher',
     Observation: 'Molecular Biology and Bichemestry',
     Title: 'Dr'
@@ -542,7 +543,7 @@ export default [
     Email: 'a.schatzlein@ucl.ac.uk',
     state: 'London',
     Country: 'UK',
-    Institute: 'School of Pharmacy, UCL',
+    Institute: 'School of Pharmarcy, UCL',
     professionalRole: 'Professor',
     Observation: 'UCL School of Pharmacy, Pharma & Bio Chemestry',
     Title: 'Prof.'
@@ -638,7 +639,7 @@ export default [
     Email: 'jnbetley@sas.upenn.edu',
     state: 'Philadelphia',
     Country: 'USA',
-    Institute: 'Department of Biology, University of Pennsylvania',
+    Institute: 'Department of Biology, UPenn',
     professionalRole: 'Assistent Professor',
     Observation: 'Department Of Biology ',
     Title: 'Dr'
@@ -662,8 +663,7 @@ export default [
     Email: 'pduncan2@exseed.ed.ac.uk ',
     state: 'Edinburgh',
     Country: 'UK',
-    Institute:
-      'Centre for Discovery Brain Sciences,The University of Edinburgh',
+    Institute: 'Centre for dicovery Brain Sciences,The University of Edinburgh',
     professionalRole: 'Young investigator/postdocral',
     Observation: undefined,
     Title: 'Dr'
@@ -709,7 +709,7 @@ export default [
     Email: 'smahata@ucsd.edu ',
     state: 'San Diego',
     Country: 'USA',
-    Institute: 'UCSD',
+    Institute: 'UCSU',
     professionalRole: 'Professor',
     Observation: 'Division of Nephrology/Hypertension',
     Title: 'Prof'
@@ -731,7 +731,7 @@ export default [
     Email: 'smahata@ucsd.edu ',
     state: 'San Diego',
     Country: 'USA',
-    Institute: 'UCSD',
+    Institute: 'UCSU',
     professionalRole: 'Professor',
     Observation: 'Division of Nephrology/Hypertension',
     Title: 'Prof'
@@ -932,12 +932,12 @@ export default [
     Role: 'Speaker',
     talkTitle:
       'Conditional deletion of melanin-concentrating hormone receptor 1 from GABAergic neurons increases locomotor activity',
-    Email: 'MelissaChee@cunet.carleton.ca',
-    state: 'Carleston',
-    Country: 'Canada',
-    Institute: 'Department of Neuroscience, University of Carleton',
-    professionalRole: 'Assistant Professor',
-    Observation: 'Department of Neuoscience',
+    Email: undefined,
+    state: undefined,
+    Country: undefined,
+    Institute: undefined,
+    professionalRole: 'Postdoc',
+    Observation: undefined,
     Title: 'Dr'
   },
   {
@@ -1806,7 +1806,7 @@ export default [
     Role: 'Speaker',
     talkTitle: 'Neural signatures of stress in the CRH system',
     Email: 'karl.iremonger@otago.ac.nz',
-    state: 'Dunedin ',
+    state: 'Dunnedin ',
     Country: 'New Zealand',
     Institute: 'Otago University',
     professionalRole: 'PI',
@@ -2008,7 +2008,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Lee',
     lastName: 'Eiden',
     'Unnamed: 10': 'M',
@@ -2031,7 +2031,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Patrick',
     lastName: 'Sexton',
     'Unnamed: 10': 'M',
@@ -2054,7 +2054,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Wenqin',
     lastName: 'Xu',
     'Unnamed: 10': 'F',
@@ -2078,7 +2078,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Debbie L.',
     lastName: 'Hay',
     'Unnamed: 10': 'F',
@@ -2102,14 +2102,14 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Corrine',
     lastName: 'Bousquet',
     'Unnamed: 10': 'F',
     Role: 'Speaker',
     talkTitle:
       'Somatostatin and somatostatin analog signaling to stromal cells in pancreatic cancer',
-    Email: 'corinne.bousquet@inserm.fr',
+    Email: undefined,
     state: 'Toulouse',
     Country: 'France',
     Institute: 'INSERM U531',
@@ -2126,7 +2126,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'H\u00e9l\u00e8ne ',
     lastName: 'Castel',
     'Unnamed: 10': 'F',
@@ -2150,7 +2150,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Denise',
     lastName: 'Wootten',
     'Unnamed: 10': 'F',
@@ -2174,7 +2174,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
     firstName: 'Ki',
     lastName: 'Goosens',
     'Unnamed: 10': 'F',
@@ -2196,13 +2196,13 @@ export default [
     Location: 'Pierre Bar, Pierre Mundo Imperial',
     eCategory: 'Social event',
     eID: 'SO-3',
-    width: 1.0,
+    width: 4.0,
     eTitle:
       'Young Investigator/Graduate Students Reception: Let\u2019s dance, RegPep!',
     firstName: 'Vito S. Hern\u00e1ndez, Mario A. Zetter',
     lastName: 'and Elba Campos L.',
     'Unnamed: 10': undefined,
-    Role: 'Hosts',
+    Role: 'Host',
     talkTitle: undefined,
     Email: 'no.vito.no@gmail.com',
     state: 'Mexico',
@@ -2213,7 +2213,29 @@ export default [
     Title: undefined
   },
   {
-    index: 101,
+    index: 100,
+    Day: 'nan',
+    Time: undefined,
+    Location: undefined,
+    eCategory: undefined,
+    eID: undefined,
+    width: 4.0,
+    eTitle: undefined,
+    firstName: 'Mario A.',
+    lastName: 'Zetter',
+    'Unnamed: 10': undefined,
+    Role: 'Host',
+    talkTitle: undefined,
+    Email: 'zetter.salmon@gmail.com',
+    state: 'Mexico',
+    Country: 'Mexico',
+    Institute: 'UNAM',
+    professionalRole: 'Postdoc',
+    Observation: undefined,
+    Title: undefined
+  },
+  {
+    index: 102,
     Day: '9.21',
     Time: '8:30 - 9:30',
     Location: 'Atlantes amphitheater',
@@ -2237,7 +2259,7 @@ export default [
     Title: 'Dr'
   },
   {
-    index: 102,
+    index: 103,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa Rooms',
@@ -2259,7 +2281,7 @@ export default [
     Title: undefined
   },
   {
-    index: 103,
+    index: 104,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
@@ -2283,7 +2305,7 @@ export default [
     Title: 'Dr'
   },
   {
-    index: 104,
+    index: 105,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
@@ -2306,7 +2328,7 @@ export default [
     Title: undefined
   },
   {
-    index: 105,
+    index: 106,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
@@ -2329,7 +2351,7 @@ export default [
     Title: undefined
   },
   {
-    index: 106,
+    index: 107,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
@@ -2353,7 +2375,7 @@ export default [
     Title: undefined
   },
   {
-    index: 107,
+    index: 108,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa I',
@@ -2365,7 +2387,7 @@ export default [
     firstName: 'Dora',
     lastName: 'Zelena',
     'Unnamed: 10': 'F',
-    Role: 'Speaker',
+    Role: 'Chair',
     talkTitle: 'Vasopressin and sociability in autism and schizophrenia',
     Email: 'zelena.dora@koki.mta.hu ',
     state: 'Budapest',
@@ -2377,7 +2399,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 108,
+    index: 109,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
@@ -2399,7 +2421,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 109,
+    index: 110,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
@@ -2423,7 +2445,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 110,
+    index: 111,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
@@ -2446,7 +2468,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 111,
+    index: 112,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
@@ -2470,7 +2492,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 112,
+    index: 113,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa II',
@@ -2494,7 +2516,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 113,
+    index: 114,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
@@ -2516,7 +2538,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 114,
+    index: 115,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
@@ -2538,7 +2560,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 115,
+    index: 116,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
@@ -2562,7 +2584,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 116,
+    index: 117,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
@@ -2585,7 +2607,7 @@ export default [
     Title: 'PhD Candidate'
   },
   {
-    index: 117,
+    index: 118,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa III',
@@ -2609,7 +2631,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 118,
+    index: 119,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
@@ -2632,7 +2654,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 119,
+    index: 120,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
@@ -2655,7 +2677,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 120,
+    index: 121,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
@@ -2678,12 +2700,36 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 121,
+    index: 122,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
     eID: '4-D-2',
+    width: 4.0,
+    eTitle: 'Brain\u2013body interaction in reproduction ',
+    firstName: 'Robert',
+    lastName: 'Millar',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
+    talkTitle:
+      'Novel analogs of Kisspeptin and Neurokinin B in the interrogation of the HPG axis and as therapeutics',
+    Email: 'bob.millar@up.ac.za ',
+    state: 'Pretoria',
+    Country: 'South Africa',
+    Institute: 'University of Pretoria',
+    professionalRole: 'Professor',
+    Observation:
+      'The Centre for Neuroendocrinology: Brain/Body Dialogues, University of Pretoria\ncnr Lynnwood Road and Roper Street\nHatfield, Pretoria\nSouth Africa',
+    Title: 'Prof.'
+  },
+  {
+    index: 123,
+    Day: '9.21',
+    Time: '10:00 - 12:00',
+    Location: 'Princesa IV',
+    eCategory: 'CS block 4',
+    eID: '4-D-3',
     width: 4.0,
     eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Geert',
@@ -2701,12 +2747,12 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 122,
+    index: 124,
     Day: '9.21',
     Time: '10:00 - 12:00',
     Location: 'Princesa IV',
     eCategory: 'CS block 4',
-    eID: '4-D-3',
+    eID: '4-D-4',
     width: 4.0,
     eTitle: 'Brain\u2013body interaction in reproduction ',
     firstName: 'Stephanie',
@@ -2725,36 +2771,13 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 123,
-    Day: '9.21',
-    Time: '10:00 - 12:01',
-    Location: 'Princesa IV',
-    eCategory: 'CS block 5',
-    eID: '4-D-4',
-    width: 4.0,
-    eTitle: 'Brain\u2013body interaction in reproduction ',
-    firstName: 'Luis Miguel',
-    lastName: 'Garcia-Segura',
-    'Unnamed: 10': 'M',
-    Role: 'Speaker',
-    talkTitle:
-      'The role of aromatase enzyme in brain development, synaptic plasticity, arginine-vasopressin expression, neuroprotection and cognition',
-    Email: 'lmgs@cajal.csic.es ',
-    state: 'Madrid',
-    Country: 'Spain',
-    Institute: 'Cajal Institute',
-    professionalRole: undefined,
-    Observation: undefined,
-    Title: undefined
-  },
-  {
-    index: 125,
+    index: 126,
     Day: '9.21',
     Time: '12:00 - 13:30',
     Location: 'Princesa Foyer',
     eCategory: 'Lunch and Poster presentation ',
     eID: 'L-PP-3',
-    width: 1.0,
+    width: 4.0,
     eTitle: 'Lunch and Poster presentation (3rd of 3 sessions)',
     firstName: undefined,
     lastName: undefined,
@@ -2770,14 +2793,14 @@ export default [
     Title: undefined
   },
   {
-    index: 126,
+    index: 127,
     Day: '9.21',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
-    eID: 'SE-3',
-    width: 1.0,
-    eTitle: 'Peptide Pioneers Roundtable',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Robert ',
     lastName: 'Millar',
     'Unnamed: 10': 'M',
@@ -2793,14 +2816,14 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 127,
+    index: 128,
     Day: '9.21',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
-    eID: 'SE-3',
-    width: 1.0,
-    eTitle: 'Peptide Pioneers Roundtable',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Gareth',
     lastName: 'Leng',
     'Unnamed: 10': 'M',
@@ -2815,14 +2838,14 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 128,
+    index: 129,
     Day: '9.21',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
-    eID: 'SE-3',
-    width: 1.0,
-    eTitle: 'Peptide Pioneers Roundtable',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Luis Miguel',
     lastName: 'Garc\u00eda-Segura',
     'Unnamed: 10': 'M',
@@ -2838,14 +2861,14 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 129,
+    index: 130,
     Day: '9.21',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
-    eID: 'SE-3',
-    width: 1.0,
-    eTitle: 'Peptide Pioneers Roundtable',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Dick',
     lastName: 'Swaab',
     'Unnamed: 10': 'M',
@@ -2860,14 +2883,14 @@ export default [
     Title: 'Dr. '
   },
   {
-    index: 130,
+    index: 131,
     Day: '9.21',
     Time: '13:30 - 14:30',
     Location: 'Pincesa VI-VII',
     eCategory: 'Special event',
-    eID: 'SE-3',
-    width: 1.0,
-    eTitle: 'Peptide Pioneers Roundtable',
+    eID: 'SE-2',
+    width: 4.0,
+    eTitle: 'Peptide pioneers Roundtable',
     firstName: 'Ruud',
     lastName: 'Buijs',
     'Unnamed: 10': 'M',
@@ -2883,13 +2906,13 @@ export default [
     Title: 'Dr. '
   },
   {
-    index: 131,
+    index: 132,
     Day: '9.21',
     Time: '15:00 - 18:00',
     Location: 'Atlantes amphitheater',
     eCategory: 'Special event',
-    eID: 'SE-4',
-    width: 1.0,
+    eID: 'SE-3',
+    width: 4.0,
     eTitle: 'IRPS General Asembly',
     firstName: 'Lee E.',
     lastName: 'Eiden',
@@ -2906,13 +2929,13 @@ export default [
     Title: 'Dr. '
   },
   {
-    index: 132,
+    index: 133,
     Day: '9.21',
     Time: undefined,
     Location: undefined,
     eCategory: undefined,
     eID: undefined,
-    width: 1.0,
+    width: 4.0,
     eTitle: 'IRPS General Asembly',
     firstName: 'Limei',
     lastName: 'Zhang',
@@ -2930,14 +2953,14 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 133,
+    index: 134,
     Day: '9.21',
     Time: '19:00 - 22:00',
     Location: 'Sal\u00f3n Diamonte',
     eCategory: 'Social event',
     eID: 'SO-3',
     width: 4.0,
-    eTitle: 'Conference Banquet',
+    eTitle: 'Conference banquest',
     firstName: undefined,
     lastName: undefined,
     'Unnamed: 10': undefined,
@@ -2952,7 +2975,7 @@ export default [
     Title: undefined
   },
   {
-    index: 135,
+    index: 136,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa Rooms',
@@ -2974,7 +2997,7 @@ export default [
     Title: undefined
   },
   {
-    index: 136,
+    index: 137,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
@@ -2997,7 +3020,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 137,
+    index: 138,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
@@ -3021,7 +3044,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 138,
+    index: 139,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
@@ -3045,7 +3068,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 139,
+    index: 140,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
@@ -3069,7 +3092,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 140,
+    index: 141,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa I',
@@ -3092,7 +3115,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 141,
+    index: 142,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
@@ -3116,7 +3139,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 142,
+    index: 143,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
@@ -3141,7 +3164,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 143,
+    index: 144,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
@@ -3166,7 +3189,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 144,
+    index: 145,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
@@ -3191,7 +3214,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 145,
+    index: 146,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
@@ -3216,7 +3239,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 146,
+    index: 147,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa II',
@@ -3241,7 +3264,7 @@ export default [
     Title: 'Ms'
   },
   {
-    index: 147,
+    index: 148,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
@@ -3265,7 +3288,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 148,
+    index: 149,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
@@ -3289,7 +3312,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 149,
+    index: 150,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
@@ -3312,7 +3335,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 150,
+    index: 151,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
@@ -3337,7 +3360,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 151,
+    index: 152,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
@@ -3362,7 +3385,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 152,
+    index: 153,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa III',
@@ -3387,7 +3410,7 @@ export default [
     Title: 'Prof.'
   },
   {
-    index: 153,
+    index: 154,
     Day: '9.22',
     Time: '8:00 - 10:00',
     Location: 'Princesa IV',
@@ -3395,7 +3418,7 @@ export default [
     eID: '5-D',
     width: 4.0,
     eTitle:
-      'Neuropeptides and Hypophyseal-pituitary-gonadal (HPG) axis function',
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
     firstName: 'Robert (Bob)',
     lastName: 'Millar',
     'Unnamed: 10': 'M',
@@ -3411,7 +3434,31 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 154,
+    index: 155,
+    Day: '9.22',
+    Time: '8:00 - 10:01',
+    Location: 'Princesa IV',
+    eCategory: 'CS block 4',
+    eID: '5-D-1',
+    width: 4.0,
+    eTitle:
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
+    firstName: 'Robert (Bob)',
+    lastName: 'Millar',
+    'Unnamed: 10': 'M',
+    Role: 'Speaker',
+    talkTitle: 'Rescue of HPG axis function with mutant human GPCRs',
+    Email: 'robertpetermillar@gmail.com',
+    state: 'Pretoria',
+    Country: 'South Africa',
+    Institute: 'UCT Faculty of Health Sciences',
+    professionalRole: 'Professor',
+    Observation:
+      'Receptor Biology Group, Institute of Infectious Disease and Molecular Medicine\r\nDivision of Chemical & Systems Biology, UCT Faculty of Health Sciences\r\nObservatory 7925\r\n',
+    Title: undefined
+  },
+  {
+    index: 156,
     Day: '9.22',
     Time: '8:00 - 10:02',
     Location: 'Princesa IV',
@@ -3419,7 +3466,7 @@ export default [
     eID: '5-D-2',
     width: 4.0,
     eTitle:
-      'Neuropeptides and Hypophyseal-pituitary-gonadal (HPG) axis function',
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
     firstName: 'Victor M',
     lastName: 'Navarro',
     'Unnamed: 10': 'M',
@@ -3435,7 +3482,7 @@ export default [
     Title: undefined
   },
   {
-    index: 155,
+    index: 157,
     Day: '9.22',
     Time: '8:00 - 10:03',
     Location: 'Princesa IV',
@@ -3443,7 +3490,7 @@ export default [
     eID: '5-D-3',
     width: 4.0,
     eTitle:
-      'Neuropeptides and Hypophyseal-pituitary-gonadal (HPG) axis function',
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
     firstName: 'Ulrich',
     lastName: 'Boehm',
     'Unnamed: 10': 'M',
@@ -3452,14 +3499,14 @@ export default [
     Email: 'Ulrich.boehm@uks.de',
     state: 'Homburg',
     Country: 'Germany',
-    Institute: 'University of Saarland',
+    Institute: 'University of Saarlandes',
     professionalRole: 'Professor',
     Observation:
       'Prof., Universit\u00e4t des Saarlandes\r\nExperimentelle und klinische Pharmakologie und Toxikologie,\r\nKirrberger Str., Geb. 61.4\r\n66421 Homburg\r',
     Title: undefined
   },
   {
-    index: 156,
+    index: 158,
     Day: '9.22',
     Time: '8:00 - 10:04',
     Location: 'Princesa IV',
@@ -3467,7 +3514,7 @@ export default [
     eID: '5-D-4',
     width: 4.0,
     eTitle:
-      'Neuropeptides and Hypophyseal-pituitary-gonadal (HPG) axis function',
+      'Neuropeptides and Hypophyseal-pituitary-gondal (HPG) axis function',
     firstName: 'Waljit',
     lastName: 'Dhillo',
     'Unnamed: 10': 'M',
@@ -3483,31 +3530,7 @@ export default [
     Title: undefined
   },
   {
-    index: 157,
-    Day: '9.22',
-    Time: '8:00 - 10:01',
-    Location: 'Princesa IV',
-    eCategory: 'CS block 4',
-    eID: '5-D-1',
-    width: 4.0,
-    eTitle:
-      'Neuropeptides and Hypophyseal-pituitary-gonadal (HPG) axis function',
-    firstName: 'Robert (Bob)',
-    lastName: 'Millar',
-    'Unnamed: 10': 'M',
-    Role: 'Speaker',
-    talkTitle: 'Rescue of  function  of mutant human GPCRs in the HPG axis',
-    Email: 'robertpetermillar@gmail.com',
-    state: 'Pretoria',
-    Country: 'South Africa',
-    Institute: 'UCT Faculty of Health Sciences, University of Pretoria',
-    professionalRole: 'Professor',
-    Observation:
-      'Receptor Biology Group, Institute of Infectious Disease and Molecular Medicine\r\nDivision of Chemical & Systems Biology, UCT Faculty of Health Sciences\r\nObservatory 7925\r\n',
-    Title: undefined
-  },
-  {
-    index: 158,
+    index: 159,
     Day: '9.22',
     Time: '10:00 - 11:00',
     Location: 'Check-out if applicable',
@@ -3529,7 +3552,7 @@ export default [
     Title: undefined
   },
   {
-    index: 159,
+    index: 160,
     Day: '9.22',
     Time: '11:00 - 11:30',
     Location: 'Atlantes amphitheater',
@@ -3552,7 +3575,7 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 160,
+    index: 161,
     Day: '9.22',
     Time: '11:30 - 12:15',
     Location: 'Atlantes amphitheater',
@@ -3575,11 +3598,11 @@ export default [
     Title: 'Dr.'
   },
   {
-    index: 161,
+    index: 162,
     Day: '9.22',
     Time: '12:15 - 12-30',
     Location: 'Atlantes amphitheater',
-    eCategory: 'RegPep2020 closing ceremony',
+    eCategory: 'RegPep2020 closure ceremony',
     eID: undefined,
     width: 4.0,
     eTitle: undefined,
@@ -3597,7 +3620,7 @@ export default [
     Title: undefined
   },
   {
-    index: 162,
+    index: 163,
     Day: '9.22',
     Time: '12:30 - 13:00',
     Location: 'TBC',
@@ -3619,7 +3642,7 @@ export default [
     Title: undefined
   },
   {
-    index: 163,
+    index: 164,
     Day: '9.23',
     Time: undefined,
     Location: 'Social events',
@@ -3637,29 +3660,6 @@ export default [
     Country: undefined,
     Institute: undefined,
     professionalRole: undefined,
-    Observation: undefined,
-    Title: undefined
-  },
-  {
-    index: 164,
-    Day: '9.24-9.26',
-    Time: '9:00 - 17:00',
-    Location: 'Instituto de Neurobiologia, Queretaro, M\u00e9xico',
-    eCategory: 'Satellite event',
-    eID: undefined,
-    width: undefined,
-    eTitle: 'Post-RegPep2020 satelite event',
-    firstName: 'Andr\u00e9s Quintanar-Stephano',
-    lastName: 'Maricela Luna',
-    'Unnamed: 10': 'F',
-    Role: 'Coordinadors',
-    talkTitle:
-      'Theroretical-practical course on experimental microsurgery in the rat.',
-    Email: 'aquinta@correo.uaa.mx',
-    state: 'Aguascaliente and Queretaro',
-    Country: 'Mexico',
-    Institute: 'Universidad Aut\u00f3noma de Aguascalientes and UNAM',
-    professionalRole: 'Professor',
     Observation: undefined,
     Title: undefined
   }

@@ -78,7 +78,7 @@ export default function RegisterNow() {
               Early bird registration**: March 30, 2020
             </Typography>
             <Typography variant="body1" component="h1" gutterBottom>
-              ** Registration fee include: abstract submission; welcome
+              ** Registration fee includes: abstract submission; welcome
               reception; name badge; printed program and abstract book of
               RegPep2020; participation in all scientific sessions; access code
               for video streaming of all conference sessions during the meeting
@@ -89,6 +89,7 @@ export default function RegisterNow() {
             variant="contained"
             color="primary"
             href="http://www.regpep.org/international-regulatory-peptide-society/regpep-2020/"
+            target="_blank"
           >
             Register Now
           </Button>

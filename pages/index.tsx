@@ -110,8 +110,8 @@ export default function Index(): React.ReactElement {
               The International Symposium on Regulatory Peptides (RegPep)
             </b>{' '}
             under the auspice of the{' '}
-            <Link href="http://regpep.org">
-              International Regulatory Society
+            <Link href="http://regpep.org" target="_blank">
+              International Regulatory Peptides Society
             </Link>{' '}
             has been held every two years in various countries all over the
             world, starting in Asilomar (USA, 1976).
@@ -170,6 +170,7 @@ export default function Index(): React.ReactElement {
             variant="contained"
             color="primary"
             href="http://www.regpep.org/international-regulatory-peptide-society/regpep-2020/"
+            target="_blank"
           >
             Registration
           </Button>

@@ -107,11 +107,12 @@ const HOTEL_MASTER_LIST = [
       },
       {
         key: '2',
-        name: 'Hotel Stone',
-        descripcion: `Located in Acapulco, less than 1 km from Revolcadero Beach, Hotel Stone provides accommodation with an outdoor swimming pool, free private parking, a shared lounge and a garden. Among the facilities at this property are a 24-hour front desk and room service, along with free WiFi throughout the property. The hotel features family rooms.`,
-        picture: '/stone.jpg',
-        link:
-          'https://www.booking.com/hotel/mx/stone-acapulco.html?aid=378266;label=bdot-kuUefSr0koVoolcK4inwyQS267778093357%3Apl%3Ata%3Ap1%3Ap22%2C653%2C000%3Aac%3Aap%3Aneg%3Afi%3Atikwd-3346771808%3Alp1010042%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YYriJK-Ikd_dLBPOo0BdMww;sid=cd7bee0a4476ea9308e21122e6c67d8a;atlas_src=sr_iw_btn;checkin=2020-03-06;checkout=2020-03-07;dest_id=0;dest_type=landmark;dist=0;group_adults=2;group_children=0;highlighted_blocks=332956604_116803464_4_0_0;no_rooms=1;room1=A%2CA;sb_price_type=total;type=total;ucfs=1&'
+        name: 'Villas Sol Diamante',
+        descripcion: `Located in Acapulco, Villas Sol Diamante offers an outdoor swimming pool, free WiFi access and free private on-site parking.
+
+        Each air-conditioned room here will provide you with a cable TV, a balcony and a private bathroom with a shower. You can enjoy pool view and garden view from the room.`,
+        picture: '/villas_sol.jpg',
+        link: 'http://www.booking.com/Share-3xFe5P'
       }
     ]
   }
