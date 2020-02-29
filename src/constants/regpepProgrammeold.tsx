@@ -1129,7 +1129,7 @@ export default [
   },
   {
     index: 51,
-    Day: 'nan',
+    Day: '9.19',
     Time: undefined,
     Location: 'Princesa III',
     eCategory: 'CS block 2',
@@ -2214,7 +2214,7 @@ export default [
   },
   {
     index: 100,
-    Day: 'nan',
+    Day: '9.20',
     Time: undefined,
     Location: undefined,
     eCategory: undefined,

@@ -65,6 +65,7 @@ export default function Symposia() {
   const [showDay3, setShowDay3] = useState(true);
   const [showDay4, setShowDay4] = useState(true);
   const [showDay5, setShowDay5] = useState(true);
+  const [showAdditionalDays, setShowAdditionalDays] = useState(true);
   const [openFilter, setOpenFilter] = useState(true);
   const [tempFilter, setTempFilter] = useState('');
   const [searchFilter, setSearchFilter] = useState('');
@@ -169,12 +170,17 @@ export default function Symposia() {
     setShowDay5(!showDay5);
   };
 
+  const toggleAdditionalDays = () => {
+    setShowAdditionalDays(!showAdditionalDays);
+  };
+
   const enableAll = () => {
     setShowDay1(true);
     setShowDay2(true);
     setShowDay3(true);
     setShowDay4(true);
     setShowDay5(true);
+    setShowAdditionalDays(true);
   };
 
   const disableAll = () => {
@@ -183,6 +189,7 @@ export default function Symposia() {
     setShowDay3(false);
     setShowDay4(false);
     setShowDay5(false);
+    setShowAdditionalDays(false);
   };
 
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -193,23 +200,34 @@ export default function Symposia() {
     setSearchFilter(tempFilter);
   };
 
+  const filterByDay = (day: string): boolean => {
+    if (showDay1 && day === '9.18') {
+      return true;
+    }
+    if (showDay2 && day === '9.19') {
+      return true;
+    }
+    if (showDay3 && day === '9.20') {
+      return true;
+    }
+    if (showDay4 && day === '9.21') {
+      return true;
+    }
+    if (showDay5 && day === '9.22') {
+      return true;
+    }
+    if (
+      showAdditionalDays &&
+      !['9.18', '9.19', '9.20', '9.21', '9.22'].includes(day)
+    ) {
+      return true;
+    }
+    return false;
+  };
+
   const filteredProgramList = PROGRAM_LIST.filter(item => {
-    let valid = false;
-    if (showDay1 && item.Day === '9.18') {
-      valid = true;
-    }
-    if (showDay2 && item.Day === '9.19') {
-      valid = true;
-    }
-    if (showDay3 && item.Day === '9.20') {
-      valid = true;
-    }
-    if (showDay4 && item.Day === '9.21') {
-      valid = true;
-    }
-    if (showDay5 && item.Day === '9.22') {
-      valid = true;
-    }
+    const valid = filterByDay(item.Day);
+
     if (searchFilter && valid) {
       if (item.eCategory) {
         if (item.eCategory!.toLowerCase().includes(searchFilter)) {
@@ -294,6 +312,14 @@ export default function Symposia() {
               className={classes.marginHorizontal}
             >
               Day 5
+            </Button>
+            <Button
+              variant={showAdditionalDays ? 'contained' : 'outlined'}
+              onClick={toggleAdditionalDays}
+              color="primary"
+              className={classes.marginHorizontal}
+            >
+              Extra Events
             </Button>
             <Button
               onClick={enableAll}
