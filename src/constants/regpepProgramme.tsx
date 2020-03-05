@@ -1,4 +1,4 @@
-[
+export default [
   {
     index: 0,
     Day: '9.18',
