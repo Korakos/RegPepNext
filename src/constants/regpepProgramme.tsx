@@ -1,4 +1,4 @@
-export default [
+[
   {
     index: 0,
     Day: '9.18',
@@ -2008,7 +2008,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Lee',
     lastName: 'Eiden',
     'Unnamed: 10': 'M',
@@ -2031,7 +2031,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Patrick',
     lastName: 'Sexton',
     'Unnamed: 10': 'M',
@@ -2054,7 +2054,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Wenqin',
     lastName: 'Xu',
     'Unnamed: 10': 'F',
@@ -2078,7 +2078,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Debbie L.',
     lastName: 'Hay',
     'Unnamed: 10': 'F',
@@ -2102,7 +2102,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Corrine',
     lastName: 'Bousquet',
     'Unnamed: 10': 'F',
@@ -2126,7 +2126,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'H\u00e9l\u00e8ne ',
     lastName: 'Castel',
     'Unnamed: 10': 'F',
@@ -2150,7 +2150,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Denise',
     lastName: 'Wootten',
     'Unnamed: 10': 'F',
@@ -2174,7 +2174,7 @@ export default [
     eID: 'SE-2',
     width: 1.0,
     eTitle:
-      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling In Vivo',
+      'Workshop: Neuropeptide-liganded GPCRs: Therapeutic Possibilities in Biased and Alternative Signaling',
     firstName: 'Ki',
     lastName: 'Goosens',
     'Unnamed: 10': 'F',
