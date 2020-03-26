@@ -60,7 +60,7 @@ export default function RegisterNow() {
               color="secondary"
             >
               Abstract submission for contributed talks selection and travel
-              awards*: March 30, 2020
+              awards*: May 18, 2020
             </Typography>
             <Typography variant="body1" component="h1" gutterBottom>
               * Travel awards include free accommodations and competition for
@@ -75,7 +75,7 @@ export default function RegisterNow() {
               gutterBottom
               color="secondary"
             >
-              Early bird registration**: March 30, 2020
+              Early bird registration**: May 18, 2020
             </Typography>
             <Typography variant="body1" component="h1" gutterBottom>
               ** Registration fee includes: abstract submission; welcome
