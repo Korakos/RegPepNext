@@ -40,6 +40,11 @@ const sections = [
   { title: 'Contact', url: 'contact' }
 ];
 
+const newsAlert = {
+  title: 'COVID-19 - IRPS news alert - March 17th, 2020',
+  url: '/covidNews'
+};
+
 export default function BaseView(props: {
   active?: string;
   children: React.ReactNode;
@@ -53,7 +58,7 @@ export default function BaseView(props: {
 
   return (
     <div className={classes.root}>
-      <Header title="RegPep2020" sections={sections} />
+      <Header title="RegPep2020" sections={sections} newsAlert={newsAlert} />
       <Container component="main" className={classes.main} maxWidth="lg">
         {props.children}
       </Container>

@@ -13,6 +13,13 @@ const useStyles = makeStyles((theme: Theme) =>
       borderBottom: `1px solid ${theme.palette.divider}`,
       color: 'white'
     },
+    alertBar: {
+      backgroundColor: `#FFCC00`,
+      alignItems: `center`,
+      justifyContent: `center`,
+      borderBottom: `1px solid ${theme.palette.divider}`,
+      color: 'white'
+    },
     toolbarTitle: {
       flex: 1
     },
@@ -35,9 +42,13 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function Header(props: { sections: any; title: any }) {
+export default function Header(props: {
+  sections: any;
+  title: any;
+  newsAlert?: any;
+}) {
   const classes = useStyles();
-  const { sections, title } = props;
+  const { sections, title, newsAlert } = props;
 
   return (
     <React.Fragment>
@@ -67,6 +78,11 @@ export default function Header(props: { sections: any; title: any }) {
           Login
         </Button>*/}
       </Toolbar>
+      {newsAlert ? (
+        <Toolbar className={classes.alertBar}>
+          <Link href={newsAlert.url}>{newsAlert.title}</Link>
+        </Toolbar>
+      ) : null}
       <Toolbar
         component="nav"
         variant="regular"
