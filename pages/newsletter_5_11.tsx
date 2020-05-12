@@ -69,8 +69,7 @@ export default function newsletter() {
             these difficult circumstances.
           </Typography>
           <Typography
-            variant="h4"
-            component="h1"
+            variant="body1"
             gutterBottom
             className={classes.paddedView}
           >
@@ -80,8 +79,7 @@ export default function newsletter() {
             move forward with the RegPep2020, the 23nd Biennial Meeting.
           </Typography>
           <Typography
-            variant="h4"
-            component="h1"
+            variant="body1"
             gutterBottom
             className={classes.paddedView}
           >
@@ -91,8 +89,7 @@ export default function newsletter() {
             award applications.
           </Typography>
           <Typography
-            variant="h4"
-            component="h1"
+            variant="body1"
             gutterBottom
             className={classes.paddedView}
           >
@@ -107,8 +104,7 @@ export default function newsletter() {
             communicating the details in the coming weeks.
           </Typography>
           <Typography
-            variant="h4"
-            component="h1"
+            variant="body1"
             gutterBottom
             className={classes.paddedView}
           >
@@ -117,8 +113,7 @@ export default function newsletter() {
             delegates will receive a reimbursement of your deposit.
           </Typography>
           <Typography
-            variant="h4"
-            component="h1"
+            variant="body1"
             gutterBottom
             className={classes.paddedView}
           >
