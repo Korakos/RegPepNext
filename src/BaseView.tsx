@@ -41,7 +41,7 @@ const sections = [
 ];
 
 const newsAlert = {
-  title: 'Newsletter - May 11th, 2020',
+  title: 'Letter from LOC - May 11th, 2020',
   url: '/newsletter_5_11'
 };
 
