@@ -41,8 +41,8 @@ const sections = [
 ];
 
 const newsAlert = {
-  title: 'COVID-19 - IRPS news alert - March 17th, 2020',
-  url: '/covidNews'
+  title: 'Newsletter - May 11th, 2020',
+  url: '/newsletter_5_11'
 };
 
 export default function BaseView(props: {
