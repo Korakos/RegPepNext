@@ -92,7 +92,7 @@ export default function covidNews() {
               className={classes.paddedView}
             >
               We have extended the early bird registration deadline for
-              RegPep2020 to June 10th, 2020, for speaker’s confirmation and
+              RegPep2020 to July 10th, 2020, for speaker’s confirmation and
               travel awards applications, and have amended the cancelation
               policy in case we have to postpone the event to November 18-22,
               2020, and some of our colleagues will not be able to make the new
