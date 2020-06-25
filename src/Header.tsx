@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: 'white'
     },
     alertBar: {
-      backgroundColor: `#FFCC00`,
+      backgroundColor: `#ed3737`,
       alignItems: `center`,
       justifyContent: `center`,
       borderBottom: `1px solid ${theme.palette.divider}`,
@@ -80,7 +80,9 @@ export default function Header(props: {
       </Toolbar>
       {newsAlert ? (
         <Toolbar className={classes.alertBar}>
-          <Link href={newsAlert.url}>{newsAlert.title}</Link>
+          <Link href={newsAlert.url} color="inherit">
+            {newsAlert.title}
+          </Link>
         </Toolbar>
       ) : null}
       <Toolbar

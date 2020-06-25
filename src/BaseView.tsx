@@ -41,8 +41,8 @@ const sections = [
 ];
 
 const newsAlert = {
-  title: 'Letter from LOC - May 11th, 2020',
-  url: '/newsletter_5_11'
+  title: 'RegPep2020 is postponed to April 29 through May 3, 2022',
+  url: '#'
 };
 
 export default function BaseView(props: {
