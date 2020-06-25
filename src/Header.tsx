@@ -80,7 +80,7 @@ export default function Header(props: {
       </Toolbar>
       {newsAlert ? (
         <Toolbar className={classes.alertBar}>
-          <Link href={newsAlert.url} color="inherit">
+          <Link href={newsAlert.url} color="inherit" variant="h4">
             {newsAlert.title}
           </Link>
         </Toolbar>
