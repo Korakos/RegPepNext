@@ -41,7 +41,7 @@ const sections = [
 ];
 
 const newsAlert = {
-  title: 'RegPep2020 is postponed to April 29 through May 3, 2022',
+  title: 'The Program is being revised, and will be updated by May 31st 2021',
   url: '#'
 };
 

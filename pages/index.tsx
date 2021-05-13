@@ -65,7 +65,7 @@ export default function Index(): React.ReactElement {
             gutterBottom
             className={classes.coloredText}
           >
-            September 18-22, 2020
+            August 15-19, 2021
           </Typography>
           <Typography variant="body1" component="h1" gutterBottom>
             Resort and Conference Center Princess Mundo Imperial

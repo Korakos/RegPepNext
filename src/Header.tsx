@@ -14,11 +14,11 @@ const useStyles = makeStyles((theme: Theme) =>
       color: 'white'
     },
     alertBar: {
-      backgroundColor: `#ed3737`,
+      backgroundColor: `#e99736`,
       alignItems: `center`,
       justifyContent: `center`,
       borderBottom: `1px solid ${theme.palette.divider}`,
-      color: 'white'
+      color: 'black'
     },
     toolbarTitle: {
       flex: 1
