@@ -1,4 +1,4 @@
-import Button from '@material-ui/core/Button';
+import { Paper } from '@material-ui/core';
 import Link from '@material-ui/core/Link';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -10,6 +10,13 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     toolbar: {
       backgroundColor: `#4054b2`,
+      borderBottom: `1px solid ${theme.palette.divider}`,
+      color: 'white'
+    },
+    alertBar: {
+      backgroundColor: `#ed3737`,
+      alignItems: `center`,
+      justifyContent: `center`,
       borderBottom: `1px solid ${theme.palette.divider}`,
       color: 'white'
     },
@@ -29,21 +36,26 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     toolbarLink: {
       padding: theme.spacing(1),
-      flexShrink: 0
+      flexShrink: 1,
+      backgroundColor: 'white'
     }
   })
 );
 
-export default function Header(props: { sections: any; title: any }) {
+export default function Header(props: {
+  sections: any;
+  title: any;
+  newsAlert?: any;
+}) {
   const classes = useStyles();
-  const { sections, title } = props;
+  const { sections, title, newsAlert } = props;
 
   return (
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
-        <Button size="medium" className={classes.toolbarButton}>
+        {/*<Button size="medium" className={classes.toolbarButton}>
           Newsletter
-        </Button>
+        </Button>*/}
         <Typography
           component="h2"
           variant="h5"
@@ -56,7 +68,7 @@ export default function Header(props: { sections: any; title: any }) {
         </Typography>
         {/*<IconButton>
           <SearchIcon />
-        </IconButton>*/}
+        </IconButton>
         <Button
           variant="outlined"
           size="medium"
@@ -64,8 +76,15 @@ export default function Header(props: { sections: any; title: any }) {
           href="login"
         >
           Login
-        </Button>
+        </Button>*/}
       </Toolbar>
+      {newsAlert ? (
+        <Toolbar className={classes.alertBar}>
+          <Link href={newsAlert.url} color="inherit" variant="h4">
+            {newsAlert.title}
+          </Link>
+        </Toolbar>
+      ) : null}
       <Toolbar
         component="nav"
         variant="regular"
@@ -75,19 +94,28 @@ export default function Header(props: { sections: any; title: any }) {
           (section: {
             title: string | undefined;
             url: string | undefined;
-            highlightedView: string | undefined;
-          }) => (
-            <Link
-              color={section.highlightedView ? 'primary' : 'inherit'}
-              noWrap
-              key={section.title}
-              variant="h6"
-              href={section.url}
-              className={classes.toolbarLink}
-            >
-              {section.highlightedView ? <b>{section.title}</b> : section.title}
-            </Link>
-          )
+            highlightedView: boolean | undefined;
+            selected: boolean | undefined;
+            disabled: boolean | undefined;
+          }) => {
+            if (section.disabled) return;
+            return (
+              <Paper
+                key={section.title}
+                elevation={section.selected ? 5 : 0}
+                className={classes.toolbarLink}
+              >
+                <Link
+                  color={section.highlightedView ? 'primary' : 'inherit'}
+                  noWrap
+                  variant="body1"
+                  href={section.url}
+                >
+                  <b>{section.title}</b>
+                </Link>
+              </Paper>
+            );
+          }
         )}
       </Toolbar>
     </React.Fragment>

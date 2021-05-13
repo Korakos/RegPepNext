@@ -13,7 +13,8 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2)
     },
     fullSize: {
-      width: '100%'
+      width: '100%',
+      height: 400
     },
     centeredImage: {
       maxWidth: '100%'
@@ -32,6 +33,15 @@ export default function Tours() {
   return (
     <BaseView>
       <Box my={4}>
+        <Box className={classes.paddedView}>
+          <iframe
+            className={classes.fullSize}
+            src="https://www.youtube.com/embed/pjJkPZrwMSo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </Box>
         <Box className={classes.paddedView}>
           <Typography
             variant="h2"

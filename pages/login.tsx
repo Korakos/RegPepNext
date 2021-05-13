@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function LoginView() {
+export default function LoginView(): React.ReactElement {
   const [loginMode, setLoginMode] = useState(true);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -53,8 +53,8 @@ export default function LoginView() {
       console.log(data);
     } else {
       const gql = `
-      mutation CreateAccount($password: String!, $username: String!){
-        createAccount(password: $password, username: $username, email: $email){
+      mutation CreateAccount($password: String!, $email: String!, $username: String!){
+        createAccount(password: $password, email: $email, username: $username){
           user {
             username
           }
@@ -94,7 +94,7 @@ export default function LoginView() {
             name="username"
             autoComplete="username"
             autoFocus
-            onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+            onChange={(event: React.ChangeEvent<HTMLInputElement>): void =>
               setUsername(event.target.value)
             }
           />
@@ -108,7 +108,7 @@ export default function LoginView() {
               label="E-mail"
               id="email"
               autoComplete="email"
-              onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+              onChange={(event: React.ChangeEvent<HTMLInputElement>): void =>
                 setEmail(event.target.value)
               }
             />
@@ -123,7 +123,7 @@ export default function LoginView() {
             type="password"
             id="password"
             autoComplete="current-password"
-            onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+            onChange={(event: React.ChangeEvent<HTMLInputElement>): void =>
               setPassword(event.target.value)
             }
           />
@@ -144,7 +144,7 @@ export default function LoginView() {
             <Grid item>
               <Button
                 color="primary"
-                onClick={() => {
+                onClick={(): void => {
                   setLoginMode(!loginMode);
                 }}
               >

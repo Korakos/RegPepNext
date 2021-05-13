@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import React, { useState } from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
-import { COMMITEE_MEMBERS } from '../src/constants/commitee';
+import PLENNARY_SPEAKERS from '../src/constants/plenary';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 export default function Keynote() {
-  const [speakers, setSpeakers] = useState(COMMITEE_MEMBERS);
+  const [speakers, setSpeakers] = useState(PLENNARY_SPEAKERS);
   const classes = useStyles();
 
   const speakerDetails = (key: string) => {
@@ -58,12 +58,22 @@ export default function Keynote() {
     key: string;
     avatar: string;
     name: string;
+    event: string;
     title: string;
     institution: string;
-    details?: string;
+    description?: string;
     expand?: boolean;
   }) => {
-    const { key, avatar, name, title, institution, details, expand } = speaker;
+    const {
+      key,
+      avatar,
+      name,
+      event,
+      title,
+      institution,
+      description,
+      expand
+    } = speaker;
     return (
       <Box key={key}>
         <ListItem button onClick={() => speakerDetails(key)}>
@@ -71,15 +81,25 @@ export default function Keynote() {
             <Avatar alt={name} src={avatar} className={classes.large} />
           </ListItemAvatar>
           <ListItemText
-            primary={name}
+            primary={
+              <React.Fragment>
+                <Typography component="span" variant="h5" color="primary">
+                  {event}
+                  <br />
+                </Typography>
+                <Typography component="span" variant="h4" color="primary">
+                  {name}
+                </Typography>
+              </React.Fragment>
+            }
             secondary={
               <React.Fragment>
-                <Typography
-                  component="span"
-                  variant="body2"
-                  color="textPrimary"
-                >
-                  {title} <br /> {institution}
+                <Typography component="span" variant="h5">
+                  {title}
+                  <br />
+                </Typography>
+                <Typography component="span" variant="body1">
+                  {institution}
                 </Typography>
               </React.Fragment>
             }
@@ -89,7 +109,7 @@ export default function Keynote() {
         <Collapse in={expand}>
           <Paper elevation={4} className={classes.paddedView}>
             <Typography component="h1" variant="body1" color="textPrimary">
-              {details}
+              {description}
             </Typography>
           </Paper>
         </Collapse>
@@ -107,7 +127,7 @@ export default function Keynote() {
             gutterBottom
             className={classes.coloredText}
           >
-            Keynote & Plennary Speakers
+            Keynote & Plenary Speakers
           </Typography>
           <List>{speakers.map(inflateSpeaker)}</List>
         </Box>
