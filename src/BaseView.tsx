@@ -47,7 +47,7 @@ const newsAlert = {
 
 export default function BaseView(props: {
   active?: string;
-  children: React.ReactNode;
+  children: React.ReactElement;
 }): React.ReactElement {
   if (props.active) {
     sections.filter(
