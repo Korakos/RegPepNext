@@ -21,9 +21,9 @@ export default function Footer() {
   return (
     <footer className={classes.footer}>
       <Container maxWidth="sm">
-        <Typography variant="body1">RegPep2020</Typography>
+        <Typography variant="body1">23rd RegPep</Typography>
         <Typography variant="body2">
-          contact us at regpep2020@unam.mx
+          contact us at 23rd RegPep@unam.mx
         </Typography>
         <Typography variant="body2">last updated: 2/29/2020</Typography>
         <Copyright />

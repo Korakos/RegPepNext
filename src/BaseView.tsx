@@ -58,7 +58,7 @@ export default function BaseView(props: {
 
   return (
     <div className={classes.root}>
-      <Header title="RegPep2020" sections={sections} newsAlert={newsAlert} />
+      <Header title="23rd RegPep" sections={sections} newsAlert={newsAlert} />
       <Container component="main" className={classes.main} maxWidth="lg">
         {props.children}
       </Container>

@@ -36,7 +36,7 @@ export const LOC_MEMBERS = [
     key: '1',
     avatar: '/buijs1.jpg',
     name: 'Ruud M. Buijs',
-    title: 'Chair, RegPep2020',
+    title: 'Chair, 23rd RegPep',
     institution: 'UNAM, Mexico',
     details: ''
   },
@@ -55,7 +55,7 @@ export const COMMITEE_MEMBERS = [
     key: '1',
     avatar: '/buijs1.jpg',
     name: 'Ruud M. Buijs',
-    title: 'Chair, RegPep2020',
+    title: 'Chair, 23rd RegPep',
     institution: 'UNAM, Mexico',
     details: 'Ruud`s blurb'
   },

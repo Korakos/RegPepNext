@@ -57,7 +57,7 @@ const HOTEL_MASTER_LIST = [
       {
         key: '1',
         name: 'Princess Mundo Imperial',
-        descripcion: `The official hotel of RegPep2020. Located on scenic Revolcadero Beach, this hotel features an
+        descripcion: `The official hotel of 23rd RegPep. Located on scenic Revolcadero Beach, this hotel features an
       on-site golf course and rooms with a private balcony or patio and 
       floor-to-ceiling windows. Aeropuerto Internacional de Acapulco is a 
       17-minute drive away.`,

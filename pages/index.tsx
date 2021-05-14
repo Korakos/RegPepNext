@@ -49,7 +49,7 @@ export default function Index(): React.ReactElement {
             gutterBottom
             className={classes.coloredText}
           >
-            RegPep2020
+            23rd RegPep
           </Typography>
           <Typography
             variant="h3"
@@ -84,7 +84,7 @@ export default function Index(): React.ReactElement {
                 className={classes.fullSize}
                 src="/mundo-imperial-acapulco.jpg"
               />
-              <p className="legend">RegPep2020 Venue</p>
+              <p className="legend">23rd RegPep Venue</p>
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/plenary_carousel.jpg" />
@@ -96,7 +96,7 @@ export default function Index(): React.ReactElement {
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/numbers.jpg" />
-              <p className="legend">RegPep2020 by the numbers</p>
+              <p className="legend">23rd RegPep by the numbers</p>
             </div>
           </Carousel>
         </Box>
@@ -121,7 +121,7 @@ export default function Index(): React.ReactElement {
             component="h1"
             className={classes.paddedView}
           >
-            The 23rd International Symposium on Regulatory Peptides, RegPep2020,
+            The 23rd International Symposium on Regulatory Peptides, 23rd RegPep,
             with the specific theme of Regulatory Peptides in Brain-Body
             Interaction, under the auspices of the International Regulatory
             Peptide Society (IRPS), will be held on September 18-22, 2020 at the
@@ -147,7 +147,7 @@ export default function Index(): React.ReactElement {
             component="h1"
             className={classes.paddedView}
           >
-            We look forward to welcoming you at RegPep2020, Acapulco Diamante,
+            We look forward to welcoming you at 23rd RegPep, Acapulco Diamante,
             México.
           </Typography>
         </Box>
@@ -156,7 +156,7 @@ export default function Index(): React.ReactElement {
             <Typography variant="body1" className={classes.coloredText}>
               Ruud Buijs
             </Typography>
-            <Typography variant="body1">Chair of RegPep2020</Typography>
+            <Typography variant="body1">Chair of 23rd RegPep</Typography>
           </Box>
           <Box className={classes.paddedView}>
             <Typography variant="body1" className={classes.coloredText}>

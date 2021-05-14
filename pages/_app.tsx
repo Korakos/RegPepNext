@@ -21,7 +21,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>RegPep2020</title>
+          <title>23rd RegPep</title>
           <meta
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
