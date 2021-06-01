@@ -41,10 +41,10 @@ const sections = [
   { title: 'Contact', url: 'contact' }
 ];
 
-const newsAlert = {
+/* const newsAlert = {
   title: 'The Program is being revised, and will be updated by May 31st 2021',
   url: '#'
-};
+}; */
 
 export default function BaseView(props: {
   active?: string;
@@ -59,7 +59,7 @@ export default function BaseView(props: {
 
   return (
     <div className={classes.root}>
-      <Header title="23rd RegPep" sections={sections} newsAlert={newsAlert} />
+      <Header title="23rd RegPep" sections={sections} />
       <Container component="main" className={classes.main} maxWidth="lg">
         {props.children}
       </Container>
