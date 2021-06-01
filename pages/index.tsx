@@ -121,26 +121,14 @@ export default function Index(): React.ReactElement {
             component="h1"
             className={classes.paddedView}
           >
-            The 23rd International Symposium on Regulatory Peptides, 23rd RegPep,
-            with the specific theme of Regulatory Peptides in Brain-Body
-            Interaction, under the auspices of the International Regulatory
-            Peptide Society (IRPS), will be held on September 18-22, 2020 at the
-            Resort and Conference Center Princess Mundo Imperial, in the newly
-            developed Riviera Diamante, Acapulco, Mexico.
+            The 23rd International Symposium on Regulatory Peptides, 23rd RegPep, with the specific theme of Regulatory Peptides in Brain-Body Interaction, under the auspices of the International Regulatory Peptide Society (IRPS), will be held on August 15-19, 2021 at the Resort and Conference Center Princess Mundo Imperial, in the newly developed Riviera Diamante, Acapulco, Mexico.
           </Typography>
           <Typography
             variant="body1"
             component="h1"
             className={classes.paddedView}
           >
-            RegPep biennial meetings are unique venues for basic and clinician
-            scientists studying the physiology and pathophysiology of peptide
-            actions, integrated from a brain-body-behavior perspective in health
-            and disease. In addition, each RegPep conference aims to recognize
-            outstanding contributions to peptide regulation in systems biology,
-            to support diversity and under-represented groups, to promote best
-            practices in the biomedical sciences, and to provide networking and
-            mentoring opportunities.
+            RegPep biennial meetings are unique venues for basic and clinician scientists studying the physiology and pathophysiology of peptide actions, integrated from a brain-body-behavior perspective in health and disease. In addition, each RegPep conference aims to recognize outstanding contributions to peptide regulation in systems biology, to support diversity and under-represented groups, to promote best practices in the biomedical sciences, and to provide networking and mentoring opportunities.
           </Typography>
           <Typography
             variant="body1"
