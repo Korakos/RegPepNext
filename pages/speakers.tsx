@@ -45,7 +45,7 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.paddedView}
           >
-            <Link href="/23rd_RegPep_confirmed_speakers_rev_5.pdf">Download PDF</Link>
+            <Link href="/23rd_RegPep_confirmed_speakers.pdf">Download PDF</Link>
           </Typography>
         </Box>
       </Box>
