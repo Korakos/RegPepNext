@@ -9,10 +9,9 @@
 import Box from '@material-ui/core/Box';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import React, { useState } from 'react';
+import React from 'react';
 import BaseView from '../src/BaseView';
 import { COLORS } from '../src/constants/color';
-import PLENNARY_SPEAKERS from '../src/constants/plenary';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -39,19 +38,19 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 export default function Themes() {
-  const [speakers, setSpeakers] = useState(PLENNARY_SPEAKERS);
+  // const [speakers, setSpeakers] = useState(PLENNARY_SPEAKERS);
   const classes = useStyles();
 
-  const speakerDetails = (key: string) => {
-    const tempSpeakers = JSON.parse(JSON.stringify(speakers));
-    const foundSpeaker = tempSpeakers.find((speaker: { key: string }) => {
-      return speaker.key === key;
-    });
-    if (foundSpeaker) {
-      foundSpeaker.expand = !foundSpeaker.expand;
-    }
-    setSpeakers(tempSpeakers);
-  };
+  // const speakerDetails = (key: string) => {
+  //   const tempSpeakers = JSON.parse(JSON.stringify(speakers));
+  //   const foundSpeaker = tempSpeakers.find((speaker: { key: string }) => {
+  //     return speaker.key === key;
+  //   });
+  //   if (foundSpeaker) {
+  //     foundSpeaker.expand = !foundSpeaker.expand;
+  //   }
+  //   setSpeakers(tempSpeakers);
+  // };
 
   // const inflateSpeaker = (speaker: {
   //   key: string;
