@@ -1,11 +1,11 @@
-import {
-  Avatar,
-  Collapse,
-  ListItem,
-  ListItemAvatar,
-  ListItemText,
-  Paper
-} from '@material-ui/core';
+// import {
+//   Avatar,
+//   Collapse,
+//   ListItem,
+//   ListItemAvatar,
+//   ListItemText,
+//   Paper
+// } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
@@ -53,68 +53,68 @@ export default function Themes() {
     setSpeakers(tempSpeakers);
   };
 
-  const inflateSpeaker = (speaker: {
-    key: string;
-    avatar: string;
-    name: string;
-    event: string;
-    title: string;
-    institution: string;
-    description?: string;
-    expand?: boolean;
-  }) => {
-    const {
-      key,
-      avatar,
-      name,
-      event,
-      title,
-      institution,
-      description,
-      expand
-    } = speaker;
-    return (
-      <Box key={key}>
-        <ListItem button onClick={() => speakerDetails(key)}>
-          <ListItemAvatar>
-            <Avatar alt={name} src={avatar} className={classes.large} />
-          </ListItemAvatar>
-          <ListItemText
-            primary={
-              <React.Fragment>
-                <Typography component="span" variant="h5" color="primary">
-                  {event}
-                  <br />
-                </Typography>
-                <Typography component="span" variant="h4" color="primary">
-                  {name}
-                </Typography>
-              </React.Fragment>
-            }
-            secondary={
-              <React.Fragment>
-                <Typography component="span" variant="h5">
-                  {title}
-                  <br />
-                </Typography>
-                <Typography component="span" variant="body1">
-                  {institution}
-                </Typography>
-              </React.Fragment>
-            }
-            className={classes.paddedView}
-          />
-        </ListItem>
-        <Collapse in={expand}>
-          <Paper elevation={4} className={classes.paddedView}>
-            <Typography component="h1" variant="body1" color="textPrimary">
-              {description}
-            </Typography>
-          </Paper>
-        </Collapse>
-      </Box>
-    );
-  };
+  // const inflateSpeaker = (speaker: {
+  //   key: string;
+  //   avatar: string;
+  //   name: string;
+  //   event: string;
+  //   title: string;
+  //   institution: string;
+  //   description?: string;
+  //   expand?: boolean;
+  // }) => {
+  //   const {
+  //     key,
+  //     avatar,
+  //     name,
+  //     event,
+  //     title,
+  //     institution,
+  //     description,
+  //     expand
+  //   } = speaker;
+  //   return (
+  //     <Box key={key}>
+  //       <ListItem button onClick={() => speakerDetails(key)}>
+  //         <ListItemAvatar>
+  //           <Avatar alt={name} src={avatar} className={classes.large} />
+  //         </ListItemAvatar>
+  //         <ListItemText
+  //           primary={
+  //             <React.Fragment>
+  //               <Typography component="span" variant="h5" color="primary">
+  //                 {event}
+  //                 <br />
+  //               </Typography>
+  //               <Typography component="span" variant="h4" color="primary">
+  //                 {name}
+  //               </Typography>
+  //             </React.Fragment>
+  //           }
+  //           secondary={
+  //             <React.Fragment>
+  //               <Typography component="span" variant="h5">
+  //                 {title}
+  //                 <br />
+  //               </Typography>
+  //               <Typography component="span" variant="body1">
+  //                 {institution}
+  //               </Typography>
+  //             </React.Fragment>
+  //           }
+  //           className={classes.paddedView}
+  //         />
+  //       </ListItem>
+  //       <Collapse in={expand}>
+  //         <Paper elevation={4} className={classes.paddedView}>
+  //           <Typography component="h1" variant="body1" color="textPrimary">
+  //             {description}
+  //           </Typography>
+  //         </Paper>
+  //       </Collapse>
+  //     </Box>
+  //   );
+  // };
 
   return (
     <BaseView>
