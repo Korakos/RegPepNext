@@ -80,7 +80,7 @@ export default function Index(): React.ReactElement {
             showArrows={true}
             autoPlay={true}
             infiniteLoop={true}
-            onClickItem={(index: number, item: React.ReactNode) => {
+            onClickItem={(index: number) => {
               if(index == 3){
                 router.push("themes");
               }
