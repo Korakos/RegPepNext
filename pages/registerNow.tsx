@@ -52,7 +52,7 @@ export default function RegisterNow() {
           >
             23rd RegPep is now accepting registration and abstract submission.
           </Typography>
-          <Box className={classes.paddedView}>
+          {/* <Box className={classes.paddedView}>
             <Typography
               variant="h4"
               component="h1"
@@ -67,8 +67,8 @@ export default function RegisterNow() {
               special prizes conferred by Distinguished Members, and recognizing
               research excellence.
             </Typography>
-          </Box>
-          <Box className={classes.paddedView}>
+          </Box> */}
+          {/* <Box className={classes.paddedView}>
             <Typography
               variant="h4"
               component="h1"
@@ -84,7 +84,7 @@ export default function RegisterNow() {
               for video streaming of all conference sessions during the meeting
               and for three weeks following 23rd RegPep; three lunches.
             </Typography>
-          </Box>
+          </Box> */}
           <Button
             variant="contained"
             color="primary"

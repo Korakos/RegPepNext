@@ -3,6 +3,7 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import { useRouter } from 'next/router';
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import BaseView from '../src/BaseView';
@@ -39,6 +40,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function Index(): React.ReactElement {
   const classes = useStyles();
+  const router = useRouter();
   return (
     <BaseView>
       <Box my={3}>
@@ -78,6 +80,11 @@ export default function Index(): React.ReactElement {
             showArrows={true}
             autoPlay={true}
             infiniteLoop={true}
+            onClickItem={(index: number, item: React.ReactNode) => {
+              if(index == 3){
+                router.push("themes");
+              }
+            }}
           >
             <div className={classes.fullSize}>
               <img
@@ -95,8 +102,8 @@ export default function Index(): React.ReactElement {
               <p className="legend">Plenary Symposium</p>
             </div>
             <div className={classes.fullSize}>
-              <img className={classes.fullSize} src="/numbers.jpg" />
-              <p className="legend">23rd RegPep by the numbers</p>
+              <img className={classes.fullSize} src="/regpep_23_themes.png" />
+              <p className="legend">23rd RegPep Topics</p>
             </div>
           </Carousel>
         </Box>
