@@ -23,7 +23,7 @@ export default function Footer() {
       <Container maxWidth="sm">
         <Typography variant="body1">RegPep23</Typography>
         <Typography variant="body2">
-          contact us at RegPep23@unam.mx
+          contact us at regpep2020@unam.mx
         </Typography>
         <Typography variant="body2">last updated: 6/14/2021</Typography>
         <Copyright />

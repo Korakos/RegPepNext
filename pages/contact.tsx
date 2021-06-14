@@ -158,7 +158,7 @@ export default function Contact() {
               Phone: +52 55 5623 2348
             </Typography>
             <Typography variant="h5" component="h1" gutterBottom>
-              Email: RegPep23@unam.mx, limei@unam.mx
+              Email: regpep2020@unam.mx, limei@unam.mx
             </Typography>
           </Box>
         </Box>

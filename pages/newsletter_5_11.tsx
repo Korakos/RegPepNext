@@ -154,7 +154,7 @@ export default function newsletter() {
                 23rd International Symposium on Regulatory Peptides (RegPep23)
               </Typography>
               <Typography variant="body2" color="secondary">
-                Email: RegPep23@unam.mx
+                Email: regpep2020@unam.mx
               </Typography>
               <Typography variant="body2" color="secondary">
                 URL: RegPep23.unam.mx
