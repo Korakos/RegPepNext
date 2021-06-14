@@ -1,4 +1,4 @@
-import { createStyles, makeStyles, Theme, Link } from '@material-ui/core';
+import { createStyles, Link, makeStyles, Theme } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
@@ -29,7 +29,7 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.coloredText}
           >
-            Confirmed Speakers
+            Scientific Program
           </Typography>
           <Typography
             variant="h5"
@@ -37,7 +37,7 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.paddedView}
           >
-            Click the following link to download the list of confirmed speakers
+            Click the following link to download the pre-final scientific program
           </Typography>
           <Typography
             variant="h5"
@@ -45,7 +45,7 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.paddedView}
           >
-            <Link href="/23rd_RegPep_confirmed_speakers.pdf">Download PDF</Link>
+            <Link href="/23rd_RegPep_pre_final_program.pdf">Download PDF</Link>
           </Typography>
         </Box>
       </Box>

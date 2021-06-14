@@ -25,7 +25,7 @@ export default function Footer() {
         <Typography variant="body2">
           contact us at 23rd RegPep@unam.mx
         </Typography>
-        <Typography variant="body2">last updated: 2/29/2020</Typography>
+        <Typography variant="body2">last updated: 6/14/2021</Typography>
         <Copyright />
       </Container>
     </footer>

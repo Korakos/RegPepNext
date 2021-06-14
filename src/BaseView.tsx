@@ -33,7 +33,7 @@ const sections = [
   { title: 'Register Now', url: 'registerNow', highlightedView: true },
   { title: 'Plenary Keynote Speakers', url: 'keynote' },
   //{ title: 'Program', url: 'symposia' },
-  { title: 'Confirmed Speakers', url: 'speakers' },
+  { title: 'Pre-Final Program', url: 'program' },
   { title: 'Participating Committees', url: 'commitee' },
   { title: 'Venue', url: 'venue' },
   { title: 'Accommodations', url: 'travel' },
