@@ -115,7 +115,7 @@ export default function Contact() {
             className={classes.paddedView}
             color="primary"
           >
-            23rd RegPep Secretariat
+            RegPep23 Secretariat
           </Typography>
           <Typography
             variant="h5"
@@ -158,7 +158,7 @@ export default function Contact() {
               Phone: +52 55 5623 2348
             </Typography>
             <Typography variant="h5" component="h1" gutterBottom>
-              Email: 23rd RegPep@unam.mx, limei@unam.mx
+              Email: RegPep23@unam.mx, limei@unam.mx
             </Typography>
           </Box>
         </Box>

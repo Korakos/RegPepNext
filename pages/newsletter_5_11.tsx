@@ -35,14 +35,14 @@ export default function newsletter() {
             gutterBottom
             className={classes.coloredText}
           >
-            E-Letter from 23rd RegPep Chair and IRPS-Presidents - May 11th, 2020
+            E-Letter from RegPep23 Chair and IRPS-Presidents - May 11th, 2020
           </Typography>
           <Typography
             variant="body1"
             gutterBottom
             className={classes.paddedView}
           >
-            Dear colleagues/23rd RegPep confirmed speakers:
+            Dear colleagues/RegPep23 confirmed speakers:
           </Typography>
           <Typography
             variant="body1"
@@ -73,10 +73,10 @@ export default function newsletter() {
             gutterBottom
             className={classes.paddedView}
           >
-            The 23rd RegPep LOC and IRPS council continue to monitor the COVID19
+            The RegPep23 LOC and IRPS council continue to monitor the COVID19
             situation worldwide and locally with Mexican government health and
             science authorities, and at the present, we continue to plan and
-            move forward with the 23rd RegPep, the 23nd Biennial Meeting.
+            move forward with the RegPep23, the 23nd Biennial Meeting.
           </Typography>
           <Typography
             variant="body1"
@@ -128,14 +128,14 @@ export default function newsletter() {
               <Typography variant="body1" className={classes.coloredText}>
                 Ruud Buijs
               </Typography>
-              <Typography variant="body1">Chair, 23rd RegPep</Typography>
+              <Typography variant="body1">Chair, RegPep23</Typography>
             </Box>
             <Box className={classes.paddedView}>
               <Typography variant="body1" className={classes.coloredText}>
                 Lee Eiden and Limei Zhang
               </Typography>
               <Typography variant="body1">
-                Co-Presidents of IRPS and 23rd RegPep ex-officio Co-Chairs
+                Co-Presidents of IRPS and RegPep23 ex-officio Co-Chairs
               </Typography>
             </Box>
             <Box className={classes.paddedView}>
@@ -151,13 +151,13 @@ export default function newsletter() {
             </Box>
             <Box className={classes.paddedView}>
               <Typography variant="body2" color="secondary">
-                23rd International Symposium on Regulatory Peptides (23rd RegPep)
+                23rd International Symposium on Regulatory Peptides (RegPep23)
               </Typography>
               <Typography variant="body2" color="secondary">
-                Email: 23rd RegPep@unam.mx
+                Email: RegPep23@unam.mx
               </Typography>
               <Typography variant="body2" color="secondary">
-                URL: 23rd RegPep.unam.mx
+                URL: RegPep23.unam.mx
               </Typography>
             </Box>
           </Box>

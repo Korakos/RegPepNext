@@ -41,7 +41,7 @@ export default function RegisterNow() {
             Featuring 6 keynote lectures, Plenary session on &quot;Current
             Topics in Regulatory Peptides&quot;, 20 parallel sessions, dialogue
             sessions with journal editors-in-chief/editors and eminent pioneers
-            in peptide research, 23rd RegPep aims to bring together experts and
+            in peptide research, RegPep23 aims to bring together experts and
             students in all fields of regulatory peptide systems biology.
           </Typography>
           <Typography
@@ -50,7 +50,7 @@ export default function RegisterNow() {
             gutterBottom
             className={classes.paddedView}
           >
-            23rd RegPep is now accepting registration and abstract submission.
+            RegPep23 is now accepting registration and abstract submission.
           </Typography>
           {/* <Box className={classes.paddedView}>
             <Typography
@@ -80,9 +80,9 @@ export default function RegisterNow() {
             <Typography variant="body1" component="h1" gutterBottom>
               ** Registration fee includes: abstract submission; welcome
               reception; name badge; printed program and abstract book of
-              23rd RegPep; participation in all scientific sessions; access code
+              RegPep23; participation in all scientific sessions; access code
               for video streaming of all conference sessions during the meeting
-              and for three weeks following 23rd RegPep; three lunches.
+              and for three weeks following RegPep23; three lunches.
             </Typography>
           </Box> */}
           <Button

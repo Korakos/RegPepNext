@@ -69,7 +69,7 @@ export default function covidNews() {
             className={classes.paddedView}
             color="secondary"
           >
-            23rd RegPep is still on!
+            RegPep23 is still on!
           </Typography>
           <Box className={classes.paddedView}>
             <Typography
@@ -79,7 +79,7 @@ export default function covidNews() {
             >
               We want all colleagues and friends who are interested in the
               RegPep meetings to know that we still plan to continue with our
-              September 18-22 date for 23rd RegPep, in Acapulco Diamante, México,
+              September 18-22 date for RegPep23, in Acapulco Diamante, México,
               but also wish to say we are monitoring the situation of COVID19
               closely, in terms of not exposing our members to travel and social
               gathering risks. Therefore, we have a plan B arranged with our
@@ -92,7 +92,7 @@ export default function covidNews() {
               className={classes.paddedView}
             >
               We have extended the early bird registration deadline for
-              23rd RegPep to July 10th, 2020, for speaker’s confirmation and
+              RegPep23 to July 10th, 2020, for speaker’s confirmation and
               travel awards applications, and have amended the cancelation
               policy in case we have to postpone the event to November 18-22,
               2020, and some of our colleagues will not be able to make the new
@@ -120,7 +120,7 @@ export default function covidNews() {
               Presidents and the EIC of JOURNAL OF NEUROENDOCRINOLOGY (JNE) that
               JNE becomes the Official Journal of the IRPS, and as such will
               publish the proceedings of the Biennial RegPep World Congress (the
-              proceedings of RegPep2016 and 23rd RegPep have been published in
+              proceedings of RegPep2016 and RegPep23 have been published in
               Frontiers in Neuroendocrine Sciences and Annals of New York
               Academy of Science).
             </Typography>
@@ -129,12 +129,12 @@ export default function covidNews() {
               gutterBottom
               className={classes.paddedView}
             >
-              For 23rd RegPep, the proceedings is planned to comprise two Special
+              For RegPep23, the proceedings is planned to comprise two Special
               Issues, so that we are accepting submissions beginning now (option
               in the Special Issue drop down box on the JNE submissions site)
-              for any manuscripts describing work to be presented at 23rd RegPep,
+              for any manuscripts describing work to be presented at RegPep23,
               and will continue to accept manuscripts up until two months
-              following 23rd RegPep.
+              following RegPep23.
             </Typography>
             <Typography
               variant="body1"
@@ -143,7 +143,7 @@ export default function covidNews() {
             >
               We take a moment here to share our Council’s articulation of the
               role of a Society journal in the mission of the IRPS: “We
-              anticipate that publication of the proceedings of 23rd RegPep, and
+              anticipate that publication of the proceedings of RegPep23, and
               RegPeps in following years will be avidly supported by IRPS
               membership through i) fair, impartial and rigorous review of
               proceedings when members are called upon as reviewers, ii)
@@ -164,7 +164,7 @@ export default function covidNews() {
             className={classes.paddedView}
             color="secondary"
           >
-            Viktor Mutt Lectureship for 23rd RegPep awardee announcement
+            Viktor Mutt Lectureship for RegPep23 awardee announcement
           </Typography>
           <Box className={classes.paddedView}>
             <Typography
@@ -228,7 +228,7 @@ export default function covidNews() {
                 Ruud Buijs
               </Typography>
               <Typography variant="body1">President-elect of IRPS</Typography>
-              <Typography variant="body1">Chair, 23rd RegPep</Typography>
+              <Typography variant="body1">Chair, RegPep23</Typography>
             </Box>
             <Box className={classes.paddedView}>
               <Typography variant="body1" className={classes.coloredText}>
@@ -249,13 +249,13 @@ export default function covidNews() {
             </Box>
             <Box className={classes.paddedView}>
               <Typography variant="body2" color="secondary">
-                23rd International Symposium on Regulatory Peptides (23rd RegPep)
+                23rd International Symposium on Regulatory Peptides (RegPep23)
               </Typography>
               <Typography variant="body2" color="secondary">
-                Email: 23rd RegPep@unam.mx
+                Email: RegPep23@unam.mx
               </Typography>
               <Typography variant="body2" color="secondary">
-                URL: 23rd RegPep.unam.mx
+                URL: RegPep23.unam.mx
               </Typography>
             </Box>
           </Box>

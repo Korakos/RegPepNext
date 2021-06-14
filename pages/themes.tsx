@@ -125,7 +125,7 @@ export default function Themes() {
             gutterBottom
             className={classes.coloredText}
           >
-            23rd RegPep Themes
+            RegPep23 Themes
           </Typography>
           <Typography
             variant="h2"

@@ -1,4 +1,4 @@
-# React + Material-UI + Next.js website for 23rd RegPep
+# React + Material-UI + Next.js website for RegPep23
 
 ## How to use
 

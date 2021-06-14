@@ -59,7 +59,7 @@ export default function BaseView(props: {
 
   return (
     <div className={classes.root}>
-      <Header title="23rd RegPep" sections={sections} />
+      <Header title="RegPep23" sections={sections} />
       <Container component="main" className={classes.main} maxWidth="lg">
         {props.children}
       </Container>

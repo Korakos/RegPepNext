@@ -51,7 +51,7 @@ export default function Index(): React.ReactElement {
             gutterBottom
             className={classes.coloredText}
           >
-            23rd RegPep
+            RegPep23
           </Typography>
           <Typography
             variant="h3"
@@ -91,7 +91,7 @@ export default function Index(): React.ReactElement {
                 className={classes.fullSize}
                 src="/mundo-imperial-acapulco.jpg"
               />
-              <p className="legend">23rd RegPep Venue</p>
+              <p className="legend">RegPep23 Venue</p>
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/plenary_carousel.jpg" />
@@ -103,7 +103,7 @@ export default function Index(): React.ReactElement {
             </div>
             <div className={classes.fullSize}>
               <img className={classes.fullSize} src="/regpep_23_themes.png" />
-              <p className="legend">23rd RegPep Topics</p>
+              <p className="legend">RegPep23 Topics</p>
             </div>
           </Carousel>
         </Box>
@@ -128,7 +128,7 @@ export default function Index(): React.ReactElement {
             component="h1"
             className={classes.paddedView}
           >
-            The 23rd International Symposium on Regulatory Peptides, 23rd RegPep, with the specific theme of Regulatory Peptides in Brain-Body Interaction, under the auspices of the International Regulatory Peptide Society (IRPS), will be held on August 15-19, 2021 at the Resort and Conference Center Princess Mundo Imperial, in the newly developed Riviera Diamante, Acapulco, Mexico.
+            The 23rd International Symposium on Regulatory Peptides, RegPep23, with the specific theme of Regulatory Peptides in Brain-Body Interaction, under the auspices of the International Regulatory Peptide Society (IRPS), will be held on August 15-19, 2021 at the Resort and Conference Center Princess Mundo Imperial, in the newly developed Riviera Diamante, Acapulco, Mexico.
           </Typography>
           <Typography
             variant="body1"
@@ -142,7 +142,7 @@ export default function Index(): React.ReactElement {
             component="h1"
             className={classes.paddedView}
           >
-            We look forward to welcoming you at 23rd RegPep, Acapulco Diamante,
+            We look forward to welcoming you at RegPep23, Acapulco Diamante,
             México.
           </Typography>
         </Box>
@@ -151,7 +151,7 @@ export default function Index(): React.ReactElement {
             <Typography variant="body1" className={classes.coloredText}>
               Ruud Buijs
             </Typography>
-            <Typography variant="body1">Chair of 23rd RegPep</Typography>
+            <Typography variant="body1">Chair of RegPep23</Typography>
           </Box>
           <Box className={classes.paddedView}>
             <Typography variant="body1" className={classes.coloredText}>
