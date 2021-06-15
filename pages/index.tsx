@@ -94,11 +94,11 @@ export default function Index(): React.ReactElement {
               <p className="legend">RegPep23 Venue</p>
             </div>
             <div className={classes.fullSize}>
-              <img className={classes.fullSize} src="/plenary_carousel.jpg" />
+              <img className={classes.fullSize} src="/plenary_carousel.png" />
               <p className="legend">Keynote Speakers</p>
             </div>
             <div className={classes.fullSize}>
-              <img className={classes.fullSize} src="/plenary_symposium.jpg" />
+              <img className={classes.fullSize} src="/plenary_symposium.png" />
               <p className="legend">Plenary Symposium</p>
             </div>
             <div className={classes.fullSize}>
