@@ -87,6 +87,10 @@ export default function Index(): React.ReactElement {
             }}
           >
             <div className={classes.fullSize}>
+              <img className={classes.fullSize} src="/RegPep23_banner.jpg" />
+              <p className="legend">RegPep23</p>
+            </div>
+            <div className={classes.fullSize}>
               <img
                 className={classes.fullSize}
                 src="/mundo-imperial-acapulco.jpg"
