@@ -1,9 +1,9 @@
 import {
-    Button,
-    createStyles,
-    Link,
-    makeStyles,
-    Theme
+  Button,
+  createStyles,
+  Link,
+  makeStyles,
+  Theme
 } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
@@ -63,7 +63,7 @@ const HOTEL_MASTER_LIST = [
       17-minute drive away.`,
         picture: '/princess_hotel.jpg',
         link:
-          'https://reservations.travelclick.com/102415?groupID=2745053#/guestsandrooms',
+          'https://search.travelclick.com/mim?identifier=REGPEP#/',
         bigLink: true
       },
       {
