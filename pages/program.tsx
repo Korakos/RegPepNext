@@ -44,31 +44,31 @@ export default function Program() {
   return (
     <BaseView>
       <Box my={4}>
-        <Box className={classes.paddedHorizontal}>
+        <Box className={classes.paddedView}>
           <Typography
-            variant="h3"
+            variant="h2"
             component="h1"
             gutterBottom
             className={classes.coloredText}
           >
-            Virtual Meeting Program
+            RegPep23 Proceedings
           </Typography>
-        </Box>
-        <Box className={(classes.fullSize, classes.paddedVertical)}>
-          <img src="RegPep23_virtual_f2f_program_proofread.jpg" className={classes.centeredImage} />
-        </Box>
-        <Box className={classes.paddedHorizontal}>
           <Typography
-            variant="h3"
+            variant="h5"
             component="h1"
             gutterBottom
-            className={classes.coloredText}
+            className={classes.paddedView}
           >
-            In Person Meeting Program
+            Click the following link to download the proceedings
           </Typography>
-        </Box>
-        <Box className={(classes.fullSize, classes.paddedVertical)}>
-          <img src="/RegPep23_f2f_program_proofread.jpg" className={classes.centeredImage} />
+          <Typography
+            variant="h5"
+            component="h1"
+            gutterBottom
+            className={classes.paddedView}
+          >
+            <Link href="/RegPep23_Proceedings_v_11.01_C1.pdf">Download PDF</Link>
+          </Typography>
         </Box>
         <Box className={classes.paddedView}>
           <Typography
