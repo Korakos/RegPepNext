@@ -18,7 +18,7 @@
     "@material-ui/icons": "^4.11.2",
     "clsx": "^1.1.1",
     "js-cookie": "^2.2.1",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "next-cookies": "^2.0.3",
     "nodemailer": "^6.4.6",
     "prop-types": "latest",
