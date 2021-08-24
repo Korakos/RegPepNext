@@ -67,7 +67,7 @@ export default function Program() {
             gutterBottom
             className={classes.paddedView}
           >
-            <Link href="/RegPep23_Proceedings_v_11.01_C1.pdf">Download PDF</Link>
+            <Link href="/RegPep23_Proceedings_v_12_postRegPep23_C1.pdf">Download PDF</Link>
           </Typography>
         </Box>
         <Box className={classes.paddedView}>
